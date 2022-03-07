@@ -417,9 +417,9 @@ GameObject:
   - component: {fileID: -5492149019100653909}
   - component: {fileID: -6788536933407254555}
   - component: {fileID: 6210613621007584163}
-  - component: {fileID: 6742583379178737361}
   - component: {fileID: -2998526690468849088}
   - component: {fileID: -6142948975255600921}
+  - component: {fileID: 9002784107961016931}
   m_Layer: 7
   m_Name: Truck_Unit
   m_TagString: Untagged
@@ -530,7 +530,36 @@ MonoBehaviour:
   - {fileID: 4945435168402081677}
   autoBreakLamps_ON: {fileID: 2100000, guid: 0a6641307aaeab94eb930f4a55495a86, type: 2}
   autoBreakLamps_OFF: {fileID: 2100000, guid: 75f8deb9c1da20744a468df3da5467a9, type: 2}
---- !u!120 &6742583379178737361
+--- !u!65 &-2998526690468849088
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911941463086188466}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 6.25}
+  m_Center: {x: 0, y: 0.63, z: -0.9}
+--- !u!54 &-6142948975255600921
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911941463086188466}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!120 &9002784107961016931
 LineRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -538,10 +567,10 @@ LineRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911941463086188466}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_MotionVectors: 2
+  m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
@@ -628,35 +657,6 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!65 &-2998526690468849088
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911941463086188466}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 6.25}
-  m_Center: {x: 0, y: 0.63, z: -0.9}
---- !u!54 &-6142948975255600921
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911941463086188466}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &2382653384116067305
 GameObject:
   m_ObjectHideFlags: 0
