@@ -58,12 +58,20 @@ public class Clock : MonoBehaviour
     {
         GameData.min++;
         GameData.timer = GameData.minuteToRealTime;
-        updateTimeDisplay();
+
 
         if (GameData.min >= 60)
         {
             GameData.min = 0;
             updateHour();
+        }
+        updateTimeDisplay();
+
+        GameData.sunTime++;
+        if (GameData.sunTime >= 1440)
+        {
+            GameData.sunTime = 0;
+
         }
     }
 

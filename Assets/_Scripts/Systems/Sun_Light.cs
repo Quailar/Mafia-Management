@@ -5,13 +5,13 @@ public class Sun_Light : MonoBehaviour
     private Light sunLight;
     private float sunLightRotation;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         sunLight = GameObject.FindGameObjectWithTag("SunLight").GetComponent<Light>();
     }
 
-    // Update is called once per frame
+
     void FixedUpdate()
     {
         updateSunLight();
@@ -36,15 +36,7 @@ public class Sun_Light : MonoBehaviour
             }
         }
         sunLight.intensity = GameData.sunLight;//Set sunlight to time of day
-        if (GameData.hour > 6)
-            sunLightRotation = 35;
-        if (GameData.hour > 12)
-            sunLightRotation = 90;
-        if (GameData.hour > 15)
-            sunLightRotation = 125;
-        if (sunLightRotation < 0)
-            sunLightRotation += 360;
 
-        //transform.Rotate(sunLightRotation, 0, 0);
+        //transform.Rotate(sunLightRotation, 0, 0); //not in use
     }
 }

@@ -15,6 +15,7 @@ public partial class GameData
     public static int TotalCivilians;
     public static int TotalAutos;
     public static bool NightLights;
+    public static float sunTime;
     public static float sunLight;
     public static bool NavigationDisplayActive;
     public static bool NavigationSpawnDisplayActive;

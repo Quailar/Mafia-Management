@@ -12,6 +12,7 @@ public class Auto_Navmesh_Controller : MonoBehaviour
     public Vector3 nextDest;
     public Vector3 direction;
     public float destinationSensitivity;
+    public Vector3 distanceFromCorner;
 
     public void Start()
     {
@@ -53,6 +54,13 @@ public class Auto_Navmesh_Controller : MonoBehaviour
         {
             line.SetPosition(i, path.corners[i]); //go through each corner and set that to the line renderer's position
         }
+        for (var i = 1; i < path.corners.Length; i++)
+        {
+            distanceFromCorner = transform.position - path.corners[i];
+
+            if (distanceFromCorner.z < destinationSensitivity && distanceFromCorner.x < destinationSensitivity)
+                transform.rotation = Quaternion.LookRotation(navMeshAuto.velocity.normalized);//Roatate auto unit
+        }
     }
 
     public void FindDirection(Vector3 unitPos, Vector3 goalPos)
@@ -82,10 +90,10 @@ public class Auto_Navmesh_Controller : MonoBehaviour
             int d = Random.Range(0, Spawn_Manager.AUTO_DESTINATION_POINT.Count);//Get random node from array
             nextDest = Spawn_Manager.AUTO_DESTINATION_POINT[d].transform.position;//Set destination location
             navMeshAuto.SetDestination(nextDest);//Move to destination
-            if (navMeshAuto.velocity != Vector3.zero)//If auto unit is moving
-            {
-                transform.rotation = Quaternion.LookRotation(navMeshAuto.velocity.normalized);//Roatate auto unit
-            }
+            // if (navMeshAuto.velocity != Vector3.zero)//If auto unit is moving
+            // {
+            //     transform.rotation = Quaternion.LookRotation(navMeshAuto.velocity.normalized);//Roatate auto unit
+            // }
         }
     }
 
