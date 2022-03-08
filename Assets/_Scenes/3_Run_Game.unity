@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 756.5, y: -507.3}
+  m_SizeDelta: {x: 220, y: 43.9119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &160879219
 MonoBehaviour:
@@ -307,6 +307,7 @@ MonoBehaviour:
   AGENT_SPAWN_POINT: []
   AUTO_SPAWN_POINT: []
   AUTO_DESPAWN_POINT: []
+  AUTO_DESTINATION_POINT1: []
 --- !u!4 &248554641 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8290332141929723110, guid: 98b583c2248cde44ebf2b90f0c7fd6a9, type: 3}
@@ -348,18 +349,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367170936}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 160879218}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 758, y: -544}
-  m_SizeDelta: {x: 220, y: 40}
-  m_Pivot: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 218, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &367170938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -847,12 +848,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578edc4dac188234f96c7c6687ac4aa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  sensitivity: 5
-  horizontalBounds: 100
-  forwardBounds: 100
+  mouseSpeed: 15
+  mouseSensitivity: 5
+  minFov: 20
+  maxFov: 60
+  zoomSensitivity: 10
+  horizontalBounds: 150
+  forwardBounds: 150
   ceilingBounds: 100
-  floorBounds: 20
+  floorBounds: 15
   viewRange: 270
 --- !u!114 &929067480
 MonoBehaviour:
@@ -866,9 +870,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 780055046b01b294fb5eefc9bbab369e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  daySky: {fileID: 2100000, guid: 3e56423e1fe71f94ea97f5bb2004a7e6, type: 2}
+  morningSky: {fileID: 2100000, guid: 9991b6265f7f87d43b7e3c676739f203, type: 2}
+  noonSky: {fileID: 2100000, guid: 3e56423e1fe71f94ea97f5bb2004a7e6, type: 2}
+  sunsetSky: {fileID: 2100000, guid: ac2eeb98f1b423941b373f537bc56e18, type: 2}
   nightSky: {fileID: 2100000, guid: 493bfb50af5d9424da505ba945c86600, type: 2}
   sky: {fileID: 929067481}
+  skyRotSpeed: 100
 --- !u!45 &929067481
 Skybox:
   m_ObjectHideFlags: 0
@@ -877,7 +884,7 @@ Skybox:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929067477}
   m_Enabled: 1
-  m_CustomSkybox: {fileID: 0}
+  m_CustomSkybox: {fileID: 2100000, guid: 493bfb50af5d9424da505ba945c86600, type: 2}
 --- !u!4 &929067482
 Transform:
   m_ObjectHideFlags: 0
@@ -885,8 +892,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929067477}
-  m_LocalRotation: {x: -0.14362177, y: 0.66037786, z: -0.13075148, w: -0.7253813}
-  m_LocalPosition: {x: -66.130646, y: 62.615456, z: -63.8478}
+  m_LocalRotation: {x: -0.38009143, y: -0.34313652, z: 0.15435374, w: -0.84496325}
+  m_LocalPosition: {x: -72.19264, y: 72.9415, z: -70.708565}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 703233618}
@@ -2881,6 +2888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3827384735937568161}
   - component: {fileID: 414767623065735432}
+  - component: {fileID: 3827384735937568162}
   m_Layer: 5
   m_Name: Navigation_Display
   m_TagString: Untagged
@@ -2904,6 +2912,18 @@ Transform:
   m_Father: {fileID: 989654046}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3827384735937568162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3827384735937568160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e7534824614444cba662d9860c1367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3827384736153516880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3819,6 +3839,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3827384735937568162}
+        m_TargetAssemblyTypeName: Agent_Navigation_Display, Assembly-CSharp
+        m_MethodName: DisplayPath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3827384737387125357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4671,7 +4703,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 45}
+  m_AnchoredPosition: {x: 0.3, y: 45}
   m_SizeDelta: {x: 200, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7860031980143421661

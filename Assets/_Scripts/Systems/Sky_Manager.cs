@@ -2,9 +2,13 @@ using UnityEngine;
 
 public class Sky_Manager : MonoBehaviour
 {
-    public Material daySky;
+    public Material morningSky;
+    public Material noonSky;
+    public Material sunsetSky;
     public Material nightSky;
     public Skybox sky;
+
+    public float skyRotSpeed;
 
     void FixedUpdate()
     {
@@ -13,39 +17,27 @@ public class Sky_Manager : MonoBehaviour
 
     public void UpdateSky()
     {
-        if (GameData.hour >= 5)//Morning
-        {
-
-        }
-        else if (GameData.hour >= 11)//Noon
-        {
-
-        }
-        else if (GameData.hour >= 16)//Evening
-        {
-
-        }
-        else if (GameData.hour >= 20)//Evening
-        {
-
-        }
-        else if (GameData.hour >= 23)//Midnight
-        {
-
-        }
-
-
-
-
-
-        if (GameData.NightLights)//if it is daytime,  increment daylight on
+        if (GameData.hour < 5 || GameData.hour > 20)//Night
         {
             sky.GetComponent<Skybox>().material = nightSky;
         }
-        else
+
+        if (GameData.hour >= 5)//Morning
         {
-            sky.GetComponent<Skybox>().material = daySky;
+            sky.GetComponent<Skybox>().material = morningSky;
         }
+
+        else if (GameData.hour >= 11)//Noon
+        {
+            sky.GetComponent<Skybox>().material = noonSky;
+        }
+
+        else if (GameData.hour >= 16)//Evening
+        {
+            sky.GetComponent<Skybox>().material = sunsetSky;
+        }
+
+        //RenderSettings.skybox.SetFloat("_Rotation", Time.time * skyRotSpeed);
 
     }
 }

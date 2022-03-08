@@ -27,7 +27,7 @@ public class Auto_Navmesh_Controller : MonoBehaviour
     {
         FindDirection(transform.position, nextDest);//Pass current position and next destination
 
-        if (GameData.displayPath)
+        if (GameData.autoDisplayPath)
         {
             getPath();
         }
@@ -47,7 +47,6 @@ public class Auto_Navmesh_Controller : MonoBehaviour
     {
         if (path.corners.Length < 2) //if the path has 1 or no corners, there is no need
             return;
-
         line.SetVertexCount(path.corners.Length); //set the array of positions to the amount of corners
 
         for (var i = 1; i < path.corners.Length; i++)
@@ -56,75 +55,40 @@ public class Auto_Navmesh_Controller : MonoBehaviour
         }
     }
 
-
-
-    public void FindDirection(Vector3 unitPos, Vector3 goalPos)//Find destination quadrant relative to unit
+    public void FindDirection(Vector3 unitPos, Vector3 goalPos)
     {
         direction = (goalPos - unitPos);//.normalized//Find destination quadrant relative to unit
-
-        if (direction.x < 0 && direction.z < 0)//Quadrant III
-        {
-            navMeshAuto.agentTypeID = 1018083246; //SouthBound Auto
-        }
-        else
         if (direction.x > 0 && direction.z > 0)//Quadrant I
         {
             navMeshAuto.agentTypeID = 1135425739;//NorthBound
         }
-        else
+        if (direction.x < 0 && direction.z < 0)//Quadrant III
+        {
+            navMeshAuto.agentTypeID = 1018083246; //SouthBound Auto
+        }
         if (direction.x < 0 && direction.z > 0)//Quadrant II
         {
             navMeshAuto.agentTypeID = -256249072;//WestBound
         }
-        else
         if (direction.x > 0 && direction.z < 0)//Quadrant IV
         {
             navMeshAuto.agentTypeID = -562324683;//EastBoundAuto
-
         }
-
-        // float dir = transform.eulerAngles.y;
-        // if (dir < 0)
-        // {
-        //     dir += 360;
-        // }
-        // if (dir > 315 && dir < 45)
-        // {
-        //     navMeshAuto.agentTypeID = 1135425739;//NorthBound
-        // }
-        // if (dir > 45 && dir < 135)
-        // {
-        //     navMeshAuto.agentTypeID = -562324683;//EastBoundAuto
-        // }
-        // if (dir > 135 && dir < 225)
-        // {
-        //     navMeshAuto.agentTypeID = 1018083246; //SouthBound Auto
-        // }
-        // if (dir > 225 && dir < 315)
-        // {
-        //     navMeshAuto.agentTypeID = -256249072;//WestBound
-        // }
 
 
 
         if (navMeshAuto.remainingDistance < destinationSensitivity)//If unit is within range of destination
         {
-
             int d = Random.Range(0, Spawn_Manager.AUTO_DESTINATION_POINT.Count);//Get random node from array
             nextDest = Spawn_Manager.AUTO_DESTINATION_POINT[d].transform.position;//Set destination location
             navMeshAuto.SetDestination(nextDest);//Move to destination
             if (navMeshAuto.velocity != Vector3.zero)//If auto unit is moving
             {
                 transform.rotation = Quaternion.LookRotation(navMeshAuto.velocity.normalized);//Roatate auto unit
-
             }
-
-
-
         }
-
-
     }
+
     public void ChangeDirection()
     {
         navMeshAuto.agentTypeID = 1229499183; //All Auto Nav

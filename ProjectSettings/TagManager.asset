@@ -21,6 +21,7 @@ TagManager:
   - TAG:Block_Coordinates
   - TAG:Block_Center_Coordinate
   - SunLight
+  - TAG:Auto_Destination
   layers:
   - Default
   - TransparentFX

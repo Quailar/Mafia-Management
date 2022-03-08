@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class MainCamera : MonoBehaviour
 {
-    [SerializeField] float speed = 1f;
-    [SerializeField] float sensitivity = 0.1f;
-
+    [SerializeField] float mouseSpeed;
+    [SerializeField] float mouseSensitivity;
+    public float minFov;
+    public float maxFov;
+    public float zoomSensitivity;
     Vector3 anchorPoint;
     Quaternion anchorRot;
 
@@ -14,25 +16,28 @@ public class MainCamera : MonoBehaviour
     public float floorBounds;
     public float viewRange;
 
-    private void Awake()
+    private void Start()
     {
-        if (GameData.MapSize == "Small")
+        if (GameData.MapSize == "Small" || GameData.MapSize == null)
         {
-            horizontalBounds = 100;
-            forwardBounds = 100;
+            horizontalBounds = 110f;
+            forwardBounds = 110f;
 
         }
         if (GameData.MapSize == "Medium")
         {
-            horizontalBounds = 175;
-            forwardBounds = 175;
+            horizontalBounds = 220f;
+            forwardBounds = 220f;
         }
         if (GameData.MapSize == "Large")
         {
-            horizontalBounds = 250;
-            forwardBounds = 250;
+            horizontalBounds = 330f;
+            forwardBounds = 330f;
         }
     }
+
+
+
 
     void FixedUpdate()
     {
@@ -51,7 +56,7 @@ public class MainCamera : MonoBehaviour
             move -= Vector3.up;
 
         //transform.Translate(move);
-        transform.Translate(move * speed * Time.unscaledDeltaTime, Space.Self);
+        transform.Translate(move * mouseSpeed * Time.unscaledDeltaTime, Space.Self);
 
         transform.position = new Vector3(
           Mathf.Clamp(transform.position.x, -horizontalBounds, horizontalBounds),
@@ -67,12 +72,31 @@ public class MainCamera : MonoBehaviour
         {
             Quaternion rot = anchorRot;
             Vector3 dif = anchorPoint - new Vector3(Input.mousePosition.y, -Input.mousePosition.x);
-            rot.eulerAngles += dif * sensitivity * Time.unscaledDeltaTime;
+            rot.eulerAngles += dif * mouseSensitivity * Time.unscaledDeltaTime * Time.timeScale;
             transform.rotation = rot;
             // Camera.main.transform.localEulerAngles = new Vector3(
             //     Mathf.Clamp(Camera.main.transform.localEulerAngles.x, -viewRange, viewRange),
             //     Mathf.Clamp(Camera.main.transform.localEulerAngles.y, -360, 360),
             //     Mathf.Clamp(Camera.main.transform.localEulerAngles.z, -360, 360));
+        }
+        if (Input.GetAxis("Mouse ScrollWheel") != 0)
+        {
+            UpdateZoom();
+        }
+    }
+
+    void UpdateZoom()
+    {
+        float z = Input.GetAxis("Mouse ScrollWheel") * -zoomSensitivity;
+
+        Camera.main.fieldOfView += z;
+        if (Camera.main.fieldOfView < minFov)
+        {
+            Camera.main.fieldOfView = minFov;
+        }
+        else if (Camera.main.fieldOfView > maxFov)
+        {
+            Camera.main.fieldOfView = maxFov;
         }
     }
 }

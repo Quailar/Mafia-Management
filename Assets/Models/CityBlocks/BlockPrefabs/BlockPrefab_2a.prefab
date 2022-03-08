@@ -1307,7 +1307,7 @@ GameObject:
   - component: {fileID: 4274700979641164307}
   - component: {fileID: 3280264812350372313}
   - component: {fileID: 4929483103932809520}
-  m_Layer: 19
+  m_Layer: 17
   m_Name: AUTO_NAV_ROAD[1]
   m_TagString: TAG:Auto_Road_Nav
   m_Icon: {fileID: 0}
@@ -1725,7 +1725,7 @@ GameObject:
   - component: {fileID: 3105724145193476228}
   - component: {fileID: 4127815273849762293}
   - component: {fileID: 8776727749741772907}
-  m_Layer: 18
+  m_Layer: 16
   m_Name: AUTO_NAV_ROAD[0]
   m_TagString: TAG:Auto_Road_Nav
   m_Icon: {fileID: 0}
@@ -12689,7 +12689,7 @@ GameObject:
   - component: {fileID: 639014103678525977}
   m_Layer: 14
   m_Name: AUTO_DEST_NAV_LINK[0]
-  m_TagString: TAG:Auto_Link_Nav
+  m_TagString: TAG:Auto_Destination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 14
   m_StaticEditorFlags: 8

@@ -40,20 +40,20 @@ public class Auto_Navigation_Display : MonoBehaviour
 
     public void DisplayPath()
     {
-        if (GameData.displayPath == false)
+        if (GameData.autoDisplayPath == false)
         {
-            GameData.displayPath = true;
+            GameData.autoDisplayPath = true;
         }
         else
         {
-            GameData.displayPath = false;
+            GameData.autoDisplayPath = false;
         }
     }
 
-    public void UpdateMesh()
-    {
-        MapController.UpdateNavMesh();
-    }
+    // public void UpdateMesh()
+    // {
+    //     MapController.UpdateNavMesh();
+    // }
     public void ActivateNavDisplay()//Toggle Nav Display
     {
         if (Nav_Roads.Count != 0)//If spawn points array has elements
