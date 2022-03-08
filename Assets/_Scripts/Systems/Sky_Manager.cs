@@ -8,7 +8,6 @@ public class Sky_Manager : MonoBehaviour
     public Material nightSky;
     public Skybox sky;
 
-    public float skyRotSpeed;
 
     void FixedUpdate()
     {
@@ -36,8 +35,6 @@ public class Sky_Manager : MonoBehaviour
         {
             sky.GetComponent<Skybox>().material = sunsetSky;
         }
-
-        //RenderSettings.skybox.SetFloat("_Rotation", Time.time * skyRotSpeed);
 
     }
 }

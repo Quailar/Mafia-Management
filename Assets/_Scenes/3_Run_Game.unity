@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45081997, g: 0.50073934, b: 0.5746953, a: 1}
+  m_IndirectSpecularColor: {r: 0.45082295, g: 0.50074303, b: 0.57469726, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -307,7 +307,6 @@ MonoBehaviour:
   AGENT_SPAWN_POINT: []
   AUTO_SPAWN_POINT: []
   AUTO_DESPAWN_POINT: []
-  AUTO_DESTINATION_POINT1: []
 --- !u!4 &248554641 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8290332141929723110, guid: 98b583c2248cde44ebf2b90f0c7fd6a9, type: 3}
@@ -855,7 +854,7 @@ MonoBehaviour:
   zoomSensitivity: 10
   horizontalBounds: 150
   forwardBounds: 150
-  ceilingBounds: 100
+  ceilingBounds: 200
   floorBounds: 15
   viewRange: 270
 --- !u!114 &929067480
@@ -875,7 +874,6 @@ MonoBehaviour:
   sunsetSky: {fileID: 2100000, guid: ac2eeb98f1b423941b373f537bc56e18, type: 2}
   nightSky: {fileID: 2100000, guid: 493bfb50af5d9424da505ba945c86600, type: 2}
   sky: {fileID: 929067481}
-  skyRotSpeed: 100
 --- !u!45 &929067481
 Skybox:
   m_ObjectHideFlags: 0
@@ -1658,13 +1656,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950608791}
-  m_LocalRotation: {x: 0.30070576, y: 0, z: 0, w: 0.953717}
+  m_LocalRotation: {x: 0.21263108, y: -0.67437977, z: 0.21263108, w: 0.67437977}
   m_LocalPosition: {x: 0, y: 25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 703233618}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 35, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 35, y: -90, z: 0}
 --- !u!114 &1950608793
 MonoBehaviour:
   m_ObjectHideFlags: 0

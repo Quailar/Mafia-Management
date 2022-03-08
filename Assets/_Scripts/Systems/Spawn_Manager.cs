@@ -10,7 +10,7 @@ public class Spawn_Manager : MonoBehaviour
     public List<GameObject> AUTO_SPAWN_POINT = new List<GameObject>();
     public List<GameObject> AUTO_DESPAWN_POINT = new List<GameObject>();
     public static List<GameObject> AUTO_DESTINATION_POINT = new List<GameObject>();
-    public List<GameObject> AUTO_DESTINATION_POINT1 = new List<GameObject>();
+
     //Spawn agent unit
     public void spawnAgent()
     {
@@ -51,7 +51,7 @@ public class Spawn_Manager : MonoBehaviour
             AUTO_SPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("TAG:Auto_Spawn"));//load auto spawn points
             AUTO_DESPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("TAG:Auto_Despawn"));//load Auto despawn points
             AUTO_DESTINATION_POINT.AddRange(GameObject.FindGameObjectsWithTag("TAG:Auto_Destination"));//load Auto Nav Links
-            AUTO_DESTINATION_POINT1.AddRange(GameObject.FindGameObjectsWithTag("TAG:Auto_Destination"));//load Auto Nav Links
+            AUTO_DESTINATION_POINT.AddRange(GameObject.FindGameObjectsWithTag("TAG:Auto_Despawn"));//load Auto Nav Links
             int spawnNode = Random.Range(0, AUTO_SPAWN_POINT.Count);//Pick a random spawn point
             Vector3 spawnLoc = new Vector3(AUTO_SPAWN_POINT[spawnNode].transform.position.x, 0f, AUTO_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
             int prefabIndex = Random.Range(0, gameData.PREFAB_AUTOS.Count);//get a random auto from array
