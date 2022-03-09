@@ -16,15 +16,13 @@ public class Auto_Navmesh_Controller : MonoBehaviour
 
     public void Start()
     {
-        int d = Random.Range(0, Spawn_Manager.AUTO_DESTINATION_POINT.Count);//Get random node from array
-        nextDest = Spawn_Manager.AUTO_DESTINATION_POINT[d].transform.position;//Set destination location
-        navMeshAuto.SetDestination(nextDest);//Move to destination
+
         line = GetComponent<LineRenderer>(); //get the line renderer
         navMeshAuto = GetComponent<NavMeshAgent>(); //get the agent
 
 
     }
-    public void Update()
+    public void FixedUpdate()
     {
         FindDirection(transform.position, nextDest);//Pass current position and next destination
 
@@ -36,8 +34,19 @@ public class Auto_Navmesh_Controller : MonoBehaviour
         {
             line.SetVertexCount(1);
         }
+        if (!navMeshAuto.isOnNavMesh)
+        {
+            Destroy(this.gameObject);
+        }
 
+        if (navMeshAuto.pathStatus == NavMeshPathStatus.PathPartial || navMeshAuto.isStopped)
+        {
+            navMeshAuto.ResetPath();
+        }
     }
+
+
+
     public void getPath()
     {
         line.SetPosition(0, transform.position); //set the line's origin
@@ -54,7 +63,6 @@ public class Auto_Navmesh_Controller : MonoBehaviour
         {
             line.SetPosition(i, path.corners[i]); //go through each corner and set that to the line renderer's position
         }
-
     }
 
     public void FindDirection(Vector3 unitPos, Vector3 goalPos)
@@ -84,22 +92,14 @@ public class Auto_Navmesh_Controller : MonoBehaviour
             int d = Random.Range(0, Spawn_Manager.AUTO_DESTINATION_POINT.Count);//Get random node from array
             nextDest = Spawn_Manager.AUTO_DESTINATION_POINT[d].transform.position;//Set destination location
             navMeshAuto.SetDestination(nextDest);//Move to destination
-                                                 // if (navMeshAuto.velocity != Vector3.zero)//If auto unit is moving
-                                                 // {
-                                                 //     transform.rotation = Quaternion.LookRotation(navMeshAuto.velocity.normalized);//Roatate auto unit
-                                                 // }
-                                                 // for (var i = 1; i < navMeshAuto.path.corners.Length; i++)
-                                                 // {
-                                                 //     distanceFromCorner = transform.position - navMeshAuto.path.corners[i];
+            if (navMeshAuto.velocity != Vector3.zero)//If auto unit is moving
+            {
+                navMeshAuto.ResetPath();
+                transform.rotation = Quaternion.LookRotation(navMeshAuto.velocity.normalized);//Roatate auto unit
 
-            //     if (distanceFromCorner.z < destinationSensitivity && distanceFromCorner.x < destinationSensitivity)
-            //         transform.rotation = Quaternion.LookRotation(navMeshAuto.velocity.normalized);//Roatate auto unit
-            // }
+            }
+
         }
     }
 
-    public void ChangeDirection()
-    {
-        navMeshAuto.agentTypeID = 1229499183; //All Auto Nav
-    }
 }

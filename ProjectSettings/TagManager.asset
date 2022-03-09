@@ -22,6 +22,26 @@ TagManager:
   - TAG:Block_Center_Coordinate
   - SunLight
   - TAG:Auto_Destination
+  - TAG:IntersectionCenter
+  - TAG:BlockCenterStreet
+  - TAG:Intersection
+  - TAG:IntersectionCrossing
+  - TAG:RoadSection
+  - TAG:Sidewalk
+  - TAG:SidewalkCorner
+  - TAG:TrafficLight
+  - TAG:StreetSign
+  - TAG:RedLightLamp
+  - TAG:YellowLightLamp
+  - TAG:GreenLightLamp
+  - TAG:StreetLampPole
+  - TAG:Tree
+  - TAG:Hydrant
+  - TAG:StreetLamp
+  - TAG:StreetLampSpotLight
+  - TAG:StreetLampPointLight
+  - TAG:Road
+  - TAG:StreetLightLamp
   layers:
   - Default
   - TransparentFX
