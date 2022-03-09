@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7860031980421920860}
   - component: {fileID: 7860031980421920859}
   - component: {fileID: 7860031980421920858}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TimeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}

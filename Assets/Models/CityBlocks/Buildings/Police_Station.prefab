@@ -3109,7 +3109,7 @@ GameObject:
   - component: {fileID: 2957901001321406189}
   - component: {fileID: 2612707915270684755}
   - component: {fileID: 3780999816952110359}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: Door_01
   m_TagString: DOOR_NAV_POINT
   m_Icon: {fileID: 0}

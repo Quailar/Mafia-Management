@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2170222925612344177
+--- !u!1 &6228994569894446388
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2170222925612344182}
-  - component: {fileID: 2170222925612344176}
-  - component: {fileID: 6177531675078466835}
+  - component: {fileID: 6228994569894446387}
+  - component: {fileID: 6228994569894446389}
+  - component: {fileID: 9462114646164049}
   m_Layer: 0
-  m_Name: BuildingCornerGhost
+  m_Name: BuildingFootPrint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
   m_IsActive: 1
---- !u!4 &2170222925612344182
+--- !u!4 &6228994569894446387
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2170222925612344177}
+  m_GameObject: {fileID: 6228994569894446388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: 0, z: 9}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!208 &2170222925612344176
+--- !u!208 &6228994569894446389
 NavMeshObstacle:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2170222925612344177}
+  m_GameObject: {fileID: 6228994569894446388}
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
@@ -48,13 +48,13 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 2, z: 0}
   m_TimeToStationary: 0.5
---- !u!65 &6177531675078466835
+--- !u!65 &9462114646164049
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2170222925612344177}
+  m_GameObject: {fileID: 6228994569894446388}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1

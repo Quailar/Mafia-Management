@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 912662422924647742}
   - component: {fileID: 7403280375247196509}
   - component: {fileID: 1352912949720112911}
-  m_Layer: 18
+  m_Layer: 0
   m_Name: Auto_NAVBLOCK_East
-  m_TagString: TAG:Auto_Road_Nav
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 13
   m_StaticEditorFlags: 8

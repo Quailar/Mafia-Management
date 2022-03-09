@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4573237194517940623}
   - component: {fileID: 3701353668476248379}
   - component: {fileID: 750875981205023531}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Auto_SpawnPoint
-  m_TagString: TAG:Auto_Spawn
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

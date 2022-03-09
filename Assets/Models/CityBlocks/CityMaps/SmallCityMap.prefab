@@ -4001,7 +4001,7 @@ GameObject:
   - component: {fileID: 8431417335465274974}
   m_Layer: 0
   m_Name: '[0,0]:SMALL_CITY_GRID'
-  m_TagString: TAG:Block_Coordinates
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4106,7 +4106,7 @@ GameObject:
   - component: {fileID: 8431417335527299767}
   m_Layer: 0
   m_Name: '[2,0]:SMALL_CITY_GRID'
-  m_TagString: TAG:Block_Coordinates
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4171,7 +4171,7 @@ GameObject:
   - component: {fileID: 8431417335672713934}
   m_Layer: 0
   m_Name: '[0,2]:SMALL_CITY_GRID'
-  m_TagString: TAG:Block_Coordinates
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4242,7 +4242,7 @@ GameObject:
   - component: {fileID: 8431417335782184123}
   m_Layer: 0
   m_Name: '[2,1]SMALL_CITY_GRID'
-  m_TagString: TAG:Block_Coordinates
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4275,7 +4275,7 @@ GameObject:
   - component: {fileID: 8431417335801901730}
   m_Layer: 0
   m_Name: '[0,1]:SMALL_CITY_GRID'
-  m_TagString: TAG:Block_Coordinates
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4492,7 +4492,7 @@ GameObject:
   - component: {fileID: 8431417336096968710}
   m_Layer: 0
   m_Name: '[1,2]:SMALL_CITY_GRID'
-  m_TagString: TAG:Block_Coordinates
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4525,7 +4525,7 @@ GameObject:
   - component: {fileID: 8431417336115610435}
   m_Layer: 0
   m_Name: '[1,1]:SMALL_CITY_GRID'
-  m_TagString: TAG:Block_Center_Coordinate
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4774,7 +4774,7 @@ GameObject:
   - component: {fileID: 8431417336742007415}
   m_Layer: 0
   m_Name: '[1,0]:SMALL_CITY_GRID'
-  m_TagString: TAG:Block_Coordinates
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4960,7 +4960,7 @@ GameObject:
   - component: {fileID: 8431417336952126770}
   m_Layer: 0
   m_Name: '[2,2]:SMALL_CITY_GRID'
-  m_TagString: TAG:Block_Coordinates
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

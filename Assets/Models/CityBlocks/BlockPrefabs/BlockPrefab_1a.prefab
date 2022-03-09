@@ -464,7 +464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8663057136317241832}
   - component: {fileID: 391035060217773877}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -1031,7 +1031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3165097163777632356}
   - component: {fileID: 4457953486037379583}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -1266,7 +1266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3304453875200614410}
   - component: {fileID: 6547611746022250390}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -1987,7 +1987,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5195264609089798520}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Road
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2132,7 +2132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6288146106524233002}
   - component: {fileID: 6837943774363543022}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -2883,7 +2883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2264087918654569472}
   - component: {fileID: 6530480674628420351}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -3338,7 +3338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7939514575992857969}
   - component: {fileID: 2179883607120195211}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -3594,7 +3594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7960617313576048934}
   - component: {fileID: 7585946376282308763}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -4373,7 +4373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7622417834923711227}
   - component: {fileID: 6247982823840176591}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -5571,7 +5571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5450494255297725407}
   - component: {fileID: 2089168870997954288}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -5746,7 +5746,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1111087794152377670}
   - component: {fileID: 3766959903261390081}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -5839,7 +5839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5588083824101908819}
   - component: {fileID: 8302185352396058737}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -6562,7 +6562,7 @@ GameObject:
   - component: {fileID: 5069882924352755913}
   - component: {fileID: 315311401292976177}
   - component: {fileID: 1967142270356138440}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Asphalt_Crossing (9)
   m_TagString: TAG:Crosswalk_Dual_Nav
   m_Icon: {fileID: 0}
@@ -6879,7 +6879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4204786016270695469}
   - component: {fileID: 862283480570409877}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -7216,7 +7216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 223928259946664497}
   - component: {fileID: 2346407746550868099}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -7309,7 +7309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1856293617016826409}
   - component: {fileID: 7529063889313690550}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -8032,7 +8032,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3132385245230654868}
   - component: {fileID: 3998946932143268907}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -8821,7 +8821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8446177588132888421}
   - component: {fileID: 1895602615506025835}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -9381,7 +9381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2426895923638891311}
   - component: {fileID: 5851916042727875652}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -9792,7 +9792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5567401189157081052}
   - component: {fileID: 341973689788800674}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -9923,7 +9923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6694207888105132777}
   - component: {fileID: 4798822456337900856}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -10552,7 +10552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3776588597538394930}
   - component: {fileID: 3258646410506427347}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -10644,7 +10644,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1666491375963566660}
-  m_Layer: 16
+  m_Layer: 0
   m_Name: AutoNavigation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11036,7 +11036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2871094842726692486}
   - component: {fileID: 5126340869898401346}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -11465,7 +11465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9189709917488657245}
   - component: {fileID: 6958315584686919614}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -11558,7 +11558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7701641076244623073}
   - component: {fileID: 6709322182901020714}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -11651,7 +11651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6463462857516909855}
   - component: {fileID: 5927405986132832232}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -11745,7 +11745,7 @@ GameObject:
   - component: {fileID: 3931418807529405060}
   - component: {fileID: 3609932614040875732}
   - component: {fileID: 6693606385364104905}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Asphalt_Crossing (7)
   m_TagString: TAG:Crosswalk_Dual_Nav
   m_Icon: {fileID: 0}
@@ -12980,7 +12980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1965992467641394213}
   - component: {fileID: 7433546760260902437}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -13155,7 +13155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5646547037192658648}
   - component: {fileID: 6152443160993549388}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -14771,7 +14771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4595753983005151764}
   - component: {fileID: 293306660755347561}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -16142,7 +16142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2633349479278303668}
   - component: {fileID: 4164773643530462010}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -16397,7 +16397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5077090966836915674}
   - component: {fileID: 4724111040407737403}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -16988,7 +16988,7 @@ GameObject:
   - component: {fileID: 61808422829057794}
   - component: {fileID: 4936081268444346545}
   - component: {fileID: 9338957792717002}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Asphalt_Crossing (8)
   m_TagString: TAG:Crosswalk_Dual_Nav
   m_Icon: {fileID: 0}
@@ -17211,7 +17211,7 @@ GameObject:
   - component: {fileID: 3002451386136426352}
   - component: {fileID: 3243757366506008131}
   - component: {fileID: 9204513483639048526}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Agent_SpawnPoint
   m_TagString: TAG:Agent_Spawn
   m_Icon: {fileID: 0}
@@ -17645,7 +17645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4793600956090285214}
   - component: {fileID: 624326030595621154}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -18023,7 +18023,7 @@ GameObject:
   - component: {fileID: 1869537765179158958}
   - component: {fileID: 3479183780835965747}
   - component: {fileID: 222324845008316809}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Asphalt_Crossing (10)
   m_TagString: TAG:Crosswalk_Dual_Nav
   m_Icon: {fileID: 0}
@@ -19034,7 +19034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4154741825050509805}
   - component: {fileID: 1957263751347287080}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -19127,7 +19127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4283976894798639611}
   - component: {fileID: 177383181197747542}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -19302,7 +19302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8939741130531958272}
   - component: {fileID: 1413385198221021117}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}
@@ -19395,7 +19395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2510985341732615375}
   - component: {fileID: 2025109142616667572}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: StreetLight
   m_TagString: TAG:StreetLight
   m_Icon: {fileID: 0}

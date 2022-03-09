@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5588108807836571763}
   - component: {fileID: 1974356997176677711}
   - component: {fileID: 6526494301232876810}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Truck_LF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 2453544690449147427}
   - component: {fileID: 6267859734930864082}
   - component: {fileID: 3252527960514085387}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Truck_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 693225972789104982}
   - component: {fileID: 1723321304249609926}
   - component: {fileID: 171708770960300236}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Head_Lamp_RF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 1460922316722686276}
   - component: {fileID: 5115550666501163065}
   - component: {fileID: 4712573310969139621}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Truck_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 2108602978550292987}
   - component: {fileID: 6749228753319957665}
   - component: {fileID: 5341538065692805591}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Truck_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: -2998526690468849088}
   - component: {fileID: -6142948975255600921}
   - component: {fileID: 9002784107961016931}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Truck_Unit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -667,7 +667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8566303184256376572}
   - component: {fileID: 4126971038707070745}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -761,7 +761,7 @@ GameObject:
   - component: {fileID: 3513302066665361435}
   - component: {fileID: 8934637405559767183}
   - component: {fileID: 8329010987426286061}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Truck_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -841,7 +841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 858865026503802411}
   - component: {fileID: 8832364524455555464}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -935,7 +935,7 @@ GameObject:
   - component: {fileID: 3737547872187997081}
   - component: {fileID: 8380122997346085000}
   - component: {fileID: 2162868184759568877}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Break_Lamp_RL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1016,7 +1016,7 @@ GameObject:
   - component: {fileID: 6252708313739762903}
   - component: {fileID: 2828707187622423866}
   - component: {fileID: 6151064867098933040}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Truck_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1097,7 +1097,7 @@ GameObject:
   - component: {fileID: 4488964121847198446}
   - component: {fileID: 1356743773427588272}
   - component: {fileID: 7805040665948601181}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Truck_RF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1178,7 +1178,7 @@ GameObject:
   - component: {fileID: 4907848660844412584}
   - component: {fileID: 6940589644110460650}
   - component: {fileID: 666220278185769185}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Break_Lamp_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1259,7 +1259,7 @@ GameObject:
   - component: {fileID: 1783763083207314443}
   - component: {fileID: 444569174463554321}
   - component: {fileID: 1744538609876269254}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Head_Lamp_LF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1340,7 +1340,7 @@ GameObject:
   - component: {fileID: 1863052909906320027}
   - component: {fileID: 9029961613272027307}
   - component: {fileID: 8606899459578515619}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Truck_LR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1421,7 +1421,7 @@ GameObject:
   - component: {fileID: 780700855290195382}
   - component: {fileID: 5510592803729283813}
   - component: {fileID: 5634657788841263306}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Truck_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}

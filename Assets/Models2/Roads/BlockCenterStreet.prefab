@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 855509949573608005}
   m_Layer: 0
   m_Name: BlockCenterStreet
-  m_TagString: TAG:BlockCenterStreet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 9
   m_StaticEditorFlags: 8

@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 1284949999981774441}
   - component: {fileID: 1284949999981774443}
   - component: {fileID: 1284949999981774442}
+  - component: {fileID: -7679221689476710514}
   m_Layer: 0
   m_Name: StreetSign
-  m_TagString: TAG:StreetSign
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -81,3 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &-7679221689476710514
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284949999981774440}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.86300004, y: 1.6910001, z: 0.874}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.749, y: 1.6910001, z: -0.76100004}
+  m_TimeToStationary: 0.5

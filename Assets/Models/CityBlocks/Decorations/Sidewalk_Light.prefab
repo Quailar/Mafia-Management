@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2288716360416009297}
   - component: {fileID: 6801280574250697912}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: Sidewalk_Light
-  m_TagString: TAG:StreetLight
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

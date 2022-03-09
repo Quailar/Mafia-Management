@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2987234677358361892}
   - component: {fileID: 6858157990933246936}
-  m_Layer: 21
+  m_Layer: 0
   m_Name: Street_Light
-  m_TagString: TAG:StreetLight
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

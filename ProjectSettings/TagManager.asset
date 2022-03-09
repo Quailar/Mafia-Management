@@ -5,25 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Undefined
-  - DOOR_NAV_POINT
-  - MEDUIM_MAP
-  - SMALL_MAP
-  - LARGE_MAP
-  - TAG:Auto_Despawn
-  - TAG:Auto_Spawn
-  - TAG:Agent_Spawn
-  - TAG:Auto_Link_Nav
-  - TAG:BlockStreet
-  - TAG:Agent_Street_Nav
-  - TAG:Auto_Road_Nav
-  - TAG:StreetLight
-  - TAG:Crosswalk_Dual_Nav
-  - TAG:Block_Coordinates
-  - TAG:Block_Center_Coordinate
-  - SunLight
-  - TAG:Auto_Destination
   - TAG:IntersectionCenter
-  - TAG:BlockCenterStreet
   - TAG:Intersection
   - TAG:IntersectionCrossing
   - TAG:RoadSection
@@ -42,6 +24,17 @@ TagManager:
   - TAG:StreetLampPointLight
   - TAG:Road
   - TAG:StreetLightLamp
+  - TAG:Door
+  - TAG:Roof
+  - TAG:BuildingLamp
+  - TAG:BuildingLampPointLight
+  - TAG:BuildingLampSpotLight
+  - TAG:BuildingCornerFootprint
+  - TAG:BuildingPrefab
+  - TAG:BuildingBlueprints
+  - TAG:CityBlock
+  - TAG:HQ_Building
+  - TAG:StreetLight
   layers:
   - Default
   - TransparentFX
@@ -49,22 +42,22 @@ TagManager:
   - Camera
   - Water
   - UI
-  - SpawnLayer
-  - Clickable
-  - AGENT_WALKWAY_NAV
-  - AGENT_STREET_NAV
-  - AGENT_CROSSWALK_NAV
-  - AGENT_SIDEWALK_NAV
   - 
   - 
-  - AUTO_LINK_NAV
-  - AUTO_DEST_NAV
-  - AUTO_NORTHBOUND_RD
-  - AUTO_SOUTHBOUND_RD
-  - AUTO_EASTBOUND_RD
-  - AUTO_WESTBOUND_RD
   - 
-  - CITY_LIGHTS
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

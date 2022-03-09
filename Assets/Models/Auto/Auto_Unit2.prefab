@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2256416252881364496}
   - component: {fileID: 5413440256700434690}
   - component: {fileID: 7224284495090209430}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Car2_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 6398683758685023291}
   - component: {fileID: 6190666718354723979}
   - component: {fileID: 6200932608391750581}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Car2_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 2219298830500014622}
   - component: {fileID: 5027997717271576223}
   - component: {fileID: 3999300951578716082}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Break_Lamp_RL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 4869100332975841423}
   - component: {fileID: 5338716909799161149}
   - component: {fileID: 3715927584124102678}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Break_Lamp_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 2183486644619281327}
   - component: {fileID: 9116409578340766248}
   - component: {fileID: 1994359417184436595}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Head_Lamp_LF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 5769859124178995025}
   - component: {fileID: 7513516054204446168}
   - component: {fileID: 4907064818068956265}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Head_Lamp_RF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 7461380317895329108}
   - component: {fileID: 7911998962962198865}
   - component: {fileID: 1682681747029243106}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Car2_LF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 4608643358909140761}
   - component: {fileID: 8340506161519514711}
   - component: {fileID: 2330968009268915819}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Car2_LR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 1245462282475451446}
   - component: {fileID: 2048538830092242054}
   - component: {fileID: 2272724587348261816}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Car2_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 1593366458034759299}
   - component: {fileID: 1961841231747718707}
   - component: {fileID: 1791964235665238285}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Car2_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -825,7 +825,7 @@ GameObject:
   - component: {fileID: 286242498359776393}
   - component: {fileID: 5080865621488649963}
   - component: {fileID: -2169438998811551562}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Auto_Unit2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1072,7 +1072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6326310900066747726}
   - component: {fileID: 2337342888634675027}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Spot Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1166,7 +1166,7 @@ GameObject:
   - component: {fileID: 4261729351980122659}
   - component: {fileID: 3891583051213781651}
   - component: {fileID: 3883835590949031341}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Car2_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1247,7 +1247,7 @@ GameObject:
   - component: {fileID: 4692249363808642733}
   - component: {fileID: 3258852120060247594}
   - component: {fileID: 2281571829042716843}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Car2_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1327,7 +1327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7001094785706540122}
   - component: {fileID: 9126943935052085616}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Spot Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1421,7 +1421,7 @@ GameObject:
   - component: {fileID: 1555677722417094753}
   - component: {fileID: 650682256211136943}
   - component: {fileID: 6119507567010864993}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Car2_RF
   m_TagString: Untagged
   m_Icon: {fileID: 0}

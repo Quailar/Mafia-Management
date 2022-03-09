@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3632024075815696645}
   - component: {fileID: 2741217996179823590}
   - component: {fileID: 8937487698062879264}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Break_Lamp_RL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 4106358793361035608}
   - component: {fileID: -6177133196793762401}
   - component: {fileID: 3367393927458659393}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Police_Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 6838229299849118911}
   - component: {fileID: 4612605258255564026}
   - component: {fileID: 1799833429175604360}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Police_LR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 6009227231441590009}
   - component: {fileID: 8641334903405418142}
   - component: {fileID: 7905598207885285694}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: AlarmLight_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -507,7 +507,7 @@ GameObject:
   - component: {fileID: 7892942932065230413}
   - component: {fileID: 1324955427538593167}
   - component: {fileID: 2767997540437121646}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: AlarmLight_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,7 +588,7 @@ GameObject:
   - component: {fileID: 5098871048162528106}
   - component: {fileID: 114336641166534854}
   - component: {fileID: 1277306745163478513}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Head_Lamp_RF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -669,7 +669,7 @@ GameObject:
   - component: {fileID: 1456072395802182800}
   - component: {fileID: 1077314478343695424}
   - component: {fileID: 4906373938436657282}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Police_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -749,7 +749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1725947477026624733}
   - component: {fileID: 8119568157054868532}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -843,7 +843,7 @@ GameObject:
   - component: {fileID: 8446792635901549377}
   - component: {fileID: 5467720981200712024}
   - component: {fileID: 8379306652960400231}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Police_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -924,7 +924,7 @@ GameObject:
   - component: {fileID: 4433234216723354518}
   - component: {fileID: 4828964222768213462}
   - component: {fileID: 6539731772636361250}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Police_RF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1004,7 +1004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 251653964135805584}
   - component: {fileID: 8802506792360359058}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1098,7 +1098,7 @@ GameObject:
   - component: {fileID: 4820570893099913544}
   - component: {fileID: 5355721485645086793}
   - component: {fileID: 5297587744785498901}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Head_Lamp_LF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1179,7 +1179,7 @@ GameObject:
   - component: {fileID: 4886415124964604265}
   - component: {fileID: 8882542141820227447}
   - component: {fileID: 7671608948070771879}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Break_Lamp_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1260,7 +1260,7 @@ GameObject:
   - component: {fileID: 6998851536783185784}
   - component: {fileID: 6679684528654154249}
   - component: {fileID: 3082217693704012694}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Police_LF
   m_TagString: Untagged
   m_Icon: {fileID: 0}

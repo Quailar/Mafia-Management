@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 264508337007326935}
   - component: {fileID: 5095878426240890322}
   - component: {fileID: 2731483099834323313}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Agent_BlockStreet_Nav
-  m_TagString: TAG:Agent_Street_Nav
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
