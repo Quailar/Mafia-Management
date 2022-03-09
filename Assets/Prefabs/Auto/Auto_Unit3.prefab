@@ -429,8 +429,6 @@ GameObject:
   - component: {fileID: 817369287206842322}
   - component: {fileID: -6373274720365172173}
   - component: {fileID: -896336210016019972}
-  - component: {fileID: -5657011921811492503}
-  - component: {fileID: 5530916678764340616}
   - component: {fileID: -6279356599979686399}
   m_Layer: 0
   m_Name: Auto_Unit3
@@ -517,59 +515,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-5657011921811492503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3273280030452305215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2936747f286c1d940bd1952c903117ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  navMeshAuto: {fileID: 817369287206842322}
-  line: {fileID: -6279356599979686399}
-  nextDest: {x: 0, y: 0, z: 0}
-  direction: {x: 0, y: 0, z: 0}
-  destinationSensitivity: 5
-  distanceFromCorner: {x: 0, y: 0, z: 0}
---- !u!114 &5530916678764340616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3273280030452305215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98f0dcc1608652341b20d15414a8d041, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  navMeshAuto: {fileID: 817369287206842322}
-  autoUnitSO: {fileID: 0}
-  AUTO_UNIT_SO_LIST:
-  - {fileID: 11400000, guid: 51fa3dce29d9da34caeb38e8a2f3328c, type: 2}
-  autoBodys:
-  - {fileID: 4237800429565804154}
-  - {fileID: 5833262743953901574}
-  - {fileID: 2802870396137871984}
-  - {fileID: 5501891596861174668}
-  - {fileID: 2740042900102543497}
-  autoHeadLamps:
-  - {fileID: 7739830119007699193}
-  - {fileID: 6408086345766950780}
-  autoHeadLights:
-  - {fileID: 6598139522792194428}
-  - {fileID: 324707300259481388}
-  autoHeadLamps_ON: {fileID: 2100000, guid: 3333e71da839c854187d795a22a55644, type: 2}
-  autoHeadLamps_OFF: {fileID: 2100000, guid: 6de1b84e15857af408e34b6a4287b4b6, type: 2}
-  autoBreakLamps:
-  - {fileID: 1822074301261430431}
-  - {fileID: 7623617975293514872}
-  autoBreakLamps_ON: {fileID: 2100000, guid: 0a6641307aaeab94eb930f4a55495a86, type: 2}
-  autoBreakLamps_OFF: {fileID: 2100000, guid: 75f8deb9c1da20744a468df3da5467a9, type: 2}
 --- !u!120 &-6279356599979686399
 LineRenderer:
   m_ObjectHideFlags: 0

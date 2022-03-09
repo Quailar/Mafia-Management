@@ -29,12 +29,21 @@ TagManager:
   - TAG:BuildingLamp
   - TAG:BuildingLampPointLight
   - TAG:BuildingLampSpotLight
-  - TAG:BuildingCornerFootprint
-  - TAG:BuildingPrefab
   - TAG:BuildingBlueprints
-  - TAG:CityBlock
   - TAG:HQ_Building
-  - TAG:StreetLight
+  - TAG:BlockCenterStreet
+  - TAG:SmallMap
+  - TAG:MediumMap
+  - TAG:LargeMap
+  - TAG:Neighborhood_Coor
+  - TAG:BuildingPrefab
+  - TAG:BuildingFoundation
+  - TAG:NavNorthRoad
+  - TAG:NavSouthRoad
+  - TAG:NavEastRoad
+  - TAG:NavWestRoad
+  - TAG:AgentSpawnPoint
+  - TAG:AutoSpawnPoint
   layers:
   - Default
   - TransparentFX

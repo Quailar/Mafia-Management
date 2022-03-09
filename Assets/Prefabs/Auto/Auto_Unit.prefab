@@ -13,8 +13,6 @@ GameObject:
   - component: {fileID: 2697109340635183153}
   - component: {fileID: 8469493973530486210}
   - component: {fileID: 6823744295727213185}
-  - component: {fileID: 7313422314555476872}
-  - component: {fileID: 1887219310495969201}
   m_Layer: 0
   m_Name: Auto_Unit
   m_TagString: Untagged
@@ -197,59 +195,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7313422314555476872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317262674464345251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2936747f286c1d940bd1952c903117ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  navMeshAuto: {fileID: 2346857030930084780}
-  line: {fileID: 2697109340635183153}
-  nextDest: {x: 0, y: 0, z: 0}
-  direction: {x: 0, y: 0, z: 0}
-  destinationSensitivity: 5
-  distanceFromCorner: {x: 0, y: 0, z: 0}
---- !u!114 &1887219310495969201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317262674464345251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98f0dcc1608652341b20d15414a8d041, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  navMeshAuto: {fileID: 2346857030930084780}
-  autoUnitSO: {fileID: 0}
-  AUTO_UNIT_SO_LIST:
-  - {fileID: 11400000, guid: 51fa3dce29d9da34caeb38e8a2f3328c, type: 2}
-  autoBodys:
-  - {fileID: 1334338091521808049}
-  - {fileID: 614911884564161514}
-  - {fileID: 4003640110230358324}
-  - {fileID: 8829436525566926844}
-  - {fileID: 2823361495904191441}
-  autoHeadLamps:
-  - {fileID: 721103963348943766}
-  - {fileID: 7252865649748984324}
-  autoHeadLights:
-  - {fileID: 7681568485852760784}
-  - {fileID: 7820298183669240282}
-  autoHeadLamps_ON: {fileID: 2100000, guid: 3333e71da839c854187d795a22a55644, type: 2}
-  autoHeadLamps_OFF: {fileID: 2100000, guid: 6de1b84e15857af408e34b6a4287b4b6, type: 2}
-  autoBreakLamps:
-  - {fileID: 3893862419199911816}
-  - {fileID: 7510154178679083138}
-  autoBreakLamps_ON: {fileID: 2100000, guid: 0a6641307aaeab94eb930f4a55495a86, type: 2}
-  autoBreakLamps_OFF: {fileID: 2100000, guid: 75f8deb9c1da20744a468df3da5467a9, type: 2}
 --- !u!1 &614911884564161514
 GameObject:
   m_ObjectHideFlags: 0
