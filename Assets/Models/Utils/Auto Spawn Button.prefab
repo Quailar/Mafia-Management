@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 458179712280233143}
   - component: {fileID: 2213552862304384030}
   - component: {fileID: 6818731429302876593}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 1775670988852084177}
   - component: {fileID: 4862853215701819188}
   - component: {fileID: 4040034094519373065}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Auto Spawn Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}

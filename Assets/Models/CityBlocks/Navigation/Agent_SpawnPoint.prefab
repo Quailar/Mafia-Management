@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 5059856408315856917}
   - component: {fileID: 127751189975133126}
   - component: {fileID: 3483124319486072552}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Agent_SpawnPoint
-  m_TagString: TAG:Agent_Spawn
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,8 +48,8 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258369884166234841}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1

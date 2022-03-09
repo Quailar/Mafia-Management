@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3208107175333563667}
   - component: {fileID: 3208107175333563665}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: GameClock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3208107176401382812}
   - component: {fileID: 3208107176401382813}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3325916301802589827, guid: 18834a35e58a52d4a844b3feffb24c5c, type: 3}
       propertyPath: m_Layer
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3325916301802589828, guid: 18834a35e58a52d4a844b3feffb24c5c, type: 3}
       propertyPath: m_Pivot.x
@@ -258,7 +258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 148355615325784274, guid: 3cb73b1c13df54346a1b65ea7ae8fec2, type: 3}
       propertyPath: m_Layer
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 148355615325784277, guid: 3cb73b1c13df54346a1b65ea7ae8fec2, type: 3}
       propertyPath: m_Pivot.x
@@ -377,7 +377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8969926113652478850, guid: bf28d1ab2a8d245449998cd8f8c25bfe, type: 3}
       propertyPath: m_Layer
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8969926113652478851, guid: bf28d1ab2a8d245449998cd8f8c25bfe, type: 3}
       propertyPath: m_Pivot.x
@@ -520,7 +520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5371253635809280532, guid: dfbd79e0360987d47b0324cb98282060, type: 3}
       propertyPath: m_Layer
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5371253635809280533, guid: dfbd79e0360987d47b0324cb98282060, type: 3}
       propertyPath: m_fontSize
@@ -725,7 +725,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1622240198640757957, guid: 8019cdd9286b32447a2bd72afe7ab677, type: 3}
       propertyPath: m_Layer
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1622240198640757816, guid: 8019cdd9286b32447a2bd72afe7ab677, type: 3}
@@ -844,7 +844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2435272815835342470, guid: edb18469ee5b9d545b0a55ec614902f2, type: 3}
       propertyPath: m_Layer
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2435272815835342468, guid: edb18469ee5b9d545b0a55ec614902f2, type: 3}
@@ -879,7 +879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7860031980421920857, guid: 88f824525266e714c82f893bddd794e5, type: 3}
       propertyPath: m_Layer
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7860031980421920860, guid: 88f824525266e714c82f893bddd794e5, type: 3}
       propertyPath: m_Pivot.x

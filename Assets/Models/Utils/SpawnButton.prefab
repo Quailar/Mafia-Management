@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5386731232790400440}
   - component: {fileID: 5386731232790400441}
   - component: {fileID: 5386731232790400438}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 5386731232988008490}
   - component: {fileID: 5386731232988008492}
   - component: {fileID: 5386731232988008493}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 5386731233787892022}
   - component: {fileID: 5386731233787892023}
   - component: {fileID: 5386731233787892020}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: SpawnButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}

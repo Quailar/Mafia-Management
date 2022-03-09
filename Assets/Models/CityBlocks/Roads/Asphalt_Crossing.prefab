@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 718482458702726874}
   - component: {fileID: 718482458702726872}
   - component: {fileID: 718482458702726873}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Asphalt_Crossing
-  m_TagString: TAG:Crosswalk_Dual_Nav
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 10
   m_StaticEditorFlags: 8

@@ -58,12 +58,20 @@ public class Clock : MonoBehaviour
     {
         GameData.min++;
         GameData.timer = GameData.minuteToRealTime;
-        updateTimeDisplay();
+
 
         if (GameData.min >= 60)
         {
             GameData.min = 0;
             updateHour();
+        }
+        updateTimeDisplay();
+
+        GameData.sunTime++;
+        if (GameData.sunTime >= 1440)
+        {
+            GameData.sunTime = 0;
+
         }
     }
 
@@ -147,10 +155,10 @@ public class Clock : MonoBehaviour
         switch (ts)
         {
             case "Faster":
-                Time.timeScale = 30f;
+                Time.timeScale = 20f;
                 break;
             case "Fast":
-                Time.timeScale = 15f;
+                Time.timeScale = 10f;
                 break;
             case "Play":
                 Time.timeScale = 1f;
@@ -172,10 +180,10 @@ public class Clock : MonoBehaviour
         else { pauseText.gameObject.SetActive(false); }
         switch (ts)
         {
-            case 30:
+            case 20:
                 faster.Select();
                 break;
-            case 15:
+            case 10:
                 fast.Select();
                 break;
             case 1:

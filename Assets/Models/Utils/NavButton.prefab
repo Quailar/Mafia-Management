@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7752115734047935502}
   - component: {fileID: 7752115734047935503}
   - component: {fileID: 7752115734047935500}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 7752115734601640535}
   - component: {fileID: 7752115734601640532}
   - component: {fileID: 7752115734601640533}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: NavButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 7752115734972846360}
   - component: {fileID: 7752115734972846362}
   - component: {fileID: 7752115734972846363}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2435272815835342520}
   - component: {fileID: 2435272815835342523}
   - component: {fileID: 2435272815835342468}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PauseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}

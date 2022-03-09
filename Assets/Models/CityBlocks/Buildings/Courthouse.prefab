@@ -6572,7 +6572,7 @@ GameObject:
   - component: {fileID: 7674707206976223714}
   - component: {fileID: 4461236431094294482}
   - component: {fileID: 6331910659788802074}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: Door_A1
   m_TagString: DOOR_NAV_POINT
   m_Icon: {fileID: 0}

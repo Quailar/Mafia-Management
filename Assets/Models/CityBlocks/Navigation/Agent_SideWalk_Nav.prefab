@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 200054322204994385}
   - component: {fileID: 4983265067205813390}
   - component: {fileID: 4449569234184764674}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Agent_SideWalk_Nav
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,8 +48,8 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7675509135078686970}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1

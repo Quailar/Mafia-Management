@@ -3,14 +3,18 @@ using UnityEngine;
 public class Sun_Light : MonoBehaviour
 {
     private Light sunLight;
+    public float transitionSpeed;
+    private float sunLightRotation;
+    public float minSunLight;
+    public float maxSunLight;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         sunLight = GameObject.FindGameObjectWithTag("SunLight").GetComponent<Light>();
     }
 
-    // Update is called once per frame
+
     void FixedUpdate()
     {
         updateSunLight();
@@ -21,19 +25,21 @@ public class Sun_Light : MonoBehaviour
         if (GameData.hour >= 6 && GameData.hour <= 18)//if it is daytime,  increment daylight on
         {
             GameData.NightLights = false;
-            while (GameData.sunLight < 1)
+            while (GameData.sunLight < maxSunLight)
             {
-                GameData.sunLight += .001f;
+                GameData.sunLight += transitionSpeed;
             }
         }
         else
         {
             GameData.NightLights = true;
-            while (GameData.sunLight > 0)
+            while (GameData.sunLight > minSunLight)
             {
-                GameData.sunLight -= .001f;
+                GameData.sunLight -= transitionSpeed;
             }
         }
         sunLight.intensity = GameData.sunLight;//Set sunlight to time of day
+
+        //transform.Rotate(sunLightRotation, 0, 0); //not in use
     }
 }

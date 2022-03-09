@@ -15,11 +15,13 @@ public partial class GameData
     public static int TotalCivilians;
     public static int TotalAutos;
     public static bool NightLights;
+    public static float sunTime;
     public static float sunLight;
     public static bool NavigationDisplayActive;
     public static bool NavigationSpawnDisplayActive;
-    public static bool displayPath;
-    public static bool canContinue;
+    public static bool agentDisplayPath;
+    public static bool autoDisplayPath;
+    public static bool canContinue;//not used
     public static string gameSpeed;
     public static float minuteToRealTime = 1f;
     public static float timer;
