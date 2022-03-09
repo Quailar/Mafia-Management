@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8692414716379937443}
   m_Layer: 0
   m_Name: IntersectionCrossing
-  m_TagString: Untagged
+  m_TagString: TAG:IntersectionCrossing
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 10
   m_StaticEditorFlags: 8
