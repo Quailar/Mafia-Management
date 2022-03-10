@@ -41,7 +41,7 @@ NavMeshProjectSettings:
     cost: 1
   - name: AUTO_DEST_NAV
     cost: 1
-  - name: 
+  - name: Auto_Road_Nav
     cost: 1
   - name: 
     cost: 1
@@ -69,7 +69,7 @@ NavMeshProjectSettings:
     cost: 1
   - name: 
     cost: 1
-  m_LastAgentTypeID: 1229499183
+  m_LastAgentTypeID: -1595187518
   m_Settings:
   - serializedVersion: 2
     agentTypeID: 0
@@ -90,79 +90,7 @@ NavMeshProjectSettings:
     debug:
       m_Flags: 0
   - serializedVersion: 2
-    agentTypeID: 1135425739
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
-    ledgeDropHeight: 0
-    maxJumpAcrossDistance: 0
-    minRegionArea: 2
-    manualCellSize: 0
-    cellSize: 0.16666667
-    manualTileSize: 0
-    tileSize: 256
-    accuratePlacement: 0
-    maxJobWorkers: 0
-    preserveTilesOutsideBounds: 0
-    debug:
-      m_Flags: 0
-  - serializedVersion: 2
-    agentTypeID: 1018083246
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
-    ledgeDropHeight: 0
-    maxJumpAcrossDistance: 0
-    minRegionArea: 2
-    manualCellSize: 0
-    cellSize: 0.16666667
-    manualTileSize: 0
-    tileSize: 256
-    accuratePlacement: 0
-    maxJobWorkers: 0
-    preserveTilesOutsideBounds: 0
-    debug:
-      m_Flags: 0
-  - serializedVersion: 2
-    agentTypeID: -562324683
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
-    ledgeDropHeight: 0
-    maxJumpAcrossDistance: 0
-    minRegionArea: 2
-    manualCellSize: 0
-    cellSize: 0.16666667
-    manualTileSize: 0
-    tileSize: 256
-    accuratePlacement: 0
-    maxJobWorkers: 0
-    preserveTilesOutsideBounds: 0
-    debug:
-      m_Flags: 0
-  - serializedVersion: 2
-    agentTypeID: -256249072
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
-    ledgeDropHeight: 0
-    maxJumpAcrossDistance: 0
-    minRegionArea: 2
-    manualCellSize: 0
-    cellSize: 0.16666667
-    manualTileSize: 0
-    tileSize: 256
-    accuratePlacement: 0
-    maxJobWorkers: 0
-    preserveTilesOutsideBounds: 0
-    debug:
-      m_Flags: 0
-  - serializedVersion: 2
-    agentTypeID: 1229499183
+    agentTypeID: -1595187518
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 45
@@ -181,8 +109,4 @@ NavMeshProjectSettings:
       m_Flags: 0
   m_SettingNames:
   - Humanoid
-  - NorthBound_Auto
-  - SouthBound_Auto
-  - EastBound_Auto
-  - WestBound_Auto
-  - All_NAV_AUTO
+  - Auto

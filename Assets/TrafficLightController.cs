@@ -1,40 +1,59 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class TrafficLightController : MonoBehaviour
 {
 
     public List<GameObject> trafficPoles;
-    public List<GameObject> redTrafficLights;
-    public List<GameObject> greenTrafficLights;
-    public List<GameObject> yellowTrafficLights;
+    public List<GameObject> redTrafficLightsNorthSouth;
+    public List<GameObject> greenTrafficLightsNorthSouth;
+    public List<GameObject> yellowTrafficLightsNorthSouth;
+    public List<GameObject> redTrafficLightsEastWest;
+    public List<GameObject> greenTrafficLightsEastWest;
+    public List<GameObject> yellowTrafficLightsEastWest;
 
     public Material redTrafficLight_ON;
     public Material greenTrafficLight_ON;
     public Material yellowTrafficLight_ON;
     public Material trafficLight_OFF;
-    public float trafficSignal;
+    public int trafficSignalNorthSouth;
+    public int trafficSignalEastWest;
+    public int dirSwitch = 0;
+
+    bool RedLightNorthSouth_ON;
+    bool YellowLightNorthSouth_ON;
+    bool GreenLightNorthSouth_ON;
+    bool RedLightEastWest_ON;
+    bool YellowLightEastWest_ON;
+    bool GreenLightEastWest_ON;
 
 
 
     public List<GameObject> agentSpawnPoints;
     public List<GameObject> autoSpawnPoints;
-
     public List<GameObject> streetLamps;
-
     public List<GameObject> streetLampBulb;
     public List<GameObject> streetLampPointLight;
     public List<GameObject> streetLampSpotLight;
 
-    // Start is called before the first frame update
+
+
+
+
     private void Awake()
     {
 
         trafficPoles.AddRange(GameObject.FindGameObjectsWithTag("TAG:TrafficLight"));
-        redTrafficLights.AddRange(GameObject.FindGameObjectsWithTag("TAG:RedLightLamp"));
-        greenTrafficLights.AddRange(GameObject.FindGameObjectsWithTag("TAG:GreenLightLamp"));
-        yellowTrafficLights.AddRange(GameObject.FindGameObjectsWithTag("TAG:YellowLightLamp"));
+
+        redTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TAG:RedLightLampNorthSouth"));
+        greenTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TAG:GreenLightLampNorthSouth"));
+        yellowTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TAG:YellowLightLampNorthSouth"));
+
+        redTrafficLightsEastWest.AddRange(GameObject.FindGameObjectsWithTag("TAG:RedLightLampEastWest"));
+        greenTrafficLightsEastWest.AddRange(GameObject.FindGameObjectsWithTag("TAG:GreenLightLampEastWest"));
+        yellowTrafficLightsEastWest.AddRange(GameObject.FindGameObjectsWithTag("TAG:YellowLightLampEastWest"));
+
         agentSpawnPoints.AddRange(GameObject.FindGameObjectsWithTag("TAG:AgentSpawnPoint"));
         autoSpawnPoints.AddRange(GameObject.FindGameObjectsWithTag("TAG:AutoSpawnPoint"));
 
@@ -49,98 +68,196 @@ public class TrafficLightController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        InvokeRepeating("ChangeTrafficSignal", 1f, 1f);
+        Timer(dirSwitch);
+    }
+    void Timer(int signal)
+    {
+        if (dirSwitch == 0)
+        {
+            trafficSignalNorthSouth++;
+            if (trafficSignalNorthSouth < 50)
+            {
+                GreenLightNorthSouth_ON = true;
+                YellowLightNorthSouth_ON = false;
+                RedLightNorthSouth_ON = false;
+            }
+            else if (trafficSignalNorthSouth < 70)
+            {
+                GreenLightNorthSouth_ON = false;
+                YellowLightNorthSouth_ON = true;
+                RedLightNorthSouth_ON = false;
+            }
+            else if (trafficSignalNorthSouth >= 70)
+            {
+                GreenLightNorthSouth_ON = false;
+                YellowLightNorthSouth_ON = false;
+                RedLightNorthSouth_ON = true;
+                dirSwitch = 1;
+                trafficSignalNorthSouth = 0;
+            }
+
+        }
+        else
+        {
+            trafficSignalEastWest++;
+            if (trafficSignalEastWest < 50)
+            {
+                GreenLightEastWest_ON = true;
+                YellowLightEastWest_ON = false;
+                RedLightEastWest_ON = false;
+            }
+            else if (trafficSignalEastWest < 70)
+            {
+                GreenLightEastWest_ON = false;
+                YellowLightEastWest_ON = true;
+                RedLightEastWest_ON = false;
+            }
+            else if (trafficSignalEastWest >= 70)
+            {
+                GreenLightEastWest_ON = false;
+                YellowLightEastWest_ON = false;
+                RedLightEastWest_ON = true;
+                dirSwitch = 0;
+                trafficSignalEastWest = 0;
+            }
+        }
+
+        CheckLight();
     }
 
 
-    IEnumerator ChangeTrafficSignal()
+
+    void CheckLight()
     {
+        if (RedLightNorthSouth_ON)
+        {
+            foreach (GameObject light in redTrafficLightsNorthSouth)
+            {
+                light.GetComponent<MeshRenderer>().material = redTrafficLight_ON;
 
-        if (trafficSignal == 2)
-        {
-            GreenLight_ON();
-            RedLight_OFF();
-            YellowLight_OFF();
-            print("GreenLight");
-            yield return new WaitForSeconds(5);
-            trafficSignal--;
+
+            }
+
         }
-        else if (trafficSignal == 1)
+        else
         {
-            GreenLight_OFF();
-            RedLight_OFF();
-            YellowLight_ON();
-            print("YellowLight");
-            yield return new WaitForSeconds(1);
-            trafficSignal--;
-        }
-        else if (trafficSignal == 0)
-        {
-            GreenLight_OFF();
-            RedLight_ON();
-            YellowLight_OFF();
-            print("RedLight");
-            yield return new WaitForSeconds(3);
-            trafficSignal--;
+            foreach (GameObject light in redTrafficLightsNorthSouth)
+            {
+                light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
+
+
+            }
         }
 
 
-        if (trafficSignal <= 0) { trafficSignal = 2; }
 
-    }
-    void RedLight_ON()
-    {
-        foreach (GameObject light in redTrafficLights)
+
+        if (YellowLightNorthSouth_ON)
         {
-            light.GetComponent<MeshRenderer>().material = redTrafficLight_ON;
+            foreach (GameObject light in yellowTrafficLightsNorthSouth)
+            {
+                light.GetComponent<MeshRenderer>().material = yellowTrafficLight_ON;
 
+
+            }
 
         }
-
-    }
-    void YellowLight_ON()
-    {
-        foreach (GameObject light in yellowTrafficLights)
+        else
         {
-            light.GetComponent<MeshRenderer>().material = yellowTrafficLight_ON;
+            foreach (GameObject light in yellowTrafficLightsNorthSouth)
+            {
+                light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
 
 
+            }
         }
 
-    }
-    void GreenLight_ON()
-    {
-        foreach (GameObject light in greenTrafficLights)
-        {
-            light.GetComponent<MeshRenderer>().material = greenTrafficLight_ON;
 
+
+        if (GreenLightNorthSouth_ON)
+        {
+            foreach (GameObject light in greenTrafficLightsNorthSouth)
+            {
+                light.GetComponent<MeshRenderer>().material = greenTrafficLight_ON;
+
+
+            }
+        }
+        else
+        {
+            foreach (GameObject light in greenTrafficLightsNorthSouth)
+            {
+                light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
+
+
+            }
+        }
+        //====================================================================================
+
+        if (RedLightEastWest_ON)
+        {
+            foreach (GameObject light in redTrafficLightsEastWest)
+            {
+                light.GetComponent<MeshRenderer>().material = redTrafficLight_ON;
+
+
+            }
 
         }
-
-    }
-    //-----------------------------------------------------------------------------------------
-    void RedLight_OFF()
-    {
-        foreach (GameObject light in redTrafficLights)
+        else
         {
-            light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
+            foreach (GameObject light in redTrafficLightsEastWest)
+            {
+                light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
+
+
+            }
         }
 
-    }
-    void YellowLight_OFF()
-    {
-        foreach (GameObject light in yellowTrafficLights)
+
+
+
+        if (YellowLightEastWest_ON)
         {
-            light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
+            foreach (GameObject light in yellowTrafficLightsEastWest)
+            {
+                light.GetComponent<MeshRenderer>().material = yellowTrafficLight_ON;
+
+
+            }
+
+        }
+        else
+        {
+            foreach (GameObject light in yellowTrafficLightsEastWest)
+            {
+                light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
+
+
+            }
         }
 
-    }
-    void GreenLight_OFF()
-    {
-        foreach (GameObject light in greenTrafficLights)
+
+
+        if (GreenLightEastWest_ON)
         {
-            light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
+            foreach (GameObject light in greenTrafficLightsEastWest)
+            {
+                light.GetComponent<MeshRenderer>().material = greenTrafficLight_ON;
+
+
+            }
+        }
+        else
+        {
+            foreach (GameObject light in greenTrafficLightsEastWest)
+            {
+                light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
+
+
+            }
         }
 
     }
 }
+

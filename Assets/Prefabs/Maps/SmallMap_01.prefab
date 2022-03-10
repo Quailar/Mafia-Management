@@ -102,7 +102,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &334666628490858885
 Transform:
   m_ObjectHideFlags: 0
@@ -480,7 +480,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 96782947697280937, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 214954545877187490, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -526,6 +526,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1878888961967200995, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2440747394876456161, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -542,17 +546,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 2816193600422459741, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2862882800505524348, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
     - target: {fileID: 3659656227725783702, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 3884006150637162527, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 3884006151275842520, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -724,7 +732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9108173985778002887, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
@@ -1006,7 +1014,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 96782947697280937, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 214954545877187490, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1052,6 +1060,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1878888961967200995, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2440747394876456161, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -1074,11 +1086,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3659656227725783702, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 3884006150637162527, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 3884006151275842520, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1102,19 +1114,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1122,7 +1134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1139,6 +1151,10 @@ PrefabInstance:
     - target: {fileID: 3884006152192421213, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
       value: TAG:Neighborhood_Coor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884006152391976476, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152394502224, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1157,6 +1173,10 @@ PrefabInstance:
       value: TAG:Road
       objectReference: {fileID: 0}
     - target: {fileID: 4251377587424416412, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616167386641261706, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1182,7 +1202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4970776186556670991, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4970776186556670991, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1207,6 +1227,10 @@ PrefabInstance:
     - target: {fileID: 5946704703459078073, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946704704553604145, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5946704704553604145, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1250,7 +1274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9108173985778002887, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
@@ -1268,7 +1292,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 96782947697280937, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 214954545877187490, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1276,7 +1300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 223254245452921591, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 223254245452921591, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1336,11 +1360,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3659656227725783702, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 3884006150637162527, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 3884006151275842520, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1364,19 +1388,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
-      propertyPath: m_LocalRotation.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1384,7 +1408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1401,6 +1425,14 @@ PrefabInstance:
     - target: {fileID: 3884006152192421213, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
       value: TAG:Neighborhood_Coor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884006152391976476, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884006152394502224, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152394502224, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1419,6 +1451,10 @@ PrefabInstance:
       value: TAG:Road
       objectReference: {fileID: 0}
     - target: {fileID: 4251377587424416412, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616167386641261706, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1444,7 +1480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4970776186556670991, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4970776186556670991, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1471,6 +1507,10 @@ PrefabInstance:
       value: TAG:RoadSection
       objectReference: {fileID: 0}
     - target: {fileID: 5946704704553604145, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946704704553604145, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
       value: TAG:Road
       objectReference: {fileID: 0}
@@ -1484,7 +1524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7674627555778642026, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8088638879680975399, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1502,6 +1542,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 8444797612986821318, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8509250211199233189, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -1512,7 +1556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9108173985778002887, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
@@ -1926,7 +1970,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 96782947697280937, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 214954545877187490, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1934,7 +1978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 223254245452921591, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 223254245452921591, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -1988,17 +2032,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 2816193600422459741, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2862882800505524348, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
     - target: {fileID: 3659656227725783702, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 3884006150637162527, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 3884006151275842520, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -2022,19 +2070,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2042,7 +2090,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152192421202, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2059,6 +2107,14 @@ PrefabInstance:
     - target: {fileID: 3884006152192421213, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
       value: TAG:Neighborhood_Coor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884006152391976476, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884006152394502224, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3884006152394502224, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
@@ -2160,17 +2216,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 8444797612986821318, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8509250211199233189, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
     - target: {fileID: 8800822793946517474, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9108173985778002887, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d08bbc6d322a8e14bac457eb3225dce1, type: 3}
@@ -2526,7 +2586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -2590,7 +2650,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 976315058083643393, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -2650,11 +2714,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -2673,6 +2737,10 @@ PrefabInstance:
       value: TAG:RoadSection
       objectReference: {fileID: 0}
     - target: {fileID: 6181621113282733815, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6990329530864207685, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -2760,7 +2828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625979221709, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -2820,7 +2888,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -2880,11 +2948,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -2906,6 +2974,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6990329530864207685, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7633103961958212286, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -2921,6 +2993,10 @@ PrefabInstance:
     - target: {fileID: 7912462620338565804, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106115287217814018, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8621459012915237155, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Layer
@@ -2990,7 +3066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -3058,7 +3134,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 976315058083643393, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -3092,6 +3172,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 4035804901049448623, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4054320321369661031, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -3114,11 +3198,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -3216,7 +3300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -3280,7 +3364,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 976315058083643393, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -3340,11 +3428,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -3363,6 +3451,10 @@ PrefabInstance:
       value: TAG:RoadSection
       objectReference: {fileID: 0}
     - target: {fileID: 6181621113282733815, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6990329530864207685, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -3450,7 +3542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -3518,7 +3610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -3552,6 +3644,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 4035804901049448623, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4054320321369661031, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -3574,11 +3670,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5286851323603143224, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -3672,7 +3768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625979221709, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -3732,7 +3828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -3788,11 +3884,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5286851323603143224, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -3825,6 +3921,10 @@ PrefabInstance:
     - target: {fileID: 7912462620338565804, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106115287217814018, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8621459012915237155, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Layer
@@ -3894,7 +3994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625979221709, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -3954,7 +4054,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -4014,11 +4114,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -4040,6 +4140,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6990329530864207685, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7633103961958212286, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -4055,6 +4159,10 @@ PrefabInstance:
     - target: {fileID: 7912462620338565804, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106115287217814018, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8621459012915237155, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Layer
@@ -4124,7 +4232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -4192,7 +4300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -4226,6 +4334,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 4035804901049448623, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4054320321369661031, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -4248,11 +4360,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5286851323603143224, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -4342,7 +4454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625979221709, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -4402,7 +4514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -4462,11 +4574,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -4485,6 +4597,10 @@ PrefabInstance:
       value: TAG:RoadSection
       objectReference: {fileID: 0}
     - target: {fileID: 6181621113282733815, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6990329530864207685, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -4568,7 +4684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -4636,7 +4752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -4670,6 +4786,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 4035804901049448623, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4054320321369661031, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -4692,11 +4812,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5286851323603143224, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -4729,6 +4849,10 @@ PrefabInstance:
     - target: {fileID: 7912462620338565804, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106115287217814018, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8621459012915237155, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Layer
@@ -4798,7 +4922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -4866,7 +4990,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 976315058083643393, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -4900,6 +5028,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 4035804901049448623, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4054320321369661031, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -4922,11 +5054,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -5024,7 +5156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -5088,7 +5220,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 976315058083643393, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -5144,11 +5280,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -5250,7 +5386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625979221709, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -5310,7 +5446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -5366,11 +5502,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5286851323603143224, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -5403,6 +5539,10 @@ PrefabInstance:
     - target: {fileID: 7912462620338565804, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106115287217814018, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8621459012915237155, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Layer
@@ -5468,7 +5608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625979221709, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -5528,7 +5668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -5588,11 +5728,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -5611,6 +5751,10 @@ PrefabInstance:
       value: TAG:RoadSection
       objectReference: {fileID: 0}
     - target: {fileID: 6181621113282733815, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6990329530864207685, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -5690,7 +5834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -5754,7 +5898,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 976315058083643393, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -5814,11 +5962,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -5837,6 +5985,10 @@ PrefabInstance:
       value: TAG:RoadSection
       objectReference: {fileID: 0}
     - target: {fileID: 6181621113282733815, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6990329530864207685, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -5924,7 +6076,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -5992,7 +6144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -6026,6 +6178,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 4035804901049448623, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4054320321369661031, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -6048,11 +6204,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5286851323603143224, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -6085,6 +6241,10 @@ PrefabInstance:
     - target: {fileID: 7912462620338565804, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106115287217814018, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8621459012915237155, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Layer
@@ -6154,7 +6314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -6222,7 +6382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -6278,11 +6438,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5286851323603143224, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -6376,7 +6536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -6444,7 +6604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -6478,6 +6638,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 4035804901049448623, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4054320321369661031, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -6500,11 +6664,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5286851323603143224, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -6537,6 +6701,10 @@ PrefabInstance:
     - target: {fileID: 7912462620338565804, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106115287217814018, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8621459012915237155, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Layer
@@ -6602,7 +6770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -6666,7 +6834,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 976315058083643393, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -6722,11 +6894,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -6828,7 +7000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625979221709, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -6888,7 +7060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -6948,11 +7120,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -6974,6 +7146,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6990329530864207685, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7633103961958212286, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -6989,6 +7165,10 @@ PrefabInstance:
     - target: {fileID: 7912462620338565804, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106115287217814018, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8621459012915237155, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Layer
@@ -7058,7 +7238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 769699625588291202, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 769699625976758401, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive
@@ -7126,7 +7306,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 973326503062131723, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 976315058083643393, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1797857651081410273, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
@@ -7160,6 +7344,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TAG:RoadSection
       objectReference: {fileID: 0}
+    - target: {fileID: 4035804901049448623, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4054320321369661031, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_TagString
       value: TAG:RoadSection
@@ -7182,11 +7370,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476456169524044084, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 4696969932613193050, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_Name
-      value: TrafficLight
+      value: TrafficLightPole
       objectReference: {fileID: 0}
     - target: {fileID: 5001963223840074111, guid: 1e64054e6c4bc3c469b9f487d9801d74, type: 3}
       propertyPath: m_IsActive

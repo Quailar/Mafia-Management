@@ -44,6 +44,14 @@ TagManager:
   - TAG:NavWestRoad
   - TAG:AgentSpawnPoint
   - TAG:AutoSpawnPoint
+  - TAG:RedLightLampNorthSouth
+  - TAG:YellowLightLampNorthSouth
+  - TAG:GreenLightLampNorthSouth
+  - TAG:RedLightLampEastWest
+  - TAG:YellowLightLampEastWest
+  - TAG:GreenLightLampEastWest
+  - TAG:NavigationIntersectionNode_Enter
+  - TAG:NavigationIntersectionNode_Exit
   layers:
   - Default
   - TransparentFX
@@ -51,7 +59,7 @@ TagManager:
   - Camera
   - Water
   - UI
-  - 
+  - Auto_Navigation
   - 
   - 
   - 
