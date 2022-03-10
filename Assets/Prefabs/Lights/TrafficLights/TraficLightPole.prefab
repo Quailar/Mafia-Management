@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7732156187502128183}
   - component: {fileID: 8040714508902578842}
   m_Layer: 0
-  m_Name: TraficLight
+  m_Name: TraficLightPole
   m_TagString: TAG:GreenLightLamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

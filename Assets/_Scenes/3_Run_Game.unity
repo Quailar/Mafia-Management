@@ -382,6 +382,463 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2879442536931199687, guid: ec3ea1de7d2d0614b9f82050eedc5c03, type: 3}
   m_PrefabInstance: {fileID: 2879442536402545075}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &618256668
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 112420084939326958, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 477403068420368231, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330164603999141669, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1538761437389233580, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275666081007027, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275666224509200, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275666231203291, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275666266921851, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275666384760306, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275666418583366, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275666447428766, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275666451928371, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275666615586916, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275666873456394, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275666923021619, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275667081729383, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275667258591693, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275667263995582, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275667573933880, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275667648338021, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275667800057479, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275667816286015, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275668098169723, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275668154484664, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876275668165237328, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924122648786906269, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133771285341605396, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754284154083632314, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: SmallMap_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793539332735789203, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315440745591929643, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473071462940281057, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 3607672609179070673, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312584960969057123, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312584960969057123, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312584960969057123, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312584960969057123, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312584960969057123, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312584960969057123, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312584960969057123, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312584960969057123, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312584960969057123, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312584960969057123, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312584960969057123, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557560069744876735, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5693597178171597967, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851200271389251397, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409950636752030, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409950669991659, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409950672918342, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409950737159722, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409950752497827, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409950855065091, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409950861953736, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409950974328427, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409951047085759, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409951221542098, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409951271067371, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409951513226172, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409951585346493, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409951662111968, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409952005408102, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409952008385045, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409952110797192, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409952119979104, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409952177799331, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409952424557799, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875409952541449567, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523036247203, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523089970639, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523103411298, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523136626199, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523323337954, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523440528522, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523445860417, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523555410474, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523569761378, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523621408347, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523799796790, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907523862104373, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907524245872233, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907524320756020, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907524439762927, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907524442722460, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907524812562986, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907524872560361, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907524879631105, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907524975280086, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243907525092204142, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482308616161576189, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776033436745968, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776033442707805, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776033476078376, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776033509867932, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776033625618197, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776033651285374, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776033657141685, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776033809459677, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776033869871369, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776034047478109, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776034099116900, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776034344434698, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776034404299787, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776034463984470, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776034785650083, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776034790707920, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776034942495702, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776034954819134, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776035021887253, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776035310054225, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293776035326315241, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913376723625800505, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    - target: {fileID: 8979572997513695664, guid: fced293a077311e4a85b8fc48d976879, type: 3}
+      propertyPath: m_Name
+      value: TrafficLightPole
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fced293a077311e4a85b8fc48d976879, type: 3}
 --- !u!1 &619242986
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,6 +1026,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 703233618}
+  - component: {fileID: 703233613}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -576,6 +1034,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &703233613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703233612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26012a35e28c27344acdfd1aa7a5baf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trafficPoles: []
+  redTrafficLights: []
+  greenTrafficLights: []
+  yellowTrafficLights: []
+  redTrafficLight_ON: {fileID: 2100000, guid: 3893ee3684ea36c4ba3c78c7569ed62a, type: 2}
+  greenTrafficLight_ON: {fileID: 2100000, guid: 01730a42238647d42aaa30539a23dc15, type: 2}
+  yellowTrafficLight_ON: {fileID: 2100000, guid: 856c1c73efc8c7a43aae6aad7846b1cb, type: 2}
+  trafficLight_OFF: {fileID: 2100000, guid: 909b0ccaf9d342844abbefb43fe4c089, type: 2}
+  trafficSignal: 0
+  agentSpawnPoints: []
+  autoSpawnPoints: []
+  streetLamps: []
+  streetLampBulb: []
+  streetLampPointLight: []
+  streetLampSpotLight: []
 --- !u!4 &703233618
 Transform:
   m_ObjectHideFlags: 0
@@ -1429,7 +1914,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.09
+  m_Intensity: 0.15
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
