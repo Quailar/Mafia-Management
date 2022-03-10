@@ -14,7 +14,7 @@ public class TrafficLightController : MonoBehaviour
     public Material greenTrafficLight_ON;
     public Material yellowTrafficLight_ON;
     public Material trafficLight_OFF;
-    public int trafficSignal;
+    public float trafficSignal;
 
 
 
@@ -43,86 +43,104 @@ public class TrafficLightController : MonoBehaviour
         streetLampPointLight.AddRange(GameObject.FindGameObjectsWithTag("TAG:StreetLampPointLight"));
         streetLampSpotLight.AddRange(GameObject.FindGameObjectsWithTag("TAG:StreetLampSpotLight"));
 
-        StartCoroutine("TrafficLightsCoroutine");
+
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        print($"{trafficPoles.Count} , {redTrafficLights.Count} , {greenTrafficLights.Count} , {yellowTrafficLights.Count}");
-        print($"{agentSpawnPoints.Count} , {autoSpawnPoints.Count}");
-        print($"{streetLamps.Count} , {streetLampBulb.Count} , {streetLampPointLight.Count} , {streetLampSpotLight.Count}");
+        InvokeRepeating("ChangeTrafficSignal", 1f, 1f);
     }
 
-    IEnumerator TrafficLightsCoroutine()
+
+    IEnumerator ChangeTrafficSignal()
     {
-        if (trafficSignal <= 2)
+
+        if (trafficSignal == 2)
         {
-            ChangeTrafficSignal(2);
-            yield return new WaitForSecondsRealtime(5);
+            GreenLight_ON();
+            RedLight_OFF();
+            YellowLight_OFF();
+            print("GreenLight");
+            yield return new WaitForSeconds(5);
             trafficSignal--;
         }
         else if (trafficSignal == 1)
         {
-            ChangeTrafficSignal(1);
-            yield return new WaitForSecondsRealtime(1);
+            GreenLight_OFF();
+            RedLight_OFF();
+            YellowLight_ON();
+            print("YellowLight");
+            yield return new WaitForSeconds(1);
             trafficSignal--;
         }
-        else
+        else if (trafficSignal == 0)
         {
-            ChangeTrafficSignal(0);
-            yield return new WaitForSecondsRealtime(3);
-            trafficSignal = 2;
+            GreenLight_OFF();
+            RedLight_ON();
+            YellowLight_OFF();
+            print("RedLight");
+            yield return new WaitForSeconds(3);
+            trafficSignal--;
         }
-    }
 
-    void ChangeTrafficSignal(float signal)
+
+        if (trafficSignal <= 0) { trafficSignal = 2; }
+
+    }
+    void RedLight_ON()
     {
-        if (signal == 0)//Red traffic light signal
+        foreach (GameObject light in redTrafficLights)
         {
-            foreach (GameObject light in redTrafficLights)
-            {
-                light.GetComponent<MeshRenderer>().material = redTrafficLight_ON;
-            }
+            light.GetComponent<MeshRenderer>().material = redTrafficLight_ON;
+
+
         }
-        else
+
+    }
+    void YellowLight_ON()
+    {
+        foreach (GameObject light in yellowTrafficLights)
         {
-            foreach (GameObject light in redTrafficLights)
-            {
-                light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
-            }
+            light.GetComponent<MeshRenderer>().material = yellowTrafficLight_ON;
+
+
         }
-        //-----------------------------------------------------------------------------------------
-        //-----------------------------------------------------------------------------------------
-        if (signal == 1)//Yellow traffic light signal
+
+    }
+    void GreenLight_ON()
+    {
+        foreach (GameObject light in greenTrafficLights)
         {
-            foreach (GameObject light in yellowTrafficLights)
-            {
-                light.GetComponent<MeshRenderer>().material = yellowTrafficLight_ON;
-            }
+            light.GetComponent<MeshRenderer>().material = greenTrafficLight_ON;
+
+
         }
-        else
+
+    }
+    //-----------------------------------------------------------------------------------------
+    void RedLight_OFF()
+    {
+        foreach (GameObject light in redTrafficLights)
         {
-            foreach (GameObject light in yellowTrafficLights)
-            {
-                light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
-            }
+            light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
         }
-        //-----------------------------------------------------------------------------------------
-        //-----------------------------------------------------------------------------------------
-        if (signal == 2)//Green traffic light signal
+
+    }
+    void YellowLight_OFF()
+    {
+        foreach (GameObject light in yellowTrafficLights)
         {
-            foreach (GameObject light in greenTrafficLights)
-            {
-                light.GetComponent<MeshRenderer>().material = greenTrafficLight_ON;
-            }
+            light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
         }
-        else
+
+    }
+    void GreenLight_OFF()
+    {
+        foreach (GameObject light in greenTrafficLights)
         {
-            foreach (GameObject light in greenTrafficLights)
-            {
-                light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
-            }
+            light.GetComponent<MeshRenderer>().material = trafficLight_OFF;
         }
+
     }
 }
