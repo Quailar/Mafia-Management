@@ -40,9 +40,9 @@ public class Auto_Navmesh_Controller : MonoBehaviour
     public Vector3 direction;
     public float destinationSensitivity;
     public bool autoDisplayPath = true;
-    public int autoCurrentNode;
-    public int minRange;
-    public int maxRange;
+    public GameObject autoCurrentNode;
+    public int closeRange;
+
 
 
     Vector3 c;
@@ -56,99 +56,62 @@ public class Auto_Navmesh_Controller : MonoBehaviour
     {
         EnterNodes.AddRange(GameObject.FindGameObjectsWithTag("TAG:NavigationIntersectionNode_Enter"));
         ExitNodes.AddRange(GameObject.FindGameObjectsWithTag("TAG:NavigationIntersectionNode_Exit"));
-        line = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<LineRenderer>(); //get the line renderer
+        //line = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<LineRenderer>(); //get the line renderer
         navMeshAuto = GetComponent<NavMeshAgent>(); //get the agent
         AutoSurfaceBake.BuildNavMesh();
     }
 
     public void Start()
     {
-        // int d = Random.Range(0, EnterNodes.Count);
-        // nextDest = EnterNodes[d].transform.position;//Set destination location
-        // //navMeshAuto.SetDestination(nextDest);//Move to destination
-        // navMeshAuto.Move(nextDest);
-
-
-
-        // for (int a = 0; a < EnterNodes.Count; a++)
-        // {
-        //     Vector3 c = EnterNodes[a].transform.position;
-        //     float distanceLength = (c - transform.position).magnitude;
-        //     if (distanceLength < minRange)
-        //     {
-        //         navMeshAuto.SetDestination(c);//Move to destination
-        //         
-        //     }
-
-        // }
+        SetNextDestination();
     }
 
     public void FixedUpdate()
     {
+        if (autoDisplayPath)
+        {
+            showPath();
+        }
+        else
+        {
+            line.positionCount = 1;
+        }
+        if (navMeshAuto.path.corners.Length <= destinationSensitivity)
+        {
+            SetNextDestination();
 
-        // if (autoDisplayPath)
-        // {
-        //     getPath();
-        // }
-        // else
-        // {
-        //     line.positionCount = 0;
-        // }
-        SetNextDestination();
-
+        }
+        if (navMeshAuto.velocity.z > 1)
+        {
+            print("Youve Reached Max Velocity: " + navMeshAuto.velocity);
+        }
     }
 
-    // public void getPath()
-    // {
-    //     line.SetPosition(0, transform.position);
-    //     DrawPath(navMeshAuto.path);
-    // }
+    public void showPath()
+    {
+        line.SetPosition(0, transform.position);
+        DrawPath(navMeshAuto.path);
+    }
 
-    // public void DrawPath(NavMeshPath path)
-    // {
-    //     if (path.corners.Length < 2)
-    //         return;
+    public void DrawPath(NavMeshPath path)
+    {
+        if (path.corners.Length < 2)
+            return;
+        for (int i = 0; i < path.corners.Length; i++)
+        {
 
-
-    //     for (var i = 0; i < path.corners.Length; i++)
-    //     {
-    //         line.SetPosition(i, path.corners[i]);
-    //         line.numCornerVertices = 5;
-    //         line.numCapVertices = 5;
-
-    //     }
-    // }
-
-
-    // public void FindClosestNode()
-    // {
-    //     for (int a = 0; a < EnterNodes.Count; a++)
-    //     {
-    //         Vector3 c = EnterNodes[a].transform.position;
-    //         for (int b = 0; b < ExitNodes.Count; b++)
-    //         {
-    //             Vector3 d = ExitNodes[b].transform.position;
-    //             float distanceLength = (c - d).magnitude;
-    //             if (distanceLength > minRange && distanceLength < maxRange)
-    //             {
-    //                 //find closest nodes
-    //             }
-    //         }
-    //     }
-    // }
+            line.SetVertexCount(path.corners.Length);
+            line.SetPositions(path.corners);
+            print("Path Corners: " + line.GetPositions(path.corners));
+        }
+    }
 
     void SetNextDestination()
     {
-
-
-        if (navMeshAuto.remainingDistance < destinationSensitivity)
-        {
-            int d = Random.Range(0, EnterNodes.Count);
-            nextDest = EnterNodes[d].transform.position;//Set destination location
-            navMeshAuto.SetDestination(nextDest);//Move to destination
-
-
-
-        }
+        direction = navMeshAuto.steeringTarget;
+        int a = Random.Range(0, EnterNodes.Count);
+        nextDest = EnterNodes[a].transform.position;
+        float distanceLength = (nextDest - transform.position).magnitude;
+        navMeshAuto.SetDestination(nextDest);//Move to destination
     }
 }
