@@ -43,10 +43,10 @@ public class GraphComponent : MonoBehaviour
                 float distanceLength = (c.Value - d.Value).magnitude;
                 if (distanceLength > minRange && distanceLength < maxRange)
                 {
-                    print(distanceLength);
+                    //print(distanceLength);
                     var edge1 = new Edge<float, Vector3>() { Value = 5f, From = graph.EnterNodes[a], To = graph.ExitNodes[b], EdgeColor = Color.yellow };
 
-                    print($"(From: {edge1.From.Value.ToString()} To: {edge1.To.Value.ToString()}");
+                    //print($"(From: {edge1.From.Value.ToString()} To: {edge1.To.Value.ToString()}");
                 }
 
 

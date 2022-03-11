@@ -43,9 +43,9 @@ NavMeshProjectSettings:
     cost: 1
   - name: Auto_Road_Nav
     cost: 1
-  - name: 
+  - name: AutoNode_Enter
     cost: 1
-  - name: 
+  - name: AutoNode_Exit
     cost: 1
   - name: 
     cost: 1
