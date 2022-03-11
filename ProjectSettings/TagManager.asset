@@ -50,8 +50,8 @@ TagManager:
   - TAG:RedLightLampEastWest
   - TAG:YellowLightLampEastWest
   - TAG:GreenLightLampEastWest
-  - TAG:NavigationIntersectionNode_Enter
-  - TAG:NavigationIntersectionNode_Exit
+  - BlueNode
+  - RedNode
   layers:
   - Default
   - TransparentFX

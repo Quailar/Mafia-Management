@@ -36,18 +36,13 @@ public class Auto_Navmesh_Controller : MonoBehaviour
     public NavMeshSurface AutoSurfaceBake;
     public NavMeshAgent navMeshAuto;
     public LineRenderer line;
-    public Vector3 nextDest;
+
     public Vector3 direction;
+    public float percentMaxSpeed;
     public float destinationSensitivity;
     public bool autoDisplayPath = true;
     public GameObject autoCurrentNode;
-    public int closeRange;
-
-
-
-    Vector3 c;
-    Vector3 d;
-
+    public Vector3 nextDest;
     public List<GameObject> EnterNodes = new List<GameObject>();
     public List<GameObject> ExitNodes = new List<GameObject>();
 
@@ -81,9 +76,16 @@ public class Auto_Navmesh_Controller : MonoBehaviour
             SetNextDestination();
 
         }
-        if (navMeshAuto.velocity.z > 1)
+        print("Path Corners: " + line.GetPositions(navMeshAuto.path.corners) + " " + "Velocity: " + navMeshAuto.velocity);
+
+        if (navMeshAuto.velocity.normalized != Vector3.zero)
         {
-            print("Youve Reached Max Velocity: " + navMeshAuto.velocity);
+            navMeshAuto.angularSpeed = 5000;
+            //transform.rotation = Quaternion.LookRotation(navMeshAuto.velocity.normalized);//Roatate auto unit
+        }
+        else
+        {
+            navMeshAuto.angularSpeed = 0;
         }
     }
 
@@ -102,7 +104,7 @@ public class Auto_Navmesh_Controller : MonoBehaviour
 
             line.SetVertexCount(path.corners.Length);
             line.SetPositions(path.corners);
-            print("Path Corners: " + line.GetPositions(path.corners));
+
         }
     }
 

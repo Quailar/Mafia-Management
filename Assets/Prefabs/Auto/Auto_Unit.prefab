@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8469493973530486210}
   - component: {fileID: 6823744295727213185}
   - component: {fileID: 2346857030930084780}
-  - component: {fileID: 6685050071978031985}
   m_Layer: 0
   m_Name: Auto_Unit
   m_TagString: Untagged
@@ -98,30 +97,6 @@ NavMeshAgent:
   m_BaseOffset: -0.05
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 1
---- !u!114 &6685050071978031985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317262674464345251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4839d7c03da2ffc42a8b0d21c8b0c741, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AutoSurfaceBake: {fileID: 0}
-  navMeshAuto: {fileID: 2346857030930084780}
-  line: {fileID: 0}
-  nextDest: {x: 0, y: 0, z: 0}
-  direction: {x: 0, y: 0, z: 0}
-  destinationSensitivity: 3
-  autoDisplayPath: 1
-  autoCurrentNode: 0
-  minRange: 5
-  maxRange: 25
-  EnterNodes: []
-  ExitNodes: []
 --- !u!1 &614911884564161514
 GameObject:
   m_ObjectHideFlags: 0
