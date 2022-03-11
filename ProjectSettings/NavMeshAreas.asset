@@ -23,23 +23,23 @@ NavMeshProjectSettings:
     cost: 1
   - name: 
     cost: 1
-  - name: AGENT_STREET_NAV
+  - name: Agent_Nav_Street
     cost: 20
-  - name: AGENT_CROSSWALK_NAV
+  - name: Agent_Nav_Sidewalk
     cost: 1
-  - name: AGENT_SIDEWALK_NAV
+  - name: Agent_Nav_Crosswalk
     cost: 1
-  - name: AUTO_NORTH_NAV
+  - name: 
     cost: 1
-  - name: AUTO_SOUTH_NAV
+  - name: 
     cost: 1
-  - name: AUTO_EAST_NAV
+  - name: 
     cost: 1
-  - name: AUTO_WEST_NAV
+  - name: 
     cost: 1
-  - name: AUTO_LINK_NAV
+  - name: 
     cost: 1
-  - name: AUTO_DEST_NAV
+  - name: 
     cost: 1
   - name: Auto_Road_Nav
     cost: 1

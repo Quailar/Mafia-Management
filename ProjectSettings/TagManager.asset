@@ -63,9 +63,9 @@ TagManager:
   - AutoNode_Enter
   - AutoNode_Exit
   - 
-  - 
-  - 
-  - 
+  - Agent_Nav_Crosswalk
+  - Agent_Nav_Sidewalk
+  - Agent_Nav_Street
   - 
   - 
   - 
