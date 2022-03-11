@@ -2,6 +2,32 @@ using UnityEngine;
 using UnityEngine.AI;
 using System.Collections.Generic;
 
+
+// if (navMeshAuto.velocity != Vector3.zero)
+// {
+//     transform.rotation = Quaternion.LookRotation(navMeshAuto.velocity.normalized);
+
+// SetPath([NotNullAttribute("ArgumentNullException")] NavMeshPath path);
+
+// }
+// for (int i = 0; i < navMeshAuto.path.corners.Length; i++)
+// {
+//     print("Each Corner: " + navMeshAuto.path.corners[i]);
+// }
+
+
+
+// print("Path Next Position: " + navMeshAuto.nextPosition);
+// print("Path EndPosition: " + navMeshAuto.pathEndPosition);
+// print("Path Steering Target: " + navMeshAuto.steeringTarget);
+// print("Velocity: " + navMeshAuto.velocity);
+// print("Path Status: " + navMeshAuto.path.status);
+// print("Velocity: " + navMeshAuto.Move(Vector3 offset));
+// print("Raycast: " + navMeshAuto.Raycast(Vector3 targetPosition, out NavMeshHit hit));
+// print("Path HasPath: " + navMeshAuto.hasPath);
+
+
+
 public class Auto_Navmesh_Controller : MonoBehaviour
 {
     public NavMeshSurface AutoSurfaceBake;
@@ -11,9 +37,10 @@ public class Auto_Navmesh_Controller : MonoBehaviour
     public Vector3 direction;
     public float destinationSensitivity;
     public bool autoDisplayPath = true;
-    public List<Vector3> nodes;
     public int minRange;
     public int maxRange;
+    public int autoCurrentNode;
+
     Vector3 c;
     Vector3 d;
 
@@ -30,18 +57,22 @@ public class Auto_Navmesh_Controller : MonoBehaviour
         AutoSurfaceBake.BuildNavMesh();
     }
 
-
     public void Start()
     {
-
-        int d = Random.Range(0, EnterNodes.Count);
-        nextDest = EnterNodes[d].transform.position;//Set destination location
-        navMeshAuto.SetDestination(nextDest);//Move to destination
-
-
-        for (int i = 0; i < EnterNodes.Count; i++)
+        // int d = Random.Range(0, EnterNodes.Count);
+        // nextDest = EnterNodes[d].transform.position;//Set destination location
+        // //navMeshAuto.SetDestination(nextDest);//Move to destination
+        // navMeshAuto.Move(nextDest);
+        for (int a = 0; a < EnterNodes.Count; a++)
         {
-            nodes.Add(EnterNodes[i].transform.position);
+            Vector3 c = EnterNodes[a].transform.position;
+            float distanceLength = (c - transform.position).magnitude;
+            if (distanceLength < minRange)
+            {
+                navMeshAuto.SetDestination(c);//Move to destination
+                autoCurrentNode = 0;
+            }
+
         }
     }
 
@@ -54,25 +85,9 @@ public class Auto_Navmesh_Controller : MonoBehaviour
         }
         else
         {
-            line.SetVertexCount(0);
+            line.positionCount = 0;
         }
-
-
-
-        for (int i = 0; i < navMeshAuto.path.corners.Length; i++)
-        {
-            print("Each Corner: " + navMeshAuto.path.corners[i]);
-        }
-        print("Path Next Position: " + navMeshAuto.nextPosition);
-        print("Path EndPosition: " + navMeshAuto.pathEndPosition);
-        print("Path Steering Target: " + navMeshAuto.steeringTarget);
-        print("Velocity: " + navMeshAuto.velocity);
-        //print("Path Status: " + navMeshAuto.path.status);
-        //SetPath([NotNullAttribute("ArgumentNullException")] NavMeshPath path);
-        // print("Velocity: " + navMeshAuto.Move(Vector3 offset));
-        //print("Raycast: " + navMeshAuto.Raycast(Vector3 targetPosition, out NavMeshHit hit));
-        // print("Path HasPath: " + navMeshAuto.hasPath);
-
+        SetNextDestination();
     }
 
     public void getPath()
@@ -85,7 +100,7 @@ public class Auto_Navmesh_Controller : MonoBehaviour
     {
         if (path.corners.Length < 2)
             return;
-        line.SetVertexCount(path.corners.Length);
+        line.positionCount = path.corners.Length;
 
         for (var i = 0; i < path.corners.Length; i++)
         {
@@ -119,16 +134,19 @@ public class Auto_Navmesh_Controller : MonoBehaviour
     {
         if (navMeshAuto.remainingDistance < destinationSensitivity)
         {
-            int d = Random.Range(0, EnterNodes.Count);
-            nextDest = EnterNodes[d].transform.position;//Set destination location
-            navMeshAuto.SetDestination(nextDest);//Move to destination
-            if (navMeshAuto.velocity != Vector3.zero)
+            if (autoCurrentNode == 0)
             {
-                navMeshAuto.ResetPath();
-                transform.rotation = Quaternion.LookRotation(navMeshAuto.velocity.normalized);
-
+                int d = Random.Range(0, ExitNodes.Count);
+                nextDest = ExitNodes[d].transform.position;//Set destination location
+                autoCurrentNode = 1;
             }
-
+            else
+            {
+                int d = Random.Range(0, EnterNodes.Count);
+                nextDest = EnterNodes[d].transform.position;//Set destination location
+                autoCurrentNode = 0;
+            }
+            navMeshAuto.SetDestination(nextDest);//Move to destination
         }
     }
 }
