@@ -1,47 +1,96 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using System.Collections.Generic;
+
 
 
 public class Auto_NavNode_Controller : MonoBehaviour
 {
-    public NavMeshAgent navMeshAuto;
-    public GameObject CurrrentNode;
+    public NavMeshAgent navmeshAuto;
+    public NavMeshSurface navmeshBaker;
+    public GameObject currentnode;
+    public GameObject nextNode;
+    public List<GameObject> Neighbors;
+    public bool stopped;
+    public bool ReduceTraffic;
 
-    public GameObject NextNode;
-
-    public List<GameObject> Neighbors = new List<GameObject>();
-
-
-    public void Start()
+    private void Awake()
     {
-
+        navmeshBaker.BuildNavMesh();
     }
 
-    public void SetupNode(GameObject _current_node, List<GameObject> _neighbor_nodes)
+    public void OnTriggerEnter(Collider other)
     {
-        CurrrentNode = _current_node;
-        Neighbors.AddRange(_neighbor_nodes);
-        FindOptions();
-    }
-
-    public void FindOptions()
-    {
-        for (int i = 0; i < Neighbors.Count; i++)
+        if (other.tag == "Node")
         {
-            if (Neighbors[i] != null)
+            currentnode = other.gameObject;
+            print("Auto Sees Node: ");
+
+
+
+            Neighbors.AddRange(other.GetComponent<NodeScript>().neighbors);
+            print("Amount of Neighbors: " + Neighbors.Count);
+            int _selectDirection = Random.Range(0, Neighbors.Count);
+            print("Neighbor Selected: " + _selectDirection);
+            nextNode = Neighbors[_selectDirection];
+            if (nextNode.layer == 7)//Blueline node
             {
-                Neighbors.Add(Neighbors[i]);
+                //navmeshAuto.agentTypeID = ;
             }
+            if (nextNode.layer == 8)//Redline node
+            {
+                //navmeshAuto.agentTypeID = ;
+            }
+            if (currentnode.layer == 0 && ReduceTraffic == true)//Despaen Node
+            {
+                Destroy(this.gameObject);
+            }
+            print("NextNode: " + nextNode);
         }
-        ChoosePath();
     }
 
-    public void ChoosePath()
+    private void OnTriggerExit(Collider other)
     {
-        int n = Random.Range(0, Neighbors.Count);
-        NextNode = Neighbors[n];
-        navMeshAuto.SetDestination(NextNode.transform.position);
+        Neighbors.Clear();
     }
 
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Agent" || other.gameObject.tag == "Auto")
+        {
+
+            stopped = true;
+            print(stopped);
+        }
+    }
+
+    private void OnCollisionExit(Collision other)
+    {
+
+        stopped = false;
+        print(stopped);
+    }
+
+    private void FixedUpdate()
+    {
+        Drive();
+
+    }
+
+    private void Drive()
+    {
+        if (stopped)
+        {
+            print("Stopping");
+            // this.GetComponent<Rigidbody>().velocity = this.GetComponent<Rigidbody>().velocity - (Vector3.one * .5f);
+            navmeshAuto.velocity.Set(0f, 0f, 0f);
+        }
+        else
+        {
+            print("Driving");
+            // this.GetComponent<Rigidbody>().MovePosition(transform.position + (transform.forward * speed * Time.deltaTime));
+            navmeshAuto.SetDestination(nextNode.transform.position);
+        }
+    }
 }

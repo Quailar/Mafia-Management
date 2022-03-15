@@ -43,13 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72ba19d05aedf0e468a83e6190407296, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AgentTypeID: 1135425739
+  m_AgentTypeID: -1595187518
   m_CollectObjects: 0
   m_Size: {x: 10, y: 10, z: 10}
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
     serializedVersion: 2
-    m_Bits: 344064
+    m_Bits: 128
   m_UseGeometry: 0
   m_DefaultArea: 0
   m_IgnoreNavMeshAgent: 1
