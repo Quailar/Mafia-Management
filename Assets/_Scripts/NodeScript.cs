@@ -8,7 +8,7 @@ public class NodeScript : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        if (gameObject.layer == 7)//Blueline Layer
+        if (gameObject.layer == 7 || gameObject.layer == 6)//Blueline Layer
         {
             foreach (GameObject nextNode in neighbors)
             {
@@ -21,14 +21,9 @@ public class NodeScript : MonoBehaviour
         {
             foreach (GameObject nextNode in neighbors)
             {
-
                 Gizmos.color = Color.red;
                 Gizmos.DrawLine(transform.position, nextNode.transform.position);
-                //Gizmos.DrawIcon(nextNode.transform.position, "d_tab_next@2x", true, Color.yellow);
-
             }
         }
-
     }
-
 }
