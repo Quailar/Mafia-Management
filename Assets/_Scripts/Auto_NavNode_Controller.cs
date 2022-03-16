@@ -86,7 +86,9 @@ public class Auto_NavNode_Controller : MonoBehaviour
         }
         else
         {
+
             navmeshAuto.SetDestination(nextNode.transform.position);
+
         }
     }
 }
