@@ -8,10 +8,6 @@ public class Auto_Navigation_Display : MonoBehaviour
 {
     //public MapConfiguration MapController;
 
-    public List<GameObject> Nav_Links = new List<GameObject>();
-    public Material Nav_Links_ON;
-    public Material Nav_Links_OFF;
-
     public List<GameObject> Nav_Roads = new List<GameObject>();
     public Material Nav_Roads_ON;
     public Material Nav_Roads_OFF;
@@ -66,10 +62,7 @@ public class Auto_Navigation_Display : MonoBehaviour
                     obj.GetComponent<Renderer>().material = Nav_Roads_ON;
                 }
 
-                foreach (GameObject obj in Nav_Links)//For each road object swap material
-                {
-                    obj.GetComponent<Renderer>().material = Nav_Links_ON;
-                }
+
             }
             else//If Navigation display variable is true
             {
@@ -79,17 +72,13 @@ public class Auto_Navigation_Display : MonoBehaviour
                     obj.GetComponent<Renderer>().material = Nav_Roads_OFF;
                 }
 
-                foreach (GameObject obj in Nav_Links)//For each road object swap material
-                {
-                    obj.GetComponent<Renderer>().material = Nav_Links_OFF;
-                }
             }
         }
         else//If spawn points array is empty
         {
-            Nav_Roads.AddRange(GameObject.FindGameObjectsWithTag("TAG:Auto_Road_Nav"));//load auto nav road 
-            Nav_Links.AddRange(GameObject.FindGameObjectsWithTag("TAG:Auto_Link_Nav"));//load auto nav links
-
+            Nav_Roads.AddRange(GameObject.FindGameObjectsWithTag("TAG:Road"));//load auto nav road 
+            Nav_Roads.AddRange(GameObject.FindGameObjectsWithTag("TAG:IntersectionCrossing"));//load auto nav road 
+            Nav_Roads.AddRange(GameObject.FindGameObjectsWithTag("TAG:IntersectionCenter"));//load auto nav road 
             if (!GameData.NavigationDisplayActive)//If Navigation display variable is false
             {
                 GameData.NavigationDisplayActive = true;//Navigation display is true
@@ -98,10 +87,7 @@ public class Auto_Navigation_Display : MonoBehaviour
                     obj.GetComponent<Renderer>().material = Nav_Roads_ON;
                 }
 
-                foreach (GameObject obj in Nav_Links)//For each road object swap material
-                {
-                    obj.GetComponent<Renderer>().material = Nav_Links_ON;
-                }
+
             }
             else//If Navigation display variable is true
             {
@@ -109,11 +95,6 @@ public class Auto_Navigation_Display : MonoBehaviour
                 foreach (GameObject obj in Nav_Roads)//For each road object swap material
                 {
                     obj.GetComponent<Renderer>().material = Nav_Roads_OFF;
-                }
-
-                foreach (GameObject obj in Nav_Links)//For each road object swap material
-                {
-                    obj.GetComponent<Renderer>().material = Nav_Links_OFF;
                 }
             }
         }

@@ -65,6 +65,10 @@ TagManager:
   - Neighborhood_Block_Coor
   - HQ_Block_Coor
   - LineRenderer
+  - TrafficLightNorthSouth
+  - TrafficLightEastWest
+  - TrafficLightManager
+  - Building_Coor
   layers:
   - Default
   - TransparentFX

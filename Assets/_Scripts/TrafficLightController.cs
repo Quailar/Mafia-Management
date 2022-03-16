@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
+using UnityEngine.AI;
 public class TrafficLightController : MonoBehaviour
 {
 
-    public List<GameObject> trafficPoles;
+    public List<GameObject> trafficPolesNorthSouth;
+    public List<GameObject> trafficPolesEastWest;
     public List<GameObject> redTrafficLightsNorthSouth;
     public List<GameObject> greenTrafficLightsNorthSouth;
     public List<GameObject> yellowTrafficLightsNorthSouth;
@@ -21,32 +22,27 @@ public class TrafficLightController : MonoBehaviour
     public int trafficSignalEastWest;
     public int dirSwitch = 0;
 
-
-
     public int GreenLightTimer;
     public int YellowLightTimer;
     public int RedLightTimer;
 
-    bool RedLightNorthSouth_ON;
-    bool YellowLightNorthSouth_ON;
-    bool GreenLightNorthSouth_ON;
-    bool RedLightEastWest_ON;
-    bool YellowLightEastWest_ON;
-    bool GreenLightEastWest_ON;
-
+    public bool RedLightNorthSouth_ON;
+    public bool YellowLightNorthSouth_ON;
+    public bool GreenLightNorthSouth_ON;
+    public bool RedLightEastWest_ON;
+    public bool YellowLightEastWest_ON;
+    public bool GreenLightEastWest_ON;
 
     public List<GameObject> streetLamps;
     public List<GameObject> streetLampBulb;
     public List<GameObject> streetLampPointLight;
     public List<GameObject> streetLampSpotLight;
 
-
-
-
-
     private void Awake()
     {
-        trafficPoles.AddRange(GameObject.FindGameObjectsWithTag("TAG:TrafficLight"));
+        trafficPolesNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TrafficLightNorthSouth"));
+        trafficPolesEastWest.AddRange(GameObject.FindGameObjectsWithTag("TrafficLightEastWest"));
+
 
         redTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TAG:RedLightLampNorthSouth"));
         greenTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TAG:GreenLightLampNorthSouth"));
@@ -62,12 +58,14 @@ public class TrafficLightController : MonoBehaviour
         streetLampSpotLight.AddRange(GameObject.FindGameObjectsWithTag("TAG:StreetLampSpotLight"));
     }
 
+
+
     // Update is called once per frame
-    void LateUpdate()
+    public void LateUpdate()
     {
         Timer(dirSwitch);
     }
-    void Timer(int signal)
+    public void Timer(int signal)
     {
         if (dirSwitch == 0)
         {
@@ -124,7 +122,7 @@ public class TrafficLightController : MonoBehaviour
 
 
 
-    void CheckLight()
+    public void CheckLight()
     {
         if (RedLightNorthSouth_ON)
         {

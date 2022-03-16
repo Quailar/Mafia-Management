@@ -17,7 +17,7 @@ public partial class GameData : MonoBehaviour
 
     public List<GameObject> HQ_BLOCK_COORDINATES = new List<GameObject>();
     public List<GameObject> NEIGHBORHOOD_BLOCK_COORDINATES = new List<GameObject>();
-    public List<GameObject> NEIGHBORHOOD_BUILDINGS = new List<GameObject>();
+    public List<GameObject> NEIGHBORHOOD_BUILDING_COORDINATES = new List<GameObject>();
 
 
     [Header("Prefab Objects")]
@@ -25,6 +25,7 @@ public partial class GameData : MonoBehaviour
     public List<GameObject> PREFAB_CENTER_BLOCKS = new List<GameObject>();
     public List<GameObject> PREFAB_HQ_BLOCKS = new List<GameObject>();
     public List<GameObject> PREFAB_NEIGHBORHOOD_BLOCKS = new List<GameObject>();
+    public List<GameObject> PREFAB_BUILDINGS = new List<GameObject>();
     public List<GameObject> PREFAB_AUTOS = new List<GameObject>();
     public List<GameObject> PREFAB_AGENTS = new List<GameObject>();
 

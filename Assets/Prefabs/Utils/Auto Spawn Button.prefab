@@ -92,7 +92,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.1
+  m_fontSize: 26.85
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -148,7 +148,6 @@ GameObject:
   - component: {fileID: 4862853215701819188}
   - component: {fileID: 4040034094519373065}
   - component: {fileID: 1775670988852084177}
-  - component: {fileID: 7872109422931071141}
   m_Layer: 0
   m_Name: Auto Spawn Button
   m_TagString: Untagged
@@ -308,19 +307,3 @@ MonoBehaviour:
           m_StringArgument: Civilian
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7872109422931071141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8597889184451652398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b2a09b85c680b84ab53a7122d3f7b41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameData: {fileID: 0}
-  AGENT_SPAWN_POINT: []
-  AUTO_SPAWN_POINT: []
-  AUTO_DESPAWN_POINT: []

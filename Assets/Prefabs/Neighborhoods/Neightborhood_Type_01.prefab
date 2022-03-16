@@ -29,8 +29,8 @@ Transform:
   m_Children:
   - {fileID: 769699625588291215}
   - {fileID: 4696969932613193047}
-  - {fileID: 4476456169524044089}
   - {fileID: 973326503062131718}
+  - {fileID: 4476456169524044089}
   m_Father: {fileID: 769699626176842703}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2621,7 +2621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:TrafficLight
+      value: TrafficLightEastWest
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder
@@ -3972,6 +3972,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 769699624745331396}
     m_Modifications:
+    - target: {fileID: 6617445098116802009, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
+      propertyPath: m_Center.x
+      value: -2.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 6617445098116802009, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
+      propertyPath: m_Center.y
+      value: 1.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6617445098116802009, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
+      propertyPath: m_Center.z
+      value: 2.85
+      objectReference: {fileID: 0}
     - target: {fileID: 7732156185676058225, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
       value: TAG:YellowLightLampNorthSouth
@@ -3994,11 +4006,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:TrafficLight
+      value: TrafficLightNorthSouth
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4400,7 +4412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:TrafficLight
+      value: TrafficLightEastWest
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder
@@ -4614,11 +4626,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:TrafficLight
+      value: TrafficLightNorthSouth
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_LocalPosition.x

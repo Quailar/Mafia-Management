@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4918277445846008416}
   m_Layer: 0
   m_Name: NeightborhoodBlueprint_02
-  m_TagString: Untagged
+  m_TagString: TAG:RedLightLamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,8 +165,12 @@ PrefabInstance:
       value: Building_01 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
@@ -231,8 +235,12 @@ PrefabInstance:
       value: Building_01
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
@@ -297,8 +305,12 @@ PrefabInstance:
       value: Building_01 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
@@ -363,8 +375,12 @@ PrefabInstance:
       value: Building_01 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
@@ -429,8 +445,12 @@ PrefabInstance:
       value: Building_01 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
@@ -495,8 +515,12 @@ PrefabInstance:
       value: Building_01 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
@@ -561,8 +585,12 @@ PrefabInstance:
       value: Building_01 (11)
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
@@ -627,8 +655,12 @@ PrefabInstance:
       value: Building_01 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
@@ -693,8 +725,12 @@ PrefabInstance:
       value: Building_01 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
@@ -759,8 +795,12 @@ PrefabInstance:
       value: Building_01 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
@@ -825,8 +865,12 @@ PrefabInstance:
       value: Building_01 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
@@ -891,8 +935,12 @@ PrefabInstance:
       value: Building_01 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751742594202815916, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Building_Coor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cce3bad4eca40b41a1515571c0c8fe8, type: 3}

@@ -6,6 +6,7 @@ public class Auto_NavNode_Controller : MonoBehaviour
 {
     //Navmesh used for movement
     public NavMeshAgent navmeshAuto;
+    public TrafficLightController trafficController;
 
     public GameObject currentnode;
 
@@ -15,10 +16,36 @@ public class Auto_NavNode_Controller : MonoBehaviour
 
     public bool isStopped;
 
+    public bool signal;
+
+
+    private void Start()
+    {
+        trafficController = GameObject.FindGameObjectWithTag("TrafficLightManager").GetComponent<TrafficLightController>();
+    }
 
     public void OnTriggerEnter(Collider other)
     {
 
+
+
+        // if (other.tag == "TrafficLightNorthSouth")
+        // {
+        //     if (trafficController.RedLightNorthSouth_ON)
+        //     {
+        //         print(other.tag);
+        //     }
+        // }
+
+
+        // if (other.tag == "TrafficLightEastWest")
+        // {
+        //     if (trafficController.RedLightEastWest_ON)
+        //     {
+        //         print(other.tag);
+        //     }
+
+        // }
 
         if (other.tag == "Auto_Node_Red" || other.tag == "Auto_Node_Blue")
         {
@@ -67,6 +94,8 @@ public class Auto_NavNode_Controller : MonoBehaviour
         {
             isStopped = true;
         }
+
+
     }
 
     private void OnCollisionExit(Collision other)

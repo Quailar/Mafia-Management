@@ -1155,7 +1155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:TrafficLight
+      value: TrafficLightEastWest
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder
@@ -4620,7 +4620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:TrafficLight
+      value: TrafficLightNorthSouth
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder
@@ -4834,7 +4834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:TrafficLight
+      value: TrafficLightEastWest
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder
@@ -5376,7 +5376,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:TrafficLight
+      value: TrafficLightNorthSouth
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder

@@ -10,6 +10,7 @@ public class MapConfiguration : MonoBehaviour
     public GameObject NeighborhoodInstanceFolder;
     public GameObject CenterBlockInstanceFolder;
     public GameObject HQBlockInstanceFolder;
+    public GameObject BuildingInstanceFolder;
 
 
 
@@ -29,6 +30,7 @@ public class MapConfiguration : MonoBehaviour
         SetCenterBlock();
         SetHQBlock();
         SetNeighborhoodBlocks();
+        SetBuildings();
     }
 
     public void ActivateGameMap(string size)
@@ -88,6 +90,18 @@ public class MapConfiguration : MonoBehaviour
             int randomNeighborhoodBlock = Random.Range(0, gameData.PREFAB_NEIGHBORHOOD_BLOCKS.Count);//Get random NEIGHBORHOOD block prefab
             GameObject spawnNeighborhoodBuilding = Instantiate(gameData.PREFAB_NEIGHBORHOOD_BLOCKS[randomNeighborhoodBlock], coordinate.transform.position, Quaternion.identity);//Spawn random NEIGHBORHOOD clock to map center block
             spawnNeighborhoodBuilding.transform.parent = NeighborhoodInstanceFolder.transform;//Store in Parent object at runtime
+        }
+    }
+
+    private void SetBuildings()
+    {
+        gameData.NEIGHBORHOOD_BUILDING_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Building_Coor"));
+
+        foreach (GameObject coordinate in gameData.NEIGHBORHOOD_BUILDING_COORDINATES)
+        {
+            int randomBuilding = Random.Range(0, gameData.PREFAB_BUILDINGS.Count);//Get random BUILDING block prefab
+            GameObject spawnBuilding = Instantiate(gameData.PREFAB_BUILDINGS[randomBuilding], coordinate.transform.position, coordinate.transform.rotation);//Spawn random NEIGHBORHOOD clock to map center block
+            spawnBuilding.transform.parent = BuildingInstanceFolder.transform;//Store in Parent object at runtime
         }
     }
 }
