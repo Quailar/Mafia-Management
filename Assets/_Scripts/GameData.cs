@@ -8,7 +8,7 @@ using System.Collections.Generic;
 public partial class GameData : MonoBehaviour
 {
     [Header("Navmesh Bakes")]
-    public List<NavMeshSurface> NAVMESH_AGENT = new List<NavMeshSurface>();
+    public NavMeshSurface NAVMESH_AGENT;
     public NavMeshSurface NAVMESH_AUTO;
 
 
@@ -44,6 +44,7 @@ public partial class GameData : MonoBehaviour
     private void Start()
     {
         NAVMESH_AUTO.BuildNavMesh();
+        NAVMESH_AGENT.BuildNavMesh();
         print("NavMesh Building..");
     }
 }

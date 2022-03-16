@@ -58,6 +58,8 @@ TagManager:
   - Auto_Node
   - Node
   - NavMeshAuto_Surface
+  - Auto
+  - Agent_Spawn
   layers:
   - Default
   - TransparentFX

@@ -18,7 +18,7 @@ public class Auto_NavNode_Controller : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        Neighbors.Clear();
+
 
         if (other.tag == "Auto_Node_Red" || other.tag == "Auto_Node_Blue")
         {
@@ -53,6 +53,7 @@ public class Auto_NavNode_Controller : MonoBehaviour
 
     private void FindNextNode(Collider other)
     {
+        Neighbors.Clear();
         currentnode = other.gameObject;
         Neighbors.AddRange(other.GetComponent<NodeScript>().neighbors);
         int _selectDirection = Random.Range(0, Neighbors.Count);
@@ -75,20 +76,21 @@ public class Auto_NavNode_Controller : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Drive();
+        if (nextNode != null)
+        {
+            Drive();
+        }
     }
 
     private void Drive()
     {
-        if (isStopped)
+        if (!isStopped)
         {
-            navmeshAuto.velocity.Set(0f, 0f, 0f);
+            navmeshAuto.SetDestination(nextNode.transform.position);
         }
         else
         {
-
-            navmeshAuto.SetDestination(nextNode.transform.position);
-
+            navmeshAuto.velocity.Set(0f, 0f, 0f);
         }
     }
 }

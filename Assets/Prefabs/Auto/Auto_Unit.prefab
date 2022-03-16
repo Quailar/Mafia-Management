@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8469493973530486210}
   - component: {fileID: 1709279314124013554}
   - component: {fileID: 1800739156}
+  - component: {fileID: 5782991635238548486}
   m_Layer: 0
   m_Name: Auto_Unit
-  m_TagString: Untagged
+  m_TagString: Auto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +75,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.42, y: 1, z: 3.07}
+  m_Size: {x: 1.26, y: 1, z: 2.47}
   m_Center: {x: -0.03, y: 0.5, z: 0.06}
 --- !u!195 &1709279314124013554
 NavMeshAgent:
@@ -97,7 +98,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  m_ObstacleAvoidanceType: 1
 --- !u!114 &1800739156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,6 +116,41 @@ MonoBehaviour:
   nextNode: {fileID: 0}
   Neighbors: []
   isStopped: 0
+--- !u!114 &5782991635238548486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317262674464345251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f0b381156e408489b9919742a084d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navMeshAuto: {fileID: 1709279314124013554}
+  autoUnitSO: {fileID: 0}
+  AUTO_UNIT_SO_LIST:
+  - {fileID: 11400000, guid: 51fa3dce29d9da34caeb38e8a2f3328c, type: 2}
+  autoBodys:
+  - {fileID: 1334338091521808049}
+  - {fileID: 614911884564161514}
+  - {fileID: 4003640110230358324}
+  - {fileID: 8829436525566926844}
+  - {fileID: 2823361495904191441}
+  autoHeadLamps:
+  - {fileID: 721103963348943766}
+  - {fileID: 7252865649748984324}
+  autoHeadLights:
+  - {fileID: 7681568485852760784}
+  - {fileID: 7820298183669240282}
+  autoHeadLamps_ON: {fileID: 2100000, guid: 3333e71da839c854187d795a22a55644, type: 2}
+  autoHeadLamps_OFF: {fileID: 2100000, guid: 6de1b84e15857af408e34b6a4287b4b6, type: 2}
+  autoBreakLamps:
+  - {fileID: 3893862419199911816}
+  - {fileID: 7510154178679083138}
+  autoBreakLamps_ON: {fileID: 2100000, guid: 0a6641307aaeab94eb930f4a55495a86, type: 2}
+  autoBreakLamps_OFF: {fileID: 2100000, guid: 75f8deb9c1da20744a468df3da5467a9, type: 2}
 --- !u!1 &614911884564161514
 GameObject:
   m_ObjectHideFlags: 0

@@ -31,8 +31,6 @@ public class Agent_Navmesh_Controller : MonoBehaviour
             navMeshAgent.SetDestination(DOOR_NAV_POINT_LIST[d].transform.position);//move agent
         }
 
-
-
         if (GameData.agentDisplayPath)
         {
             getPath();

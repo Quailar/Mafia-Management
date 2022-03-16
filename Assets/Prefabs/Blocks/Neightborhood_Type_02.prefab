@@ -34,36 +34,6 @@ Transform:
   m_Father: {fileID: 3884006152192421202}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3681833151455696993
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3063811065203366972}
-  m_Layer: 0
-  m_Name: AutoSpawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3063811065203366972
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3681833151455696993}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.488092, y: 1.0290126, z: -10.637412}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3884006152192421202}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3884006150874849265
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +313,6 @@ Transform:
   - {fileID: 3884006150874849270}
   - {fileID: 3884006151098778038}
   - {fileID: 7153539771484273649}
-  - {fileID: 3063811065203366972}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1146,6 +1115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Agent_SpawnPoint
       objectReference: {fileID: 0}
+    - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
+      propertyPath: m_TagString
+      value: Agent_Spawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
 --- !u!4 &3082344976671226955 stripped
@@ -1472,7 +1445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
       propertyPath: m_TagString
-      value: TAG:AgentSpawnPoint
+      value: Agent_Spawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
@@ -1890,7 +1863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
       propertyPath: m_TagString
-      value: TAG:AgentSpawnPoint
+      value: Agent_Spawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
@@ -2642,14 +2615,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
---- !u!4 &8006966771068968100 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6555190327018929712, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
-  m_PrefabInstance: {fileID: 3884006151018652308}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8006966771068968099 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
+  m_PrefabInstance: {fileID: 3884006151018652308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8006966771068968100 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6555190327018929712, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
   m_PrefabInstance: {fileID: 3884006151018652308}
   m_PrefabAsset: {fileID: 0}
 --- !u!208 &3133305250150400869
@@ -3188,14 +3161,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
---- !u!4 &8006966772285760687 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6555190327018929712, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
-  m_PrefabInstance: {fileID: 3884006152001346207}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8006966772285760680 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
+  m_PrefabInstance: {fileID: 3884006152001346207}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8006966772285760687 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6555190327018929712, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
   m_PrefabInstance: {fileID: 3884006152001346207}
   m_PrefabAsset: {fileID: 0}
 --- !u!208 &7611316813034502971
@@ -5603,7 +5576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
       propertyPath: m_TagString
-      value: TAG:AgentSpawnPoint
+      value: Agent_Spawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}

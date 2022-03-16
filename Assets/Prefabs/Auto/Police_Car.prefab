@@ -94,6 +94,8 @@ GameObject:
   - component: {fileID: 4106358793361035608}
   - component: {fileID: -6177133196793762401}
   - component: {fileID: 3367393927458659393}
+  - component: {fileID: -584921519683322809}
+  - component: {fileID: 325789437750135537}
   m_Layer: 0
   m_Name: Police_Car
   m_TagString: Untagged
@@ -274,6 +276,51 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &-584921519683322809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2751190606707178459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c150de6b291ab4e9b65ac5496a3637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navMeshAuto: {fileID: 0}
+  autoUnitSO: {fileID: 0}
+  AUTO_UNIT_SO_LIST: []
+  autoBodys: []
+  autoHeadLamps: []
+  autoHeadLights: []
+  autoHeadLamps_ON: {fileID: 0}
+  autoHeadLamps_OFF: {fileID: 0}
+  autoBreakLamps: []
+  autoBreakLamps_ON: {fileID: 0}
+  autoBreakLamps_OFF: {fileID: 0}
+  Alarm: 0
+  PoliceAlarmLamps: []
+  policeAlarmBlueLamp_ON: {fileID: 0}
+  policeAlarmRedLamp_ON: {fileID: 0}
+  policeAlarmLamp_OFF: {fileID: 0}
+--- !u!114 &325789437750135537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2751190606707178459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451547c6707222d428619392547d60be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navmeshAuto: {fileID: 0}
+  currentnode: {fileID: 0}
+  nextNode: {fileID: 0}
+  Neighbors: []
+  isStopped: 0
 --- !u!1 &2825496193324212079
 GameObject:
   m_ObjectHideFlags: 0

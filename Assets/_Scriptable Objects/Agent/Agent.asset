@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a516aa9cd1763aa4b9321e52eb0f2134, type: 3}
+  m_Script: {fileID: 11500000, guid: 925c7111b70f85e408b02154817b9237, type: 3}
   m_Name: Agent
   m_EditorClassIdentifier: 
   ID: 0
@@ -23,24 +23,24 @@ MonoBehaviour:
   Position: {x: 0, y: 0, z: 0}
   WayPoint: {x: 0, y: 0, z: 0}
   Destination: {x: 0, y: 0, z: 0}
-  CurrentHitPoints: 119
-  MaxHitPoints: 119
-  Strength: 3
-  Intelligence: 2
-  Speed: 6
-  Stamina: 1
-  Driving: 4
-  Unarmed: 6
-  FireArms: 2
-  Explosives: 7
-  Dodge: 8
-  Stealth: 5
-  Charisma: 3
-  TotalStats: 165
-  CostToHire: 990
-  PricePerMonth: 99
+  CurrentHitPoints: 101
+  MaxHitPoints: 101
+  Strength: 9
+  Intelligence: 8
+  Speed: 4
+  Stamina: 3
+  Driving: 8
+  Unarmed: 9
+  FireArms: 1
+  Explosives: 5
+  Dodge: 6
+  Stealth: 4
+  Charisma: 6
+  TotalStats: 161
+  CostToHire: 644
+  PricePerMonth: 64.4
   TeamName: Agent
-  Rank: 
+  Rank: 1
   TeamAbility: 
   TeamRelations: 0100000003000000050000000700000009000000
   isLuitenant: 0

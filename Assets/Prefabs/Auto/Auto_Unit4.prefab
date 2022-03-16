@@ -268,6 +268,8 @@ GameObject:
   - component: {fileID: 7500308617197738776}
   - component: {fileID: -8978224562644137492}
   - component: {fileID: -7599940495332075145}
+  - component: {fileID: -2971715330173700272}
+  - component: {fileID: 3713477333598620295}
   m_Layer: 0
   m_Name: Auto_Unit4
   m_TagString: Untagged
@@ -451,6 +453,46 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &-2971715330173700272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029146374904268122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f0b381156e408489b9919742a084d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navMeshAuto: {fileID: 0}
+  autoUnitSO: {fileID: 0}
+  AUTO_UNIT_SO_LIST: []
+  autoBodys: []
+  autoHeadLamps: []
+  autoHeadLights: []
+  autoHeadLamps_ON: {fileID: 0}
+  autoHeadLamps_OFF: {fileID: 0}
+  autoBreakLamps: []
+  autoBreakLamps_ON: {fileID: 0}
+  autoBreakLamps_OFF: {fileID: 0}
+--- !u!114 &3713477333598620295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029146374904268122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451547c6707222d428619392547d60be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navmeshAuto: {fileID: 0}
+  currentnode: {fileID: 0}
+  nextNode: {fileID: 0}
+  Neighbors: []
+  isStopped: 0
 --- !u!1 &2619987664984892076
 GameObject:
   m_ObjectHideFlags: 0
