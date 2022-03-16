@@ -60,6 +60,11 @@ TagManager:
   - NavMeshAuto_Surface
   - Auto
   - Agent_Spawn
+  - DOOR_NAV_POINT
+  - Center_Block_Coor
+  - Neighborhood_Block_Coor
+  - HQ_Block_Coor
+  - LineRenderer
   layers:
   - Default
   - TransparentFX
@@ -71,11 +76,11 @@ TagManager:
   - 
   - 
   - 
-  - Agent_Nav_Crosswalk
+  - 
   - Agent_Nav_Sidewalk
   - Agent_Nav_Street
   - 
-  - 
+  - Dual_Nav_Crosswalk
   - Auto_Nav_Layer
   - Auto_Node_Blueline
   - Auto_Node_Redline

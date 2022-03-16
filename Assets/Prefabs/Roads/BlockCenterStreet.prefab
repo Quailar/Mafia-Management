@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 855509949573608010}
   - component: {fileID: 855509949573608004}
   - component: {fileID: 855509949573608005}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BlockCenterStreet
   m_TagString: TAG:BlockCenterStreet
   m_Icon: {fileID: 0}

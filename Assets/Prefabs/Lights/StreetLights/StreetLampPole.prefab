@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8391528391728669460}
   - component: {fileID: 8391528391728669459}
   - component: {fileID: 8391528391728669458}
-  - component: {fileID: 7300393827450698073}
   m_Layer: 0
   m_Name: StreetLampPole
   m_TagString: TAG:StreetLampPole
@@ -83,22 +82,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!208 &7300393827450698073
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8391528391728669457}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.277, y: 2.7020001, z: 1.213}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 2.7020001, z: 1.0300001}
-  m_TimeToStationary: 0.5
 --- !u!1001 &1504739686973945023
 PrefabInstance:
   m_ObjectHideFlags: 0

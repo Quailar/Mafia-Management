@@ -6,6 +6,14 @@ public class MapConfiguration : MonoBehaviour
 {
 
     public GameData gameData;
+    public GameObject MapInstanceFolder;
+    public GameObject NeighborhoodInstanceFolder;
+    public GameObject CenterBlockInstanceFolder;
+    public GameObject HQBlockInstanceFolder;
+
+
+
+
     [Tooltip("Zero is no city block rotation")]//Rotating city blocks increases navigation issues
     [Range(0, 1)]//Multiplier for ratation
     public int Rotation_Switch;//Toggle switch to enable rotation
@@ -13,16 +21,16 @@ public class MapConfiguration : MonoBehaviour
 
     private void Awake()
     {
-        //StartCoroutine(MapSetup());
         ActivateGameMap(GameData.MapSize);//Map size set in options menu
-        SetCenterBlock();
-        SetCityBlocks();
-        UpdateNavMesh();
     }
-    // IEnumerator MapSetup()
-    // {
+    private void Start()
+    {
 
-    // }
+        SetCenterBlock();
+        SetHQBlock();
+        SetNeighborhoodBlocks();
+    }
+
     public void ActivateGameMap(string size)
     {
         switch (size)
@@ -41,57 +49,45 @@ public class MapConfiguration : MonoBehaviour
                 break;
         }
 
-        if (GameData.GAME_MAP != null)
-        {
-            Instantiate(GameData.GAME_MAP, Vector3.zero, Quaternion.identity);
-        }
+
+        GameObject spawnMap = Instantiate(GameData.GAME_MAP, Vector3.zero, Quaternion.identity);
+        spawnMap.transform.parent = MapInstanceFolder.transform;
+
     }
 
     private void SetCenterBlock()
     {
-        gameData.CITY_CENTER_BLOCK_COORDINATE.Add(GameObject.FindGameObjectWithTag("TAG:Block_Center_Coordinate"));
-        int randomCenterBlock = Random.Range(0, gameData.PREFAB_CENTER_BLOCKS.Count);//Get random center block prefab
-        GameObject spawnCenterBuilding = Instantiate(gameData.PREFAB_CENTER_BLOCKS[randomCenterBlock], gameData.CITY_CENTER_BLOCK_COORDINATE[0].transform.position, Quaternion.identity);//Spawn random center clock to map center block
-        spawnCenterBuilding.transform.parent = gameObject.transform;//Store in Parent object at runtime
-    }
+        gameData.CENTER_BLOCK_COORDINATES.Add(GameObject.FindGameObjectWithTag("Center_Block_Coor"));
 
-    private void SetCityBlocks()
-    {
-        gameData.CITY_NEIGHBORHOOD_BLOCK_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("TAG:Block_Coordinates"));
-        for (int i = 0; i < gameData.CITY_NEIGHBORHOOD_BLOCK_COORDINATES.Count; i++)//For each city block coordinate on map
+        foreach (GameObject coordinate in gameData.CENTER_BLOCK_COORDINATES)
         {
-            int randomDirection = Random.Range(0, 3) * Rotation_Switch;//Get random rotation of city block.  Rotation switch multipler used to disable
-            if (randomDirection == 0)
-            {
-                deg = 0;
-            }
-            else if (randomDirection == 1)
-            {
-                deg = 90;
-            }
-            else if (randomDirection == 2)
-            {
-                deg = 180;
-            }
-            else if (randomDirection == 3)
-            {
-                deg = 270;
-            }
-
-            Vector3 SpawnLocation = gameData.CITY_NEIGHBORHOOD_BLOCK_COORDINATES[i].transform.position;//Get city block map location
-            int randomCityBlock = Random.Range(0, gameData.PREFAB_CITY_BLOCKS.Count);//Get random prfab city block
-            GameObject spawnBuilding = Instantiate(gameData.PREFAB_CITY_BLOCKS[randomCityBlock], SpawnLocation, Quaternion.Euler(new Vector3(0, deg, 0)));//Spawn random city block to map block coordinate
-            spawnBuilding.transform.parent = gameObject.transform;//Store in Parent object at runtime
+            int randomCenterBlock = Random.Range(0, gameData.PREFAB_CENTER_BLOCKS.Count);//Get random center block prefab
+            GameObject spawnCenterBuilding = Instantiate(gameData.PREFAB_CENTER_BLOCKS[randomCenterBlock], gameData.CENTER_BLOCK_COORDINATES[0].transform.position, Quaternion.identity);//Spawn random center clock to map center block
+            spawnCenterBuilding.transform.parent = CenterBlockInstanceFolder.transform;//Store in Parent object at runtime
         }
     }
 
-    public void UpdateNavMesh()//Build all five navmeshes 
+    private void SetHQBlock()
     {
-        // gameData.NAVMESH_AGENT[0].BuildNavMesh();
-        // gameData.NAVMESH_AUTO[0].BuildNavMesh();
-        // gameData.NAVMESH_AUTO[1].BuildNavMesh();
-        // gameData.NAVMESH_AUTO[2].BuildNavMesh();
-        // gameData.NAVMESH_AUTO[3].BuildNavMesh();
-        // gameData.NAVMESH_AUTO[4].BuildNavMesh();
+        gameData.HQ_BLOCK_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("HQ_Block_Coor"));
+
+        foreach (GameObject coordinate in gameData.HQ_BLOCK_COORDINATES)
+        {
+            int randomHQBlock = Random.Range(0, gameData.PREFAB_HQ_BLOCKS.Count);//Get random HQ block prefab
+            GameObject spawnHQBuilding = Instantiate(gameData.PREFAB_HQ_BLOCKS[randomHQBlock], coordinate.transform.position, Quaternion.identity);//Spawn random HQ clock to map center block
+            spawnHQBuilding.transform.parent = HQBlockInstanceFolder.transform;//Store in Parent object at runtime
+        }
+    }
+
+    private void SetNeighborhoodBlocks()
+    {
+        gameData.NEIGHBORHOOD_BLOCK_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Neighborhood_Block_Coor"));
+
+        foreach (GameObject coordinate in gameData.NEIGHBORHOOD_BLOCK_COORDINATES)
+        {
+            int randomNeighborhoodBlock = Random.Range(0, gameData.PREFAB_NEIGHBORHOOD_BLOCKS.Count);//Get random NEIGHBORHOOD block prefab
+            GameObject spawnNeighborhoodBuilding = Instantiate(gameData.PREFAB_NEIGHBORHOOD_BLOCKS[randomNeighborhoodBlock], coordinate.transform.position, Quaternion.identity);//Spawn random NEIGHBORHOOD clock to map center block
+            spawnNeighborhoodBuilding.transform.parent = NeighborhoodInstanceFolder.transform;//Store in Parent object at runtime
+        }
     }
 }

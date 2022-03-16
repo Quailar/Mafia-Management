@@ -35,9 +35,6 @@ public class TrafficLightController : MonoBehaviour
     bool GreenLightEastWest_ON;
 
 
-
-    public List<GameObject> agentSpawnPoints;
-    public List<GameObject> autoSpawnPoints;
     public List<GameObject> streetLamps;
     public List<GameObject> streetLampBulb;
     public List<GameObject> streetLampPointLight;
@@ -49,7 +46,6 @@ public class TrafficLightController : MonoBehaviour
 
     private void Awake()
     {
-
         trafficPoles.AddRange(GameObject.FindGameObjectsWithTag("TAG:TrafficLight"));
 
         redTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TAG:RedLightLampNorthSouth"));
@@ -60,15 +56,10 @@ public class TrafficLightController : MonoBehaviour
         greenTrafficLightsEastWest.AddRange(GameObject.FindGameObjectsWithTag("TAG:GreenLightLampEastWest"));
         yellowTrafficLightsEastWest.AddRange(GameObject.FindGameObjectsWithTag("TAG:YellowLightLampEastWest"));
 
-        agentSpawnPoints.AddRange(GameObject.FindGameObjectsWithTag("TAG:AgentSpawnPoint"));
-        autoSpawnPoints.AddRange(GameObject.FindGameObjectsWithTag("TAG:AutoSpawnPoint"));
-
         streetLamps.AddRange(GameObject.FindGameObjectsWithTag("TAG:StreetLampPole"));
         streetLampBulb.AddRange(GameObject.FindGameObjectsWithTag("TAG:StreetLamp"));
         streetLampPointLight.AddRange(GameObject.FindGameObjectsWithTag("TAG:StreetLampPointLight"));
         streetLampSpotLight.AddRange(GameObject.FindGameObjectsWithTag("TAG:StreetLampSpotLight"));
-
-
     }
 
     // Update is called once per frame

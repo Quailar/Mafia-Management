@@ -9,6 +9,8 @@ public class Spawn_Manager : MonoBehaviour
     public List<GameObject> AGENT_SPAWN_POINT = new List<GameObject>();
     public List<GameObject> AUTO_SPAWN_POINT = new List<GameObject>();
     public List<GameObject> AUTO_DESPAWN_POINT = new List<GameObject>();
+    public GameObject CivilianInstanceFolder;
+    public GameObject AutoInstanceFolder;
 
 
     public void spawnAgent()
@@ -19,7 +21,7 @@ public class Spawn_Manager : MonoBehaviour
             Vector3 spawnLoc = new Vector3(AGENT_SPAWN_POINT[spawnNode].transform.position.x, 0, AGENT_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
             int prefabIndex = Random.Range(0, gameData.PREFAB_AGENTS.Count);//get a random agent from array
             GameObject spawnNewAgent = Instantiate(gameData.PREFAB_AGENTS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new agent at spawn point
-            spawnNewAgent.transform.parent = gameObject.transform;//Save clone under parent of this script
+            spawnNewAgent.transform.parent = CivilianInstanceFolder.transform;//Save clone under parent of this script
             GameData.TotalCivilians++;
         }
         else
@@ -29,7 +31,7 @@ public class Spawn_Manager : MonoBehaviour
             Vector3 spawnLoc = new Vector3(AGENT_SPAWN_POINT[spawnNode].transform.position.x, 0, AGENT_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
             int prefabIndex = Random.Range(0, gameData.PREFAB_AGENTS.Count);//get a random agent from array
             GameObject spawnNewAgent = Instantiate(gameData.PREFAB_AGENTS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new agent at spawn point
-            spawnNewAgent.transform.parent = gameObject.transform;//Save clone under parent of this script
+            spawnNewAgent.transform.parent = CivilianInstanceFolder.transform;//Save clone under parent of this script
             GameData.TotalCivilians++;
         }
     }
@@ -41,7 +43,7 @@ public class Spawn_Manager : MonoBehaviour
             Vector3 spawnLoc = new Vector3(AUTO_SPAWN_POINT[spawnNode].transform.position.x, 0f, AUTO_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
             int prefabIndex = Random.Range(0, gameData.PREFAB_AUTOS.Count);//get a random auto from array
             GameObject spawnNewAuto = Instantiate(gameData.PREFAB_AUTOS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new auto at spawn point
-            spawnNewAuto.transform.parent = gameObject.transform;//Save clone under parent of this script
+            spawnNewAuto.transform.parent = AutoInstanceFolder.transform;//Save clone under parent of this script
             GameData.TotalAutos++;
 
         }
@@ -53,7 +55,7 @@ public class Spawn_Manager : MonoBehaviour
             Vector3 spawnLoc = new Vector3(AUTO_SPAWN_POINT[spawnNode].transform.position.x, 0f, AUTO_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
             int prefabIndex = Random.Range(0, gameData.PREFAB_AUTOS.Count);//get a random auto from array
             GameObject spawnNewAuto = Instantiate(gameData.PREFAB_AUTOS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new auto at spawn point
-            spawnNewAuto.transform.parent = gameObject.transform;//Save clone under parent of this script
+            spawnNewAuto.transform.parent = AutoInstanceFolder.transform;//Save clone under parent of this script
             GameData.TotalAutos++;
         }
     }

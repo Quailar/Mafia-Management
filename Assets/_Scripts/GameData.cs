@@ -13,15 +13,18 @@ public partial class GameData : MonoBehaviour
 
 
     [Header("Neighborhood Coordinates")]
-    public List<GameObject> CITY_CENTER_BLOCK_COORDINATE = new List<GameObject>();
-    public List<GameObject> CITY_NEIGHBORHOOD_BLOCK_COORDINATES = new List<GameObject>();
+    public List<GameObject> CENTER_BLOCK_COORDINATES = new List<GameObject>();
+
+    public List<GameObject> HQ_BLOCK_COORDINATES = new List<GameObject>();
+    public List<GameObject> NEIGHBORHOOD_BLOCK_COORDINATES = new List<GameObject>();
     public List<GameObject> NEIGHBORHOOD_BUILDINGS = new List<GameObject>();
 
 
     [Header("Prefab Objects")]
     public List<GameObject> PREFAB_GAME_MAPS = new List<GameObject>();
     public List<GameObject> PREFAB_CENTER_BLOCKS = new List<GameObject>();
-    public List<GameObject> PREFAB_CITY_BLOCKS = new List<GameObject>();
+    public List<GameObject> PREFAB_HQ_BLOCKS = new List<GameObject>();
+    public List<GameObject> PREFAB_NEIGHBORHOOD_BLOCKS = new List<GameObject>();
     public List<GameObject> PREFAB_AUTOS = new List<GameObject>();
     public List<GameObject> PREFAB_AGENTS = new List<GameObject>();
 

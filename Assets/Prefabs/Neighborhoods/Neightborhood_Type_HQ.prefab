@@ -287,7 +287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3884006152192421202}
   m_Layer: 0
-  m_Name: Neightborhood_Type_02
+  m_Name: Neightborhood_Type_HQ
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

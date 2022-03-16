@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2121357070010221335}
   - component: {fileID: 6929797082324023585}
   - component: {fileID: 3681442901650163160}
-  - component: {fileID: 7950706482199275214}
   m_Layer: 0
   m_Name: BuildingLamp
   m_TagString: TAG:BuildingLamp
@@ -84,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &7950706482199275214
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3110803017766531332}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.10061503
-  m_Height: 3.5648677
-  m_Direction: 1
-  m_Center: {x: 0.00000014901161, y: 1.7824339, z: 0.0010155514}
 --- !u!1 &6343926775893740188
 GameObject:
   m_ObjectHideFlags: 0

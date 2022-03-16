@@ -17,7 +17,7 @@ public class Agent_Unit : MonoBehaviour
     public GameObject[] fItems;
 
 
-    public void Awake()
+    public void Start()
     {
         gameData = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameData>();
 
