@@ -55,6 +55,9 @@ TagManager:
   - Auto_Junction
   - Auto_Node_Red
   - Auto_Node_Blue
+  - Auto_Node
+  - Node
+  - NavMeshAuto_Surface
   layers:
   - Default
   - TransparentFX

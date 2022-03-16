@@ -1,54 +1,34 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-
-
 public class Auto_NavNode_Controller : MonoBehaviour
 {
+    //Navmesh used for movement
     public NavMeshAgent navmeshAuto;
-    public NavMeshSurface navmeshBaker;
-    public GameObject currentnode;
-    public GameObject nextNode;
-    public List<GameObject> Neighbors;
-    public bool stopped;
 
-    private void Awake()
-    {
-        navmeshBaker.BuildNavMesh();
-    }
+    public GameObject currentnode;
+
+    public GameObject nextNode;
+
+    public List<GameObject> Neighbors;
+
+    public bool isStopped;
+
 
     public void OnTriggerEnter(Collider other)
     {
         Neighbors.Clear();
 
-
         if (other.tag == "Auto_Node_Red" || other.tag == "Auto_Node_Blue")
         {
-            currentnode = other.gameObject;
-
-            Neighbors.AddRange(other.GetComponent<NodeScript>().neighbors);
-
-            int _selectDirection = Random.Range(0, Neighbors.Count);
-
-            nextNode = Neighbors[_selectDirection];
+            FindNextNode(other);
         }
-
 
         if (other.tag == "Auto_Spawn")
         {
-            currentnode = other.gameObject;
-
-            Neighbors.AddRange(other.GetComponent<NodeScript>().neighbors);
-
-            int _selectDirection = Random.Range(0, Neighbors.Count);
-
-            nextNode = Neighbors[_selectDirection];
-
+            FindNextNode(other);
         }
-
-
 
         if (other.tag == "Auto_Despawn")
         {
@@ -61,50 +41,36 @@ public class Auto_NavNode_Controller : MonoBehaviour
             }
             else
             {
-                currentnode = other.gameObject;
-
-                Neighbors.AddRange(other.GetComponent<NodeScript>().neighbors);
-
-                int _selectDirection = Random.Range(0, Neighbors.Count);
-
-                nextNode = Neighbors[_selectDirection];
+                FindNextNode(other);
             }
         }
-
 
         if (other.tag == "Auto_Junction")
         {
-            currentnode = other.gameObject;
-            Neighbors.AddRange(other.GetComponent<NodeScript>().neighbors);
-
-            int _selectDirection = Random.Range(0, Neighbors.Count);
-
-            nextNode = Neighbors[_selectDirection];
-
-            while (nextNode == currentnode)
-            {
-                _selectDirection = Random.Range(0, Neighbors.Count);
-
-                nextNode = Neighbors[_selectDirection];
-            }
-
-
+            FindNextNode(other);
         }
     }
 
+    private void FindNextNode(Collider other)
+    {
+        currentnode = other.gameObject;
+        Neighbors.AddRange(other.GetComponent<NodeScript>().neighbors);
+        int _selectDirection = Random.Range(0, Neighbors.Count);
+        nextNode = Neighbors[_selectDirection];
+    }
 
     //if auto collides with another auto or agent stop auto movement
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "Agent" || other.gameObject.tag == "Auto")
         {
-            stopped = true;
+            isStopped = true;
         }
     }
 
     private void OnCollisionExit(Collision other)
     {
-        stopped = false;
+        isStopped = false;
     }
 
     private void FixedUpdate()
@@ -114,7 +80,7 @@ public class Auto_NavNode_Controller : MonoBehaviour
 
     private void Drive()
     {
-        if (stopped)
+        if (isStopped)
         {
             navmeshAuto.velocity.Set(0f, 0f, 0f);
         }

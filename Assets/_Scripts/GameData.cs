@@ -1,6 +1,6 @@
-/////////////////////////////////////
-//OBJECTS
-/////////////////////////////////////
+//================================
+//          OBJECTS
+//================================
 using UnityEngine;
 using UnityEngine.AI;
 using System.Collections.Generic;
@@ -12,13 +12,10 @@ public partial class GameData : MonoBehaviour
     public List<NavMeshSurface> NAVMESH_AUTO = new List<NavMeshSurface>();
 
 
-
-
     [Header("Neighborhood Coordinates")]
     public List<GameObject> CITY_CENTER_BLOCK_COORDINATE = new List<GameObject>();
     public List<GameObject> CITY_NEIGHBORHOOD_BLOCK_COORDINATES = new List<GameObject>();
     public List<GameObject> NEIGHBORHOOD_BUILDINGS = new List<GameObject>();
-
 
 
     [Header("Prefab Objects")]
@@ -27,8 +24,6 @@ public partial class GameData : MonoBehaviour
     public List<GameObject> PREFAB_CITY_BLOCKS = new List<GameObject>();
     public List<GameObject> PREFAB_AUTOS = new List<GameObject>();
     public List<GameObject> PREFAB_AGENTS = new List<GameObject>();
-
-
 
 
     [Header("Lists of Objects")]
@@ -45,6 +40,11 @@ public partial class GameData : MonoBehaviour
     public List<GameObject> LIST_TOTAL_PLAYER6 = new List<GameObject>();
     public List<GameObject> STREET_LIGHTS = new List<GameObject>();
     public List<GameObject> NEIGHBORHOOD_LIGHTS = new List<GameObject>();
+
+    private void Awake()
+    {
+        GameObject.FindGameObjectWithTag("NavMeshAuto_Surface").GetComponent<NavMeshSurface>().BuildNavMesh();
+    }
 }
 
 

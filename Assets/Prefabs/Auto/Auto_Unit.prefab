@@ -111,11 +111,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navmeshAuto: {fileID: 1709279314124013554}
-  navmeshBaker: {fileID: 0}
   currentnode: {fileID: 0}
   nextNode: {fileID: 0}
   Neighbors: []
-  stopped: 0
+  isStopped: 0
 --- !u!1 &614911884564161514
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,6 +21,12 @@ public class TrafficLightController : MonoBehaviour
     public int trafficSignalEastWest;
     public int dirSwitch = 0;
 
+
+
+    public int GreenLightTimer;
+    public int YellowLightTimer;
+    public int RedLightTimer;
+
     bool RedLightNorthSouth_ON;
     bool YellowLightNorthSouth_ON;
     bool GreenLightNorthSouth_ON;
@@ -75,19 +81,19 @@ public class TrafficLightController : MonoBehaviour
         if (dirSwitch == 0)
         {
             trafficSignalNorthSouth++;
-            if (trafficSignalNorthSouth < 50)
+            if (trafficSignalNorthSouth < GreenLightTimer)
             {
                 GreenLightNorthSouth_ON = true;
                 YellowLightNorthSouth_ON = false;
                 RedLightNorthSouth_ON = false;
             }
-            else if (trafficSignalNorthSouth < 70)
+            else if (trafficSignalNorthSouth < YellowLightTimer)
             {
                 GreenLightNorthSouth_ON = false;
                 YellowLightNorthSouth_ON = true;
                 RedLightNorthSouth_ON = false;
             }
-            else if (trafficSignalNorthSouth >= 70)
+            else if (trafficSignalNorthSouth >= RedLightTimer)
             {
                 GreenLightNorthSouth_ON = false;
                 YellowLightNorthSouth_ON = false;
@@ -100,19 +106,19 @@ public class TrafficLightController : MonoBehaviour
         else
         {
             trafficSignalEastWest++;
-            if (trafficSignalEastWest < 50)
+            if (trafficSignalEastWest < GreenLightTimer)
             {
                 GreenLightEastWest_ON = true;
                 YellowLightEastWest_ON = false;
                 RedLightEastWest_ON = false;
             }
-            else if (trafficSignalEastWest < 70)
+            else if (trafficSignalEastWest < YellowLightTimer)
             {
                 GreenLightEastWest_ON = false;
                 YellowLightEastWest_ON = true;
                 RedLightEastWest_ON = false;
             }
-            else if (trafficSignalEastWest >= 70)
+            else if (trafficSignalEastWest >= RedLightTimer)
             {
                 GreenLightEastWest_ON = false;
                 YellowLightEastWest_ON = false;

@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 9190513740497920844}
   - component: {fileID: 9190513740497920845}
   m_Layer: 0
-  m_Name: Auto Path
+  m_Name: Agent Count
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
