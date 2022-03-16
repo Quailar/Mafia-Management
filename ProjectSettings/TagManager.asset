@@ -29,12 +29,46 @@ TagManager:
   - TAG:BuildingLamp
   - TAG:BuildingLampPointLight
   - TAG:BuildingLampSpotLight
-  - TAG:BuildingCornerFootprint
-  - TAG:BuildingPrefab
   - TAG:BuildingBlueprints
-  - TAG:CityBlock
   - TAG:HQ_Building
-  - TAG:StreetLight
+  - TAG:BlockCenterStreet
+  - TAG:SmallMap
+  - TAG:MediumMap
+  - TAG:LargeMap
+  - TAG:Neighborhood_Coor
+  - TAG:BuildingPrefab
+  - TAG:BuildingFoundation
+  - TAG:NavNorthRoad
+  - TAG:NavSouthRoad
+  - TAG:NavEastRoad
+  - TAG:NavWestRoad
+  - TAG:AgentSpawnPoint
+  - TAG:AutoSpawnPoint
+  - TAG:RedLightLampNorthSouth
+  - TAG:YellowLightLampNorthSouth
+  - TAG:GreenLightLampNorthSouth
+  - TAG:RedLightLampEastWest
+  - TAG:YellowLightLampEastWest
+  - TAG:GreenLightLampEastWest
+  - Auto_Spawn
+  - Auto_Despawn
+  - Auto_Junction
+  - Auto_Node_Red
+  - Auto_Node_Blue
+  - Auto_Node
+  - Node
+  - NavMeshAuto_Surface
+  - Auto
+  - Agent_Spawn
+  - DOOR_NAV_POINT
+  - Center_Block_Coor
+  - Neighborhood_Block_Coor
+  - HQ_Block_Coor
+  - LineRenderer
+  - TrafficLightNorthSouth
+  - TrafficLightEastWest
+  - TrafficLightManager
+  - Building_Coor
   layers:
   - Default
   - TransparentFX
@@ -47,13 +81,13 @@ TagManager:
   - 
   - 
   - 
+  - Agent_Nav_Sidewalk
+  - Agent_Nav_Street
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Dual_Nav_Crosswalk
+  - Auto_Nav_Layer
+  - Auto_Node_Blueline
+  - Auto_Node_Redline
   - 
   - 
   - 

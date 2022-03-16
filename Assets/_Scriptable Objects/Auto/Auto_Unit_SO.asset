@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8657d2334a9f2cf44b3d6e4a60406f7e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b4e864c76e9d544d9682cec427504bc, type: 3}
   m_Name: Auto_Unit_SO
   m_EditorClassIdentifier: 
   ID: 0
@@ -18,11 +18,11 @@ MonoBehaviour:
   Position: {x: 0, y: 0, z: 0}
   WayPoint: {x: 0, y: 0, z: 0}
   Destination: {x: 0, y: 0, z: 0}
-  CurrentHitPoints: 418
-  MaxHitPoints: 418
-  Speed: 3
-  NewPrice: 1665
-  LeasePerMonth: 166.5
-  StolenValue: 582.75
+  CurrentHitPoints: 318
+  MaxHitPoints: 318
+  Speed: 4
+  NewPrice: 838
+  LeasePerMonth: 83.8
+  StolenValue: 293.3
   TeamName: Auto
   isSelected: 0
