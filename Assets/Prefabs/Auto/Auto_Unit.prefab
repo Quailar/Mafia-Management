@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1800739156}
   m_Layer: 0
   m_Name: Auto_Unit
-  m_TagString: Auto
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,7 +116,6 @@ MonoBehaviour:
   nextNode: {fileID: 0}
   Neighbors: []
   stopped: 0
-  ReduceTraffic: 0
 --- !u!1 &614911884564161514
 GameObject:
   m_ObjectHideFlags: 0

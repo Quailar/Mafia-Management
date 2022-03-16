@@ -50,10 +50,11 @@ TagManager:
   - TAG:RedLightLampEastWest
   - TAG:YellowLightLampEastWest
   - TAG:GreenLightLampEastWest
-  - BlueNode
-  - RedNode
-  - Auto
-  - Node
+  - Auto_Spawn
+  - Auto_Despawn
+  - Auto_Junction
+  - Auto_Node_Red
+  - Auto_Node_Blue
   layers:
   - Default
   - TransparentFX
@@ -61,18 +62,18 @@ TagManager:
   - Camera
   - Water
   - UI
-  - Auto_Spawn
-  - Auto_Blueline
-  - Auto_Redline
-  - Auto_DeSpawn
+  - 
+  - 
+  - 
+  - 
   - Agent_Nav_Crosswalk
   - Agent_Nav_Sidewalk
   - Agent_Nav_Street
   - 
   - 
-  - 
-  - 
-  - 
+  - Auto_Nav_Layer
+  - Auto_Node_Blueline
+  - Auto_Node_Redline
   - 
   - 
   - 

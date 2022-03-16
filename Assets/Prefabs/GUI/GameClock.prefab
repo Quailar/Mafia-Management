@@ -49,7 +49,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3208107175333563666}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a71721963df06409ffe673611ffd75, type: 3}
+  m_Script: {fileID: 11500000, guid: 98a97fe88dd57dd419d4598ea0d44840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timeText: {fileID: 4724571828531542032}
@@ -61,7 +61,7 @@ MonoBehaviour:
   faster: {fileID: 4181071804270715522}
   startMonth: 0
   startHour: 0
-  twelveHourClock: 0
+  twelveHourClock: 1
 --- !u!1 &3208107176401382815
 GameObject:
   m_ObjectHideFlags: 0
