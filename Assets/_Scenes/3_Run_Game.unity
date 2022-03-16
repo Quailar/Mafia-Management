@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 79b1fa573c39f284a899c74902c6d9a1, type: 2}
+  m_NavMeshData: {fileID: 0}
 --- !u!1 &1449281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,6 +1108,17 @@ Transform:
   m_Father: {fileID: 1715268139}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &99836023 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4168063096552618091, guid: e9a2e70b5243f2b43ba68dfa71e16901, type: 3}
+  m_PrefabInstance: {fileID: 1390207413}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ba19d05aedf0e468a83e6190407296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &111912224
 GameObject:
   m_ObjectHideFlags: 0
@@ -6445,7 +6456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4877038021262574584, guid: b403710c896d8fd4c9b2f64e7bad5df9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -106.22
+      value: -105.36
       objectReference: {fileID: 0}
     - target: {fileID: 4877038021262574584, guid: b403710c896d8fd4c9b2f64e7bad5df9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7634,7 +7645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NAVMESH_AGENT: []
-  NAVMESH_AUTO: []
+  NAVMESH_AUTO: {fileID: 99836023}
   CITY_CENTER_BLOCK_COORDINATE: []
   CITY_NEIGHBORHOOD_BLOCK_COORDINATES: []
   NEIGHBORHOOD_BUILDINGS: []

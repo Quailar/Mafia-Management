@@ -9,7 +9,7 @@ public partial class GameData : MonoBehaviour
 {
     [Header("Navmesh Bakes")]
     public List<NavMeshSurface> NAVMESH_AGENT = new List<NavMeshSurface>();
-    public List<NavMeshSurface> NAVMESH_AUTO = new List<NavMeshSurface>();
+    public NavMeshSurface NAVMESH_AUTO;
 
 
     [Header("Neighborhood Coordinates")]
@@ -41,13 +41,9 @@ public partial class GameData : MonoBehaviour
     public List<GameObject> STREET_LIGHTS = new List<GameObject>();
     public List<GameObject> NEIGHBORHOOD_LIGHTS = new List<GameObject>();
 
-    private void Awake()
+    private void Start()
     {
-        GameObject.FindGameObjectWithTag("NavMeshAuto_Surface").GetComponent<NavMeshSurface>().BuildNavMesh();
+        NAVMESH_AUTO.BuildNavMesh();
+        print("NavMesh Building..");
     }
 }
-
-
-
-
-
