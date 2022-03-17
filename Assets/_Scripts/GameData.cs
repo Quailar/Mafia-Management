@@ -13,11 +13,11 @@ public partial class GameData : MonoBehaviour
 
 
     [Header("Neighborhood Coordinates")]
-    public List<GameObject> CENTER_BLOCK_COORDINATES = new List<GameObject>();
+    public List<GameObject> NEIGHBORHOOD_CENTER_COORDINATES = new List<GameObject>();
 
-    public List<GameObject> HQ_BLOCK_COORDINATES = new List<GameObject>();
-    public List<GameObject> NEIGHBORHOOD_BLOCK_COORDINATES = new List<GameObject>();
-    public List<GameObject> NEIGHBORHOOD_BUILDING_COORDINATES = new List<GameObject>();
+    public List<GameObject> HQ_COORDINATES = new List<GameObject>();
+    public List<GameObject> NEIGHBORHOOD_COORDINATES = new List<GameObject>();
+    public List<GameObject> BUILDING_COORDINATES = new List<GameObject>();
 
 
     [Header("Prefab Objects")]

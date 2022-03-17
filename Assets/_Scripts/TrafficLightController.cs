@@ -38,7 +38,7 @@ public class TrafficLightController : MonoBehaviour
     public List<GameObject> streetLampPointLight;
     public List<GameObject> streetLampSpotLight;
 
-    private void Awake()
+    private void Start()
     {
         trafficPolesNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TrafficLight:NorthSouth"));
         trafficPolesEastWest.AddRange(GameObject.FindGameObjectsWithTag("TrafficLight:EastWest"));

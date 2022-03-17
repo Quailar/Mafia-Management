@@ -23,14 +23,15 @@ public class MapConfiguration : MonoBehaviour
     private void Awake()
     {
         ActivateGameMap(GameData.MapSize);//Map size set in options menu
-    }
-    private void Start()
-    {
-
         SetCenterBlock();
         SetHQBlock();
         SetNeighborhoodBlocks();
         SetBuildings();
+
+    }
+    private void Start()
+    {
+
     }
 
     public void ActivateGameMap(string size)
@@ -59,21 +60,21 @@ public class MapConfiguration : MonoBehaviour
 
     private void SetCenterBlock()
     {
-        gameData.CENTER_BLOCK_COORDINATES.Add(GameObject.FindGameObjectWithTag("Neighborhood:CenterCoordinates"));
+        gameData.NEIGHBORHOOD_CENTER_COORDINATES.Add(GameObject.FindGameObjectWithTag("Neighborhood:CenterCoordinates"));
 
-        foreach (GameObject coordinate in gameData.CENTER_BLOCK_COORDINATES)
+        foreach (GameObject coordinate in gameData.NEIGHBORHOOD_CENTER_COORDINATES)
         {
             int randomCenterBlock = Random.Range(0, gameData.PREFAB_CENTER_BLOCKS.Count);//Get random center block prefab
-            GameObject spawnCenterBuilding = Instantiate(gameData.PREFAB_CENTER_BLOCKS[randomCenterBlock], gameData.CENTER_BLOCK_COORDINATES[0].transform.position, Quaternion.identity);//Spawn random center clock to map center block
+            GameObject spawnCenterBuilding = Instantiate(gameData.PREFAB_CENTER_BLOCKS[randomCenterBlock], gameData.NEIGHBORHOOD_CENTER_COORDINATES[0].transform.position, Quaternion.identity);//Spawn random center clock to map center block
             spawnCenterBuilding.transform.parent = CenterBlockInstanceFolder.transform;//Store in Parent object at runtime
         }
     }
 
     private void SetHQBlock()
     {
-        gameData.HQ_BLOCK_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Neighborhood:HQCoordinates"));
+        gameData.HQ_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Neighborhood:HQCoordinates"));
 
-        foreach (GameObject coordinate in gameData.HQ_BLOCK_COORDINATES)
+        foreach (GameObject coordinate in gameData.HQ_COORDINATES)
         {
             int randomHQBlock = Random.Range(0, gameData.PREFAB_HQ_BLOCKS.Count);//Get random HQ block prefab
             GameObject spawnHQBuilding = Instantiate(gameData.PREFAB_HQ_BLOCKS[randomHQBlock], coordinate.transform.position, Quaternion.identity);//Spawn random HQ clock to map center block
@@ -83,9 +84,9 @@ public class MapConfiguration : MonoBehaviour
 
     private void SetNeighborhoodBlocks()
     {
-        gameData.NEIGHBORHOOD_BLOCK_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Neighborhood:Coordinates"));
+        gameData.NEIGHBORHOOD_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Neighborhood:Coordinates"));
 
-        foreach (GameObject coordinate in gameData.NEIGHBORHOOD_BLOCK_COORDINATES)
+        foreach (GameObject coordinate in gameData.NEIGHBORHOOD_COORDINATES)
         {
             int randomNeighborhoodBlock = Random.Range(0, gameData.PREFAB_NEIGHBORHOOD_BLOCKS.Count);//Get random NEIGHBORHOOD block prefab
             GameObject spawnNeighborhoodBuilding = Instantiate(gameData.PREFAB_NEIGHBORHOOD_BLOCKS[randomNeighborhoodBlock], coordinate.transform.position, Quaternion.identity);//Spawn random NEIGHBORHOOD clock to map center block
@@ -95,9 +96,9 @@ public class MapConfiguration : MonoBehaviour
 
     private void SetBuildings()
     {
-        gameData.NEIGHBORHOOD_BUILDING_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Building:Blueprint"));
+        gameData.BUILDING_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Building:Blueprint"));
 
-        foreach (GameObject coordinate in gameData.NEIGHBORHOOD_BUILDING_COORDINATES)
+        foreach (GameObject coordinate in gameData.BUILDING_COORDINATES)
         {
             int randomBuilding = Random.Range(0, gameData.PREFAB_BUILDINGS.Count);//Get random BUILDING block prefab
             GameObject spawnBuilding = Instantiate(gameData.PREFAB_BUILDINGS[randomBuilding], coordinate.transform.position, coordinate.transform.rotation);//Spawn random NEIGHBORHOOD clock to map center block
