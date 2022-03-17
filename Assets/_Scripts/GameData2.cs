@@ -9,6 +9,7 @@ public partial class GameData
     public static Vector2 ScreenResolution;
     public static string MapSize;
     public static GameObject GAME_MAP;
+    public static GameObject NAV_MAP;
     public static int MaxPlayers;
     public static int MaxCivilians;
     public static int MaxAutos;
@@ -19,10 +20,7 @@ public partial class GameData
     public static float sunTime;
     public static float sunLight;
     public static bool NavigationDisplayActive;
-    public static bool NavigationSpawnDisplayActive;
     public static bool agentDisplayPath;
-    public static bool autoDisplayPath;
-    public static bool canContinue;//not used
     public static string gameSpeed;
     public static float minuteToRealTime = 1f;
     public static float timer;

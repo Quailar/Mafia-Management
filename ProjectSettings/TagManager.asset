@@ -4,61 +4,62 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - 'Agent:Despawn '
-  - 'Agent:NavCenterStreet '
-  - 'Agent:NavmeshSurface '
-  - 'Agent:Spawn '
-  - 'Agent:Unit '
-  - 'Auto:Despawn '
-  - 'Auto:Junction '
-  - 'Auto:NavmeshSurface '
-  - 'Auto:Node '
-  - 'Auto:NodeBlue '
-  - 'Auto:NodeRed '
-  - 'Auto:Spawn '
-  - 'Auto:Unit '
-  - 'Building:Blueprint '
-  - 'Building:CourtHouse '
-  - 'Building:Door '
-  - 'Building:FireDepartment '
-  - 'Building:HeadQuaters '
-  - 'Building:Hospital '
-  - 'Building:Lamp '
-  - 'Building:PointLight '
-  - 'Building:PoliceStation '
-  - 'Building:Prefab '
-  - 'Building:SpotLight '
-  - 'Map:GrassPlane '
-  - 'Map:IntersectionCenter '
-  - 'Map:IntersectionCrossing '
-  - 'Map:Large '
-  - 'Map:Manager '
-  - 'Map:Medium '
-  - 'Map:SideWalk '
-  - 'Map:SideWalkCorner '
-  - 'Map:SmallMap '
-  - 'Neighborhood:CenterCoordinates '
-  - 'Neighborhood:Coordinates '
-  - 'Neighborhood:HQCoordinates '
-  - 'Prop:Hydrant '
-  - 'Prop:Tree '
-  - 'RoadSection '
-  - 'StreetLight:Lamp '
-  - 'StreetLight:PointLight '
-  - 'StreetLight:Pole '
-  - 'StreetLight:SpotLight '
-  - 'Time:GameClock '
-  - 'TrafficLight:EastWest '
-  - 'TrafficLight:GreenLampEastWest '
-  - 'TrafficLight:GreenLampNorthSouth '
-  - 'TrafficLight:Manager '
-  - 'TrafficLight:NorthSouth '
-  - 'TrafficLight:RedLightLampEastWest '
-  - 'TrafficLight:RedLightLampNorthSouth '
-  - 'TrafficLight:YellowampEastWest '
-  - 'TrafficLight:YellowLampNorthSouth '
-  - 'Util:LineRenderer '
+  - Agent:Despawn
+  - Agent:NavCenterStreet
+  - Agent:NavmeshSurface
+  - Agent:Spawn
+  - Agent:Unit
+  - Auto:Despawn
+  - Auto:Junction
+  - Auto:NavmeshSurface
+  - Auto:Node
+  - Auto:NodeBlue
+  - Auto:NodeRed
+  - Auto:Spawn
+  - Auto:Unit
+  - Building:Blueprint
+  - Building:Courthouse
+  - Building:Door
+  - Building:FireDepartment
+  - Building:HeadQuarters
+  - Building:Hospital
+  - Building:Lamp
+  - Building:PointLight
+  - Building:PoliceStation
+  - Building:Prefab
+  - Building:PrefabLong
+  - Building:PrefabCorner
+  - Building:SpotLight
+  - Map:GrassPlane
+  - Map:IntersectionCenter
+  - Map:IntersectionCrossing
+  - Map:Large
+  - Map:Manager
+  - Map:Medium
   - Map:RoadSection
+  - Map:Sidewalk
+  - Map:SidewalkCorner
+  - Map:Small
+  - Neighborhood:CenterCoordinates
+  - Neighborhood:Coordinates
+  - Neighborhood:HQCoordinates
+  - StreetLight:Lamp
+  - StreetLight:PointLight
+  - StreetLight:Pole
+  - StreetLight:SpotLight
+  - Time:GameClock
+  - TrafficLight:EastWest
+  - TrafficLight:GreenLampEastWest
+  - TrafficLight:GreenLampNorthSouth
+  - TrafficLight:Manager
+  - TrafficLight:NorthSouth
+  - TrafficLight:RedLampEastWest
+  - TrafficLight:RedLampNorthSouth
+  - TrafficLight:YellowLampEastWest
+  - TrafficLight:YellowLampNorthSouth
+  - Util:LineRenderer
+  - Map:Road
+  - Map:Intersection
   layers:
   - Default
   - TransparentFX

@@ -40,21 +40,27 @@ public class MapConfiguration : MonoBehaviour
         {
             case "Large":
                 GameData.GAME_MAP = gameData.PREFAB_GAME_MAPS[2];
+                GameData.NAV_MAP = gameData.PREFAB_NAV_MAPS[2];
                 break;
             case "Medium":
                 GameData.GAME_MAP = gameData.PREFAB_GAME_MAPS[1];
+                GameData.NAV_MAP = gameData.PREFAB_NAV_MAPS[1];
                 break;
             case "Small":
                 GameData.GAME_MAP = gameData.PREFAB_GAME_MAPS[0];
+                GameData.NAV_MAP = gameData.PREFAB_NAV_MAPS[0];
                 break;
             default:
                 GameData.GAME_MAP = gameData.PREFAB_GAME_MAPS[0];
+                GameData.NAV_MAP = gameData.PREFAB_NAV_MAPS[0];
                 break;
         }
 
 
         GameObject spawnMap = Instantiate(GameData.GAME_MAP, Vector3.zero, Quaternion.identity);
         spawnMap.transform.parent = MapInstanceFolder.transform;
+        GameObject navMap = Instantiate(GameData.NAV_MAP, Vector3.zero, Quaternion.identity);
+        navMap.transform.parent = MapInstanceFolder.transform;
 
     }
 

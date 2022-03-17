@@ -11,20 +11,11 @@ public class Agent_Navmesh_Controller : MonoBehaviour
 
     private void Start()
     {
-        GetRandomDestination();
         DOOR_NAV_POINT_LIST.AddRange(GameObject.FindGameObjectsWithTag("Building:Door"));//Each door is a game map destination
-        line = GameObject.FindGameObjectWithTag("Util:LineRenderer").GetComponent<LineRenderer>();
         int d = Random.Range(0, DOOR_NAV_POINT_LIST.Count);//get random destination
         navMeshAgent.SetDestination(DOOR_NAV_POINT_LIST[d].transform.position);//move unit to next destination
     }
 
-
-    public void GetRandomDestination()
-    {
-
-
-
-    }
 
     private void Update()
     {
@@ -40,6 +31,7 @@ public class Agent_Navmesh_Controller : MonoBehaviour
 
         if (GameData.agentDisplayPath)
         {
+
             getPath();
         }
         else
@@ -49,6 +41,7 @@ public class Agent_Navmesh_Controller : MonoBehaviour
     }
     public void getPath()
     {
+
         line.SetPosition(0, transform.position); //set the line's origin
         DrawPath(navMeshAgent.path);
     }

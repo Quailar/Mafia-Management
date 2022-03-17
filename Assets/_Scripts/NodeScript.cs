@@ -5,6 +5,8 @@ using UnityEngine;
 public class NodeScript : MonoBehaviour
 {
     public List<GameObject> neighbors;
+
+
     private void OnDrawGizmos()
     {
         foreach (GameObject nextNode in neighbors)

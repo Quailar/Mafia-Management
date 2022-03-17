@@ -22,6 +22,7 @@ public partial class GameData : MonoBehaviour
 
     [Header("Prefab Objects")]
     public List<GameObject> PREFAB_GAME_MAPS = new List<GameObject>();
+    public List<GameObject> PREFAB_NAV_MAPS = new List<GameObject>();
     public List<GameObject> PREFAB_CENTER_BLOCKS = new List<GameObject>();
     public List<GameObject> PREFAB_HQ_BLOCKS = new List<GameObject>();
     public List<GameObject> PREFAB_NEIGHBORHOOD_BLOCKS = new List<GameObject>();
