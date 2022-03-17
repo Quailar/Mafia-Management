@@ -59,7 +59,7 @@ public class MapConfiguration : MonoBehaviour
 
     private void SetCenterBlock()
     {
-        gameData.CENTER_BLOCK_COORDINATES.Add(GameObject.FindGameObjectWithTag("Center_Block_Coor"));
+        gameData.CENTER_BLOCK_COORDINATES.Add(GameObject.FindGameObjectWithTag("Neighborhood:CenterCoordinates"));
 
         foreach (GameObject coordinate in gameData.CENTER_BLOCK_COORDINATES)
         {
@@ -71,7 +71,7 @@ public class MapConfiguration : MonoBehaviour
 
     private void SetHQBlock()
     {
-        gameData.HQ_BLOCK_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("HQ_Block_Coor"));
+        gameData.HQ_BLOCK_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Neighborhood:HQCoordinates"));
 
         foreach (GameObject coordinate in gameData.HQ_BLOCK_COORDINATES)
         {
@@ -83,7 +83,7 @@ public class MapConfiguration : MonoBehaviour
 
     private void SetNeighborhoodBlocks()
     {
-        gameData.NEIGHBORHOOD_BLOCK_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Neighborhood_Block_Coor"));
+        gameData.NEIGHBORHOOD_BLOCK_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Neighborhood:Coordinates"));
 
         foreach (GameObject coordinate in gameData.NEIGHBORHOOD_BLOCK_COORDINATES)
         {
@@ -95,7 +95,7 @@ public class MapConfiguration : MonoBehaviour
 
     private void SetBuildings()
     {
-        gameData.NEIGHBORHOOD_BUILDING_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Building_Coor"));
+        gameData.NEIGHBORHOOD_BUILDING_COORDINATES.AddRange(GameObject.FindGameObjectsWithTag("Building:Blueprint"));
 
         foreach (GameObject coordinate in gameData.NEIGHBORHOOD_BUILDING_COORDINATES)
         {

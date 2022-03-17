@@ -26,7 +26,7 @@ public class Spawn_Manager : MonoBehaviour
         }
         else
         {
-            AGENT_SPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Agent_Spawn"));//load agent spawn points
+            AGENT_SPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Agent:Spawn"));//load agent spawn points
             int spawnNode = Random.Range(0, AGENT_SPAWN_POINT.Count);//Pick a random spawn point
             Vector3 spawnLoc = new Vector3(AGENT_SPAWN_POINT[spawnNode].transform.position.x, 0, AGENT_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
             int prefabIndex = Random.Range(0, gameData.PREFAB_AGENTS.Count);//get a random agent from array
@@ -49,8 +49,8 @@ public class Spawn_Manager : MonoBehaviour
         }
         else
         {
-            AUTO_SPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Auto_Spawn"));//load auto spawn points
-            AUTO_DESPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Auto_Despawn"));//load Auto despawn points
+            AUTO_SPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Auto:Spawn"));//load auto spawn points
+            AUTO_DESPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Auto:Despawn"));//load Auto despawn points
             int spawnNode = Random.Range(0, AUTO_SPAWN_POINT.Count);//Pick a random spawn point
             Vector3 spawnLoc = new Vector3(AUTO_SPAWN_POINT[spawnNode].transform.position.x, 0f, AUTO_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
             int prefabIndex = Random.Range(0, gameData.PREFAB_AUTOS.Count);//get a random auto from array

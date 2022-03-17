@@ -10384,7 +10384,7 @@ GameObject:
   - component: {fileID: 48323647576850039}
   m_Layer: 0
   m_Name: Agent_Unit
-  m_TagString: Untagged
+  m_TagString: 'Agent:Unit '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10505,7 +10505,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 5224661779768797314}
   animator: {fileID: 3885946765574401812}
-  velosity: 0
 --- !u!114 &48323647576850039
 MonoBehaviour:
   m_ObjectHideFlags: 0

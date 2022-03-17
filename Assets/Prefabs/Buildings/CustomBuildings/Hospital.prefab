@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 382670212299177247}
   m_Layer: 0
   m_Name: Door_A1
-  m_TagString: DOOR_NAV_POINT
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -904,7 +904,7 @@ GameObject:
   - component: {fileID: 435682251152852162}
   m_Layer: 0
   m_Name: Hospital
-  m_TagString: Untagged
+  m_TagString: 'Building:Hospital '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

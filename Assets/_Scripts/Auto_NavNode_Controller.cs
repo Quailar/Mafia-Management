@@ -21,7 +21,7 @@ public class Auto_NavNode_Controller : MonoBehaviour
 
     private void Start()
     {
-        trafficController = GameObject.FindGameObjectWithTag("TrafficLightManager").GetComponent<TrafficLightController>();
+        trafficController = GameObject.FindGameObjectWithTag("TrafficLight:Manager").GetComponent<TrafficLightController>();
     }
 
     public void OnTriggerEnter(Collider other)
@@ -47,17 +47,17 @@ public class Auto_NavNode_Controller : MonoBehaviour
 
         // }
 
-        if (other.tag == "Auto_Node_Red" || other.tag == "Auto_Node_Blue")
+        if (other.tag == "Auto:NodeRed" || other.tag == "Auto:NodeBlue")
         {
             FindNextNode(other);
         }
 
-        if (other.tag == "Auto_Spawn")
+        if (other.tag == "Auto:Spawn")
         {
             FindNextNode(other);
         }
 
-        if (other.tag == "Auto_Despawn")
+        if (other.tag == "Auto:Despawn")
         {
             if (GameData.DecreaseAutos)//Despawn node
             {
@@ -72,7 +72,7 @@ public class Auto_NavNode_Controller : MonoBehaviour
             }
         }
 
-        if (other.tag == "Auto_Junction")
+        if (other.tag == "Auto:Junction")
         {
             FindNextNode(other);
         }
@@ -90,7 +90,7 @@ public class Auto_NavNode_Controller : MonoBehaviour
     //if auto collides with another auto or agent stop auto movement
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "Agent" || other.gameObject.tag == "Auto")
+        if (other.gameObject.tag == "Agent:Unit" || other.gameObject.tag == "Auto:Unit")
         {
             isStopped = true;
         }

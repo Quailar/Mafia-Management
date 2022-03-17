@@ -12,11 +12,12 @@ public class Agent_Navmesh_Controller : MonoBehaviour
     private void Start()
     {
         GetRandomDestination();
-        DOOR_NAV_POINT_LIST.AddRange(GameObject.FindGameObjectsWithTag("TAG:Door"));//Each door is a game map destination
-        line = GameObject.FindGameObjectWithTag("LineRenderer").GetComponent<LineRenderer>();
+        DOOR_NAV_POINT_LIST.AddRange(GameObject.FindGameObjectsWithTag("Building:Door"));//Each door is a game map destination
+        line = GameObject.FindGameObjectWithTag("Util:LineRenderer").GetComponent<LineRenderer>();
         int d = Random.Range(0, DOOR_NAV_POINT_LIST.Count);//get random destination
         navMeshAgent.SetDestination(DOOR_NAV_POINT_LIST[d].transform.position);//move unit to next destination
     }
+
 
     public void GetRandomDestination()
     {

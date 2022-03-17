@@ -4,15 +4,14 @@ public class Agent_Animation_Controller : MonoBehaviour
 {
     public NavMeshAgent navMeshAgent;
     public Animator animator;
-    [Range(1, 3)]
-    public float velosity;
 
-    void Update()
+    void LateUpdate()
     {
         GetCurrentSpeed();
 
     }
 
+    //get current navmesh agent speed and adjust animation
     private void GetCurrentSpeed()
     {
         if (navMeshAgent.speed < .25)

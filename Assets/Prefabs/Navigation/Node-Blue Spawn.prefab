@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6429751182684253055}
   m_Layer: 0
   m_Name: Node-Blue Spawn
-  m_TagString: Node
+  m_TagString: Auto_Spawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

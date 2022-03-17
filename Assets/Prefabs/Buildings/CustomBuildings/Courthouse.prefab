@@ -6574,7 +6574,7 @@ GameObject:
   - component: {fileID: 6331910659788802074}
   m_Layer: 0
   m_Name: Door_A1
-  m_TagString: DOOR_NAV_POINT
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11272,7 +11272,7 @@ GameObject:
   - component: {fileID: 5296681571410149900}
   m_Layer: 0
   m_Name: Courthouse
-  m_TagString: Untagged
+  m_TagString: 'Building:CourtHouse '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

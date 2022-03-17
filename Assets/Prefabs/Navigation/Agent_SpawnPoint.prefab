@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5501293736915213602}
   m_Layer: 0
   m_Name: Agent_SpawnPoint
-  m_TagString: TAG:AgentSpawnPoint
+  m_TagString: 'Agent:Spawn '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51,7 +51,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
-  m_MotionVectors: 1
+  m_MotionVectors: 2
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b19112a82df89541957858102de2baa, type: 2}
+  - {fileID: 2100000, guid: f63c8fc88a4b0d04fbde8f2b8130b479, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -10567,7 +10567,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5638552575836016490}
   - component: {fileID: 4083952379610982735}
-  - component: {fileID: 632198841365802116}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -10610,73 +10609,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &632198841365802116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5638552575836016491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 064b5c3f30c618d47aed0766f18d41d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unitSO: {fileID: 11400000, guid: 3f4ab7abcd0fd0547a0abae8c5f7dfad, type: 2}
-  mWeapons:
-  - {fileID: 5897992220211409565}
-  - {fileID: 5897992220211409567}
-  - {fileID: 5897992220211409561}
-  - {fileID: 5897992220211409563}
-  - {fileID: 5897992220211409557}
-  - {fileID: 5897992220211409559}
-  - {fileID: 5897992220211409553}
-  - {fileID: 5897992220211409555}
-  - {fileID: 5897992220211409581}
-  - {fileID: 5897992220211409583}
-  - {fileID: 5897992220211409577}
-  - {fileID: 5897992220211409587}
-  - {fileID: 5897992220211409579}
-  - {fileID: 5897992220211409573}
-  - {fileID: 5897992220211409575}
-  - {fileID: 5897992220211409569}
-  - {fileID: 5897992220211409571}
-  - {fileID: 5897992220211409597}
-  - {fileID: 5897992220211409599}
-  - {fileID: 5897992220211409593}
-  - {fileID: 5897992220211409595}
-  - {fileID: 5897992220211409589}
-  - {fileID: 5897992220211409591}
-  - {fileID: 5897992220211409585}
-  mItems:
-  - {fileID: 1346292523853656272}
-  fWeapons:
-  - {fileID: 3504562301739100923}
-  - {fileID: 3504562301739100925}
-  - {fileID: 3504562301739100927}
-  - {fileID: 3504562301739100913}
-  - {fileID: 3504562301739100915}
-  - {fileID: 3504562301739100917}
-  - {fileID: 3504562301739100919}
-  - {fileID: 3504562301739100809}
-  - {fileID: 3504562301739100811}
-  - {fileID: 3504562301739100813}
-  - {fileID: 3504562301739100815}
-  - {fileID: 3504562301739100801}
-  - {fileID: 3504562301739100803}
-  - {fileID: 3504562301739100805}
-  - {fileID: 3504562301739100807}
-  - {fileID: 3504562301739100825}
-  - {fileID: 3504562301739100827}
-  - {fileID: 3504562301739100829}
-  - {fileID: 3504562301739100831}
-  - {fileID: 3504562301739100817}
-  - {fileID: 3504562301739100819}
-  - {fileID: 3504562301739100821}
-  - {fileID: 3504562301739100823}
-  - {fileID: 3504562301739100841}
-  fItems:
-  - {fileID: 9156851663749399313}
 --- !u!1 &5897992220211409409
 GameObject:
   m_ObjectHideFlags: 0

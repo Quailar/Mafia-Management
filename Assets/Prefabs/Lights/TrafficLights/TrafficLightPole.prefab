@@ -111,7 +111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6022574382711796785, guid: b76e0f5bdc962a14a8eccee6e0735f66, type: 3}
       propertyPath: m_TagString
-      value: TAG:GreenLightLamp
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6022574382711796786, guid: b76e0f5bdc962a14a8eccee6e0735f66, type: 3}
       propertyPath: m_RootOrder
@@ -245,7 +245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3997078344006233627, guid: 3c9dcf4bc5e89e948af1ffef72d22614, type: 3}
       propertyPath: m_TagString
-      value: TAG:YellowLightLamp
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9dcf4bc5e89e948af1ffef72d22614, type: 3}
@@ -267,7 +267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 657804654057063776, guid: 082ec94d29ae7bf4389fc813fd58e07d, type: 3}
       propertyPath: m_TagString
-      value: TAG:RedLightLamp
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 657804654057063781, guid: 082ec94d29ae7bf4389fc813fd58e07d, type: 3}
       propertyPath: m_CastShadows

@@ -2478,7 +2478,7 @@ GameObject:
   - component: {fileID: 8666058468877116504}
   m_Layer: 0
   m_Name: Police_Station
-  m_TagString: Untagged
+  m_TagString: 'Building:PoliceStation '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3111,7 +3111,7 @@ GameObject:
   - component: {fileID: 3780999816952110359}
   m_Layer: 0
   m_Name: Door_01
-  m_TagString: DOOR_NAV_POINT
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

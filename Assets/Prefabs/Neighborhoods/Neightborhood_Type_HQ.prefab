@@ -369,7 +369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 824879902428637001, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_TagString
-      value: TAG:SidewalkCorner
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3639651949756665367, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_RootOrder
@@ -435,7 +435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -501,7 +501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528390955695540, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLamp
+      value: 'StreetLight:Lamp '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -509,7 +509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPole
+      value: 'StreetLight:Pole '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669460, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_RootOrder
@@ -557,7 +557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392060342187, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampSpotLight
+      value: 'StreetLight:SpotLight '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -565,7 +565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPointLight
+      value: 'StreetLight:PointLight '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
@@ -587,7 +587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -653,7 +653,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 824879902428637001, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_TagString
-      value: TAG:SidewalkCorner
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3639651949756665367, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_RootOrder
@@ -719,7 +719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528390955695540, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLamp
+      value: 'StreetLight:Lamp '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -727,7 +727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPole
+      value: 'StreetLight:Pole '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669460, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_RootOrder
@@ -775,7 +775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392060342187, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampSpotLight
+      value: 'StreetLight:SpotLight '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -783,7 +783,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPointLight
+      value: 'StreetLight:PointLight '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
@@ -805,7 +805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -871,7 +871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -934,10 +934,6 @@ PrefabInstance:
     - target: {fileID: 5742985032626935683, guid: 464637636382d10439f48565d868fb29, type: 3}
       propertyPath: m_Name
       value: Hydrant
-      objectReference: {fileID: 0}
-    - target: {fileID: 5742985032626935683, guid: 464637636382d10439f48565d868fb29, type: 3}
-      propertyPath: m_TagString
-      value: TAG:Hydrant
       objectReference: {fileID: 0}
     - target: {fileID: 8784402659366659472, guid: 464637636382d10439f48565d868fb29, type: 3}
       propertyPath: m_RootOrder
@@ -1003,7 +999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -1107,17 +1103,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5501293736915213602, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f63c8fc88a4b0d04fbde8f2b8130b479, type: 2}
     - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
       propertyPath: m_Name
       value: Agent_SpawnPoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
-      propertyPath: m_TagString
-      value: Agent_Spawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
@@ -1135,7 +1123,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7732156185676058225, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:YellowLightLampEastWest
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156186283049989, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
@@ -1143,11 +1131,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156186856795976, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:GreenLightLampEastWest
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187155251114, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:RedLightLampEastWest
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_Name
@@ -1155,7 +1143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TrafficLightEastWest
+      value: 'TrafficLight:EastWest '
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder
@@ -1221,7 +1209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -1287,7 +1275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2316899866479514874, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:Road
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2316899866479514875, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_RootOrder
@@ -1335,7 +1323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2316899867583328114, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3592166859077431687, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -1343,7 +1331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3592166859077431687, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3637373161906615510, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -1351,7 +1339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3637373161906615510, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6016526107723217962, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -1359,7 +1347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6016526107723217962, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7194332011744200719, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -1367,7 +1355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7194332011744200719, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7360951864660740951, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -1375,7 +1363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7360951864660740951, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
@@ -1435,17 +1423,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5501293736915213602, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f63c8fc88a4b0d04fbde8f2b8130b479, type: 2}
     - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
       propertyPath: m_Name
       value: Agent_SpawnPoint (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
-      propertyPath: m_TagString
-      value: Agent_Spawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
@@ -1463,11 +1443,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 810799481711233214, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1099941107896949860, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259562853706, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_RootOrder
@@ -1519,19 +1499,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259562853707, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:Intersection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259981672863, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5873227915146900713, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCenter
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8129683728671273151, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
@@ -1553,7 +1533,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2316899866479514874, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:Road
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2316899866479514875, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_RootOrder
@@ -1601,7 +1581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2316899867583328114, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3592166859077431687, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -1609,7 +1589,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3592166859077431687, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3637373161906615510, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -1617,7 +1597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3637373161906615510, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6016526107723217962, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -1625,7 +1605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6016526107723217962, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7194332011744200719, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -1633,7 +1613,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7194332011744200719, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7360951864660740951, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -1641,7 +1621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7360951864660740951, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
@@ -1663,7 +1643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 824879902428637001, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_TagString
-      value: TAG:SidewalkCorner
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3639651949756665367, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_RootOrder
@@ -1725,11 +1705,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 810799481711233214, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1099941107896949860, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259562853706, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_RootOrder
@@ -1781,19 +1761,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259562853707, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:Intersection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259981672863, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5873227915146900713, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCenter
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8129683728671273151, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
@@ -1853,17 +1833,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5501293736915213602, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f63c8fc88a4b0d04fbde8f2b8130b479, type: 2}
     - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
       propertyPath: m_Name
       value: Agent_SpawnPoint (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
-      propertyPath: m_TagString
-      value: Agent_Spawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
@@ -1929,7 +1901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8692414716379937445, guid: 81b4f1187826ada48a57e0766eca3318, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81b4f1187826ada48a57e0766eca3318, type: 3}
@@ -1951,7 +1923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -2017,7 +1989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528390955695540, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLamp
+      value: 'StreetLight:Lamp '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -2025,7 +1997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPole
+      value: 'StreetLight:Pole '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669460, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_RootOrder
@@ -2073,7 +2045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392060342187, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampSpotLight
+      value: 'StreetLight:SpotLight '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -2081,7 +2053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPointLight
+      value: 'StreetLight:PointLight '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
@@ -2103,7 +2075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -2169,7 +2141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -2235,7 +2207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2316899866479514874, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:Road
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2316899866479514875, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_RootOrder
@@ -2283,7 +2255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2316899867583328114, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3592166859077431687, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -2291,7 +2263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3592166859077431687, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3637373161906615510, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -2299,7 +2271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3637373161906615510, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6016526107723217962, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -2307,7 +2279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6016526107723217962, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7194332011744200719, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -2315,7 +2287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7194332011744200719, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7360951864660740951, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -2323,7 +2295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7360951864660740951, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
@@ -2345,7 +2317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528390955695540, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLamp
+      value: 'StreetLight:Lamp '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -2353,7 +2325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPole
+      value: 'StreetLight:Pole '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669460, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_RootOrder
@@ -2401,7 +2373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392060342187, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampSpotLight
+      value: 'StreetLight:SpotLight '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -2409,7 +2381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPointLight
+      value: 'StreetLight:PointLight '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
@@ -2431,7 +2403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -2497,7 +2469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -2607,7 +2579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_TagString
-      value: TAG:Tree
+      value: 'Prop:Tree '
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2635,7 +2607,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.075, y: 3.0870001, z: 1.156}
+  m_Extents: {x: 0.25, y: 3, z: 0.25}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -2698,7 +2670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_TagString
-      value: TAG:Tree
+      value: 'Prop:Tree '
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2726,7 +2698,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.075, y: 3.0870001, z: 1.156}
+  m_Extents: {x: 0.25, y: 3, z: 0.25}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -2789,7 +2761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_TagString
-      value: TAG:Tree
+      value: 'Prop:Tree '
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2817,7 +2789,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.075, y: 3.0870001, z: 1.156}
+  m_Extents: {x: 0.25, y: 3, z: 0.25}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -2880,7 +2852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_TagString
-      value: TAG:Tree
+      value: 'Prop:Tree '
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2908,7 +2880,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.075, y: 3.0870001, z: 1.156}
+  m_Extents: {x: 0.25, y: 3, z: 0.25}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -2971,7 +2943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_TagString
-      value: TAG:Tree
+      value: 'Prop:Tree '
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2999,7 +2971,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.075, y: 3.0870001, z: 1.156}
+  m_Extents: {x: 0.25, y: 3, z: 0.25}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -3062,7 +3034,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_TagString
-      value: TAG:Tree
+      value: 'Prop:Tree '
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3090,7 +3062,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.075, y: 3.0870001, z: 1.156}
+  m_Extents: {x: 0.25, y: 3, z: 0.25}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -3153,7 +3125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_TagString
-      value: TAG:Tree
+      value: 'Prop:Tree '
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3181,7 +3153,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.075, y: 3.0870001, z: 1.156}
+  m_Extents: {x: 0.25, y: 3, z: 0.25}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -3244,7 +3216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_TagString
-      value: TAG:Tree
+      value: 'Prop:Tree '
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3272,7 +3244,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.075, y: 3.0870001, z: 1.156}
+  m_Extents: {x: 0.25, y: 3, z: 0.25}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -3335,7 +3307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_TagString
-      value: TAG:Tree
+      value: 'Prop:Tree '
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3363,7 +3335,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.075, y: 3.0870001, z: 1.156}
+  m_Extents: {x: 0.25, y: 3, z: 0.25}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -3382,7 +3354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -3448,7 +3420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 824879902428637001, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_TagString
-      value: TAG:SidewalkCorner
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3639651949756665367, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_RootOrder
@@ -3514,7 +3486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 824879902428637001, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_TagString
-      value: TAG:SidewalkCorner
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3639651949756665367, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_RootOrder
@@ -3624,7 +3596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 855509949573608011, guid: db30d0968d2a14049a573801dedb82e4, type: 3}
       propertyPath: m_TagString
-      value: TAG:BlockCenterStreet
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db30d0968d2a14049a573801dedb82e4, type: 3}
@@ -3646,7 +3618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528390955695540, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLamp
+      value: 'StreetLight:Lamp '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -3654,7 +3626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPole
+      value: 'StreetLight:Pole '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669460, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_RootOrder
@@ -3702,7 +3674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392060342187, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampSpotLight
+      value: 'StreetLight:SpotLight '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -3710,7 +3682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPointLight
+      value: 'StreetLight:PointLight '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
@@ -3732,7 +3704,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -3798,7 +3770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528390955695540, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLamp
+      value: 'StreetLight:Lamp '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -3806,7 +3778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPole
+      value: 'StreetLight:Pole '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669460, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_RootOrder
@@ -3854,7 +3826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392060342187, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampSpotLight
+      value: 'StreetLight:SpotLight '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -3862,7 +3834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPointLight
+      value: 'StreetLight:PointLight '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
@@ -3880,11 +3852,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 810799481711233214, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1099941107896949860, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259562853706, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_RootOrder
@@ -3936,19 +3908,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259562853707, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:Intersection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259981672863, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5873227915146900713, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCenter
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8129683728671273151, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
@@ -3970,7 +3942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -4036,7 +4008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 824879902428637001, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_TagString
-      value: TAG:SidewalkCorner
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3639651949756665367, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_RootOrder
@@ -4099,10 +4071,6 @@ PrefabInstance:
     - target: {fileID: 5742985032626935683, guid: 464637636382d10439f48565d868fb29, type: 3}
       propertyPath: m_Name
       value: Hydrant
-      objectReference: {fileID: 0}
-    - target: {fileID: 5742985032626935683, guid: 464637636382d10439f48565d868fb29, type: 3}
-      propertyPath: m_TagString
-      value: TAG:Hydrant
       objectReference: {fileID: 0}
     - target: {fileID: 8784402659366659472, guid: 464637636382d10439f48565d868fb29, type: 3}
       propertyPath: m_RootOrder
@@ -4168,7 +4136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -4234,7 +4202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -4300,7 +4268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -4366,7 +4334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528390955695540, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLamp
+      value: 'StreetLight:Lamp '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -4374,7 +4342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPole
+      value: 'StreetLight:Pole '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669460, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_RootOrder
@@ -4422,7 +4390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392060342187, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampSpotLight
+      value: 'StreetLight:SpotLight '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -4430,7 +4398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPointLight
+      value: 'StreetLight:PointLight '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
@@ -4448,11 +4416,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 810799481711233214, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1099941107896949860, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259562853706, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_RootOrder
@@ -4504,19 +4472,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259562853707, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:Intersection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3209645259981672863, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5873227915146900713, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCenter
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8129683728671273151, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1efc3cb83bf92514bab8c36af8f001ea, type: 3}
@@ -4538,7 +4506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -4600,7 +4568,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7732156185676058225, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:YellowLightLampNorthSouth
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156186283049989, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
@@ -4608,11 +4576,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156186856795976, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:GreenLightLampNorthSouth
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187155251114, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:RedLightLampNorthSouth
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_Name
@@ -4620,7 +4588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TrafficLightNorthSouth
+      value: 'TrafficLight:NorthSouth '
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder
@@ -4686,7 +4654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 824879902428637001, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_TagString
-      value: TAG:SidewalkCorner
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3639651949756665367, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_RootOrder
@@ -4752,7 +4720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -4814,7 +4782,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7732156185676058225, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:YellowLightLampEastWest
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156186283049989, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
@@ -4822,11 +4790,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156186856795976, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:GreenLightLampEastWest
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187155251114, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:RedLightLampEastWest
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_Name
@@ -4834,7 +4802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TrafficLightEastWest
+      value: 'TrafficLight:EastWest '
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder
@@ -4900,7 +4868,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -4966,7 +4934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -5032,7 +5000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2316899866479514874, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:Road
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2316899866479514875, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_RootOrder
@@ -5080,7 +5048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2316899867583328114, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3592166859077431687, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -5088,7 +5056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3592166859077431687, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3637373161906615510, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -5096,7 +5064,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3637373161906615510, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6016526107723217962, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -5104,7 +5072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6016526107723217962, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7194332011744200719, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -5112,7 +5080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7194332011744200719, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7360951864660740951, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -5120,7 +5088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7360951864660740951, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
@@ -5142,7 +5110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -5208,7 +5176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528390955695540, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLamp
+      value: 'StreetLight:Lamp '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -5216,7 +5184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPole
+      value: 'StreetLight:Pole '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669460, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_RootOrder
@@ -5264,7 +5232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392060342187, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampSpotLight
+      value: 'StreetLight:SpotLight '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -5272,7 +5240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPointLight
+      value: 'StreetLight:PointLight '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
@@ -5294,7 +5262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -5356,7 +5324,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7732156185676058225, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:YellowLightLampNorthSouth
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156186283049989, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
@@ -5364,11 +5332,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156186856795976, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:GreenLightLampNorthSouth
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187155251114, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TAG:RedLightLampNorthSouth
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_Name
@@ -5376,7 +5344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128180, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_TagString
-      value: TrafficLightNorthSouth
+      value: 'TrafficLight:NorthSouth '
       objectReference: {fileID: 0}
     - target: {fileID: 7732156187502128185, guid: ec6c2e43cb6dd9e4dada3f6138bd804a, type: 3}
       propertyPath: m_RootOrder
@@ -5442,7 +5410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528390955695540, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLamp
+      value: 'StreetLight:Lamp '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -5450,7 +5418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPole
+      value: 'StreetLight:Pole '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669460, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_RootOrder
@@ -5498,7 +5466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392060342187, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampSpotLight
+      value: 'StreetLight:SpotLight '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -5506,7 +5474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPointLight
+      value: 'StreetLight:PointLight '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
@@ -5566,17 +5534,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5501293736915213602, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f63c8fc88a4b0d04fbde8f2b8130b479, type: 2}
     - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
       propertyPath: m_Name
       value: Agent_SpawnPoint (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7888246211064588563, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
-      propertyPath: m_TagString
-      value: Agent_Spawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbcd6638cef7bd447bff6993a63832ff, type: 3}
@@ -5642,7 +5602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_TagString
-      value: TAG:Tree
+      value: 'Prop:Tree '
       objectReference: {fileID: 0}
     - target: {fileID: 6555190327018929719, guid: 61963a880edd9c545af5e0e4095304f4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5670,7 +5630,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.075, y: 3.0870001, z: 1.156}
+  m_Extents: {x: 0.25, y: 3, z: 0.25}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -5689,7 +5649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -5755,7 +5715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -5821,7 +5781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2316899866479514874, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:Road
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2316899866479514875, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_RootOrder
@@ -5869,7 +5829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2316899867583328114, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3592166859077431687, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -5877,7 +5837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3592166859077431687, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3637373161906615510, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -5885,7 +5845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3637373161906615510, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6016526107723217962, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -5893,7 +5853,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6016526107723217962, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7194332011744200719, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -5901,7 +5861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7194332011744200719, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7360951864660740951, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_Name
@@ -5909,7 +5869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7360951864660740951, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
       propertyPath: m_TagString
-      value: TAG:RoadSection
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6e02ccc14cb8454da518dc55c6ef5cb, type: 3}
@@ -5975,7 +5935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8692414716379937445, guid: 81b4f1187826ada48a57e0766eca3318, type: 3}
       propertyPath: m_TagString
-      value: TAG:IntersectionCrossing
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81b4f1187826ada48a57e0766eca3318, type: 3}
@@ -5997,7 +5957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -6063,7 +6023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder
@@ -6129,7 +6089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 824879902428637001, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_TagString
-      value: TAG:SidewalkCorner
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3639651949756665367, guid: 67791dc1664bc2041beb2432508edcb3, type: 3}
       propertyPath: m_RootOrder
@@ -6195,7 +6155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528390955695540, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLamp
+      value: 'StreetLight:Lamp '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -6203,7 +6163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669457, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPole
+      value: 'StreetLight:Pole '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528391728669460, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_RootOrder
@@ -6251,7 +6211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392060342187, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampSpotLight
+      value: 'StreetLight:SpotLight '
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_Name
@@ -6259,7 +6219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8391528392079850561, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
       propertyPath: m_TagString
-      value: TAG:StreetLampPointLight
+      value: 'StreetLight:PointLight '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39d93b70cb02734085c0aab55720ce1, type: 3}
@@ -6281,7 +6241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3056517586631105485, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_TagString
-      value: TAG:Sidewalk
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3096405703472843645, guid: 9564fc9d06f4b1749a9286b5826e4f7e, type: 3}
       propertyPath: m_RootOrder

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5782991635238548486}
   m_Layer: 0
   m_Name: Auto_Unit
-  m_TagString: Auto
+  m_TagString: 'Auto:Unit '
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,10 +112,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navmeshAuto: {fileID: 1709279314124013554}
+  trafficController: {fileID: 0}
   currentnode: {fileID: 0}
   nextNode: {fileID: 0}
   Neighbors: []
   isStopped: 0
+  signal: 0
 --- !u!114 &5782991635238548486
 MonoBehaviour:
   m_ObjectHideFlags: 0

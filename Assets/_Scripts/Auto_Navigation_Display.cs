@@ -76,9 +76,9 @@ public class Auto_Navigation_Display : MonoBehaviour
         }
         else//If spawn points array is empty
         {
-            Nav_Roads.AddRange(GameObject.FindGameObjectsWithTag("TAG:Road"));//load auto nav road 
-            Nav_Roads.AddRange(GameObject.FindGameObjectsWithTag("TAG:IntersectionCrossing"));//load auto nav road 
-            Nav_Roads.AddRange(GameObject.FindGameObjectsWithTag("TAG:IntersectionCenter"));//load auto nav road 
+            Nav_Roads.AddRange(GameObject.FindGameObjectsWithTag("Map:RoadSection"));//load auto nav road 
+            Nav_Roads.AddRange(GameObject.FindGameObjectsWithTag("Map:IntersectionCrossing"));//load auto nav road 
+            Nav_Roads.AddRange(GameObject.FindGameObjectsWithTag("Map:IntersectionCenter"));//load auto nav road 
             if (!GameData.NavigationDisplayActive)//If Navigation display variable is false
             {
                 GameData.NavigationDisplayActive = true;//Navigation display is true
@@ -138,9 +138,9 @@ public class Auto_Navigation_Display : MonoBehaviour
         }
         else
         {
-            Agent_Spawn_Nodes.AddRange(GameObject.FindGameObjectsWithTag("TAG:Agent_Spawn"));//load auto nav links
-            Auto_Spawn_Nodes.AddRange(GameObject.FindGameObjectsWithTag("TAG:Auto_Spawn"));//load auto nav links
-            Auto_DeSpawn_Nodes.AddRange(GameObject.FindGameObjectsWithTag("TAG:Auto_Despawn"));//load auto nav links
+            Agent_Spawn_Nodes.AddRange(GameObject.FindGameObjectsWithTag("Agent:Spawn"));//load auto nav links
+            Auto_Spawn_Nodes.AddRange(GameObject.FindGameObjectsWithTag("Auto:Spawn"));//load auto nav links
+            Auto_DeSpawn_Nodes.AddRange(GameObject.FindGameObjectsWithTag("Auto:Despawn"));//load auto nav links
             if (!GameData.NavigationSpawnDisplayActive)//If Navigation display variable is false
             {
                 GameData.NavigationSpawnDisplayActive = true;//Navigation display is true

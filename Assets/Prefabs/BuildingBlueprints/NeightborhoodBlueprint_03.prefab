@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1239260316406184361}
   m_Layer: 0
   m_Name: NeightborhoodBlueprint_03
-  m_TagString: TAG:RedLightLamp
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

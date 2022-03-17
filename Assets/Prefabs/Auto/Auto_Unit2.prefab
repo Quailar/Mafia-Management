@@ -1045,10 +1045,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navmeshAuto: {fileID: 0}
+  trafficController: {fileID: 0}
   currentnode: {fileID: 0}
   nextNode: {fileID: 0}
   Neighbors: []
   isStopped: 0
+  signal: 0
 --- !u!1 &6608276345154577682
 GameObject:
   m_ObjectHideFlags: 0

@@ -40,22 +40,22 @@ public class TrafficLightController : MonoBehaviour
 
     private void Awake()
     {
-        trafficPolesNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TrafficLightNorthSouth"));
-        trafficPolesEastWest.AddRange(GameObject.FindGameObjectsWithTag("TrafficLightEastWest"));
+        trafficPolesNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TrafficLight:NorthSouth"));
+        trafficPolesEastWest.AddRange(GameObject.FindGameObjectsWithTag("TrafficLight:EastWest"));
 
 
-        redTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TAG:RedLightLampNorthSouth"));
-        greenTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TAG:GreenLightLampNorthSouth"));
-        yellowTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TAG:YellowLightLampNorthSouth"));
+        redTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TrafficLight:RedLampNorthSouth"));
+        greenTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TrafficLight:GreenLampNorthSouth"));
+        yellowTrafficLightsNorthSouth.AddRange(GameObject.FindGameObjectsWithTag("TrafficLight:YellowLampNorthSouth"));
 
-        redTrafficLightsEastWest.AddRange(GameObject.FindGameObjectsWithTag("TAG:RedLightLampEastWest"));
-        greenTrafficLightsEastWest.AddRange(GameObject.FindGameObjectsWithTag("TAG:GreenLightLampEastWest"));
-        yellowTrafficLightsEastWest.AddRange(GameObject.FindGameObjectsWithTag("TAG:YellowLightLampEastWest"));
+        redTrafficLightsEastWest.AddRange(GameObject.FindGameObjectsWithTag("TrafficLight:RedLampEastWest"));
+        greenTrafficLightsEastWest.AddRange(GameObject.FindGameObjectsWithTag("TrafficLight:GreenLampEastWest"));
+        yellowTrafficLightsEastWest.AddRange(GameObject.FindGameObjectsWithTag("TrafficLight:YellowLampEastWest"));
 
-        streetLamps.AddRange(GameObject.FindGameObjectsWithTag("TAG:StreetLampPole"));
-        streetLampBulb.AddRange(GameObject.FindGameObjectsWithTag("TAG:StreetLamp"));
-        streetLampPointLight.AddRange(GameObject.FindGameObjectsWithTag("TAG:StreetLampPointLight"));
-        streetLampSpotLight.AddRange(GameObject.FindGameObjectsWithTag("TAG:StreetLampSpotLight"));
+        streetLamps.AddRange(GameObject.FindGameObjectsWithTag("StreetLight:Pole"));
+        streetLampBulb.AddRange(GameObject.FindGameObjectsWithTag("StreetLight:Lamp"));
+        streetLampPointLight.AddRange(GameObject.FindGameObjectsWithTag("StreetLight:PointLight"));
+        streetLampSpotLight.AddRange(GameObject.FindGameObjectsWithTag("StreetLight:SpotLight"));
     }
 
 

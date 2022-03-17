@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 317344987157471815}
   m_Layer: 0
   m_Name: Node-Blue
-  m_TagString: Node
+  m_TagString: Auto_Node_Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7e8d38bb881cbe64ca0569ceac58e5cb, type: 2}
+  - {fileID: 2100000, guid: 8531146cc5e31414996004372e886768, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

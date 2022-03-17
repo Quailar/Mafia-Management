@@ -49,6 +49,5 @@ public partial class GameData : MonoBehaviour
     {
         NAVMESH_AUTO.BuildNavMesh();
         NAVMESH_AGENT.BuildNavMesh();
-        print("NavMesh Building..");
     }
 }
