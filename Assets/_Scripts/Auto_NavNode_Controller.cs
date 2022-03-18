@@ -16,7 +16,7 @@ public class Auto_NavNode_Controller : MonoBehaviour
 
     public bool isStopped;
 
-    public bool signal;
+
 
 
     private void Start()

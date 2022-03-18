@@ -15,8 +15,7 @@ public class Sun_Light : MonoBehaviour
     void FixedUpdate()
     {
         updateSunLight();
-        print("Intensity: " + GameData.sunLight);
-        print("NightLight: " + GameData.NightLights);
+
     }
 
     private void updateSunLight()
@@ -26,7 +25,7 @@ public class Sun_Light : MonoBehaviour
             GameData.NightLights = false;
             if (GameData.sunLight < maxSunLight)
             {
-                print("Increase Sunlight");
+
                 GameData.sunLight += transitionSpeed;
 
             }
@@ -36,7 +35,7 @@ public class Sun_Light : MonoBehaviour
             GameData.NightLights = true;
             if (GameData.sunLight > minSunLight)
             {
-                print("Decrease Sunlight");
+
                 GameData.sunLight -= transitionSpeed;
             }
         }

@@ -14778,6 +14778,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6134525069428691220, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6473923060954140019, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
       propertyPath: m_Name
       value: BuildingBlueprint_01
@@ -14849,6 +14853,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5221205358182682110, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134525069428691220, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -14926,6 +14934,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6134525069428691220, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6473923060954140019, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
       propertyPath: m_Name
       value: BuildingBlueprint_01 (3)
@@ -14997,6 +15009,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5221205358182682110, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134525069428691220, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -15074,6 +15090,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6134525069428691220, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6473923060954140019, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
       propertyPath: m_Name
       value: BuildingBlueprint_01
@@ -15145,6 +15165,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5221205358182682110, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134525069428691220, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -15222,6 +15246,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6134525069428691220, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6473923060954140019, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
       propertyPath: m_Name
       value: BuildingBlueprint_01
@@ -15293,6 +15321,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5221205358182682110, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134525069428691220, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -15370,6 +15402,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6134525069428691220, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6473923060954140019, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
       propertyPath: m_Name
       value: BuildingBlueprint_01
@@ -15441,6 +15477,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5221205358182682110, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134525069428691220, guid: 388ad6a0af005a74fabbcb473676e06a, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}

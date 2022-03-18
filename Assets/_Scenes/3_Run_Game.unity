@@ -1763,6 +1763,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1409196235594756921, guid: 0230244e4b23a1748ab8dacfd7a0e8f3, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 1409196235755121014, guid: 0230244e4b23a1748ab8dacfd7a0e8f3, type: 3}
       propertyPath: m_Name
       value: GameClock
@@ -1898,6 +1902,18 @@ PrefabInstance:
     - target: {fileID: 4442378561672165681, guid: 0230244e4b23a1748ab8dacfd7a0e8f3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067614634534636222, guid: 0230244e4b23a1748ab8dacfd7a0e8f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -778
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067614634534636222, guid: 0230244e4b23a1748ab8dacfd7a0e8f3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 387
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067614634534636223, guid: 0230244e4b23a1748ab8dacfd7a0e8f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0230244e4b23a1748ab8dacfd7a0e8f3, type: 3}
