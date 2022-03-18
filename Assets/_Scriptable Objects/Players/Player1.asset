@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f17990a41f23be4a91cd3b3daded783, type: 3}
+  m_Script: {fileID: 11500000, guid: 35ac80847a675f2418c57cdbf00a484f, type: 3}
   m_Name: Player1
   m_EditorClassIdentifier: 
   ID: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
   TotalStats: 0
   CostToHire: 0
   PricePerMonth: 0
-  TeamName: Player1
+  TeamName: 
   Rank: 
   TeamAbility: 
   TeamRelations: 0100000003000000050000000700000009000000

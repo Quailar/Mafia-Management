@@ -906,7 +906,7 @@ GameObject:
   - component: {fileID: 769699625290412152}
   m_Layer: 0
   m_Name: StreetLamp
-  m_TagString: Untagged
+  m_TagString: StreetLight:Lamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -2868,7 +2868,7 @@ GameObject:
   - component: {fileID: 2213672972549189292}
   m_Layer: 0
   m_Name: StreetLamp
-  m_TagString: Untagged
+  m_TagString: StreetLight:Lamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -3487,7 +3487,7 @@ GameObject:
   - component: {fileID: 2322987272887025567}
   m_Layer: 0
   m_Name: StreetLamp
-  m_TagString: Untagged
+  m_TagString: StreetLight:Lamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -4421,7 +4421,7 @@ GameObject:
   - component: {fileID: 3218161130043678367}
   m_Layer: 0
   m_Name: StreetLamp
-  m_TagString: Untagged
+  m_TagString: StreetLight:Lamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -5186,7 +5186,7 @@ GameObject:
   - component: {fileID: 3492569118350116238}
   m_Layer: 0
   m_Name: StreetLamp
-  m_TagString: Untagged
+  m_TagString: StreetLight:Lamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -7275,7 +7275,7 @@ GameObject:
   - component: {fileID: 5189067060242746321}
   m_Layer: 0
   m_Name: StreetLamp
-  m_TagString: Untagged
+  m_TagString: StreetLight:Lamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -10677,7 +10677,7 @@ GameObject:
   - component: {fileID: 7425908908315346906}
   m_Layer: 0
   m_Name: StreetLamp
-  m_TagString: Untagged
+  m_TagString: StreetLight:Lamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -11489,7 +11489,7 @@ GameObject:
   - component: {fileID: 7707576565971618042}
   m_Layer: 0
   m_Name: StreetLamp
-  m_TagString: Untagged
+  m_TagString: StreetLight:Lamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8

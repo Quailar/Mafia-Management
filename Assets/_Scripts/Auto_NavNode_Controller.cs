@@ -108,6 +108,7 @@ public class Auto_NavNode_Controller : MonoBehaviour
         if (nextNode != null)
         {
             Drive();
+            navmeshAuto.speed = 3.5f * GameData.gameSpeed;
         }
     }
 

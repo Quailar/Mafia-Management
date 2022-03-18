@@ -1,8 +1,10 @@
 using UnityEngine;
+using UnityEngine.AI;
 using System.Collections.Generic;
 public class Agent_Unit : MonoBehaviour
 {
     public GameData gameData;
+    public NavMeshAgent navmeshAgent;
     public List<Agent_Unit_SO> AGENT_UNIT_SO_LIST = new List<Agent_Unit_SO>();
     public Agent_Unit_SO unitSO;
     public Animator animator;
@@ -26,7 +28,7 @@ public class Agent_Unit : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        //CheckLights();
+        navmeshAgent.speed = 1 * GameData.gameSpeed;
     }
 
 
@@ -83,21 +85,6 @@ public class Agent_Unit : MonoBehaviour
         unitSO.isSelected = true;
         Debug.Log(unitSO.isSelected);
     }
-    public void CheckLights()
-    {
-        if (GameData.NightLights && unitSO.Gender == "Female")
-        {
-            fItems[0].SetActive(true);
-        }
-        else if (GameData.NightLights && unitSO.Gender == "Male")
-        {
-            mItems[0].SetActive(true);
-        }
-        else
-        {
-            mItems[0].SetActive(false);
-            fItems[0].SetActive(false);
-        }
-    }
+
 
 }

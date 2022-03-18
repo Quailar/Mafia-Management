@@ -38,6 +38,7 @@ public class Clock : MonoBehaviour
         GameData.timer = GameData.minuteToRealTime;
         updateTimeSpeed("Play");
         updateMeridiem();
+        updateTimeDisplay();
     }
 
     public void Update()
@@ -56,7 +57,7 @@ public class Clock : MonoBehaviour
     }
     private void updateMinute()
     {
-        GameData.min++;
+        GameData.min += GameData.gameSpeed;
         GameData.timer = GameData.minuteToRealTime;
 
 
@@ -155,19 +156,19 @@ public class Clock : MonoBehaviour
         switch (ts)
         {
             case "Faster":
-                Time.timeScale = 20f;
+                GameData.gameSpeed = 20;
                 break;
             case "Fast":
-                Time.timeScale = 10f;
+                GameData.gameSpeed = 10;
                 break;
             case "Play":
-                Time.timeScale = 1f;
+                GameData.gameSpeed = 1;
                 break;
             case "Pause":
-                Time.timeScale = 0f;
+                GameData.gameSpeed = 0;
                 break;
             default:
-                Time.timeScale = 1f;
+                GameData.gameSpeed = 1;
                 break;
         }
         updateTimeButtons();
@@ -175,7 +176,7 @@ public class Clock : MonoBehaviour
 
     void updateTimeButtons()
     {
-        float ts = Time.timeScale;
+        float ts = GameData.gameSpeed;
         if (ts <= 0) { pauseText.gameObject.SetActive(true); }
         else { pauseText.gameObject.SetActive(false); }
         switch (ts)

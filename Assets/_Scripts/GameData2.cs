@@ -21,7 +21,7 @@ public partial class GameData
     public static float sunLight;
     public static bool NavigationDisplayActive;
     public static bool agentDisplayPath;
-    public static string gameSpeed;
+    public static int gameSpeed;
     public static float minuteToRealTime = 1f;
     public static float timer;
     public static int min;
