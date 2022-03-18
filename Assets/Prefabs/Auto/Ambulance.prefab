@@ -172,6 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1083782359211189907}
   - component: {fileID: 7468613628043013797}
+  - component: {fileID: -3657366840320974025}
   m_Layer: 0
   m_Name: Ambulance
   m_TagString: Untagged
@@ -217,6 +218,29 @@ MonoBehaviour:
   Neighbors: []
   isStopped: 0
   signal: 0
+--- !u!114 &-3657366840320974025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4130090616808330368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f0b381156e408489b9919742a084d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navMeshAuto: {fileID: 0}
+  autoUnitSO: {fileID: 0}
+  AUTO_UNIT_SO_LIST: []
+  autoBodys: []
+  autoHeadLamps: []
+  autoHeadLights: []
+  autoHeadLamps_ON: {fileID: 0}
+  autoHeadLamps_OFF: {fileID: 0}
+  autoBreakLamps: []
+  autoBreakLamps_ON: {fileID: 0}
+  autoBreakLamps_OFF: {fileID: 0}
 --- !u!1 &4862437494170754503
 GameObject:
   m_ObjectHideFlags: 0
