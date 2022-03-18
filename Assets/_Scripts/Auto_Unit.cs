@@ -5,19 +5,16 @@ public class Auto_Unit : MonoBehaviour
 {
     [Header("Properties:")]
     public NavMeshAgent navMeshAuto;
-    public Auto_Unit_SO autoUnitSO;
     public List<Auto_Unit_SO> AUTO_UNIT_SO_LIST = new List<Auto_Unit_SO>();
+    public Auto_Unit_SO autoUnitSO;
     public GameObject[] autoBodys;
 
-    [Tooltip("Headlights: Light, Lamps: Objects, Materials: Color On/Off")]
     [Header("Headlights:")]
-
     public GameObject[] autoHeadLamps;
     public GameObject[] autoHeadLights;
     public Material autoHeadLamps_ON;
     public Material autoHeadLamps_OFF;
 
-    [Tooltip("Lamps: Objects, Materials: Color On/Off")]
     [Header("Breaklights:")]
     public GameObject[] autoBreakLamps;
     public Material autoBreakLamps_ON;
