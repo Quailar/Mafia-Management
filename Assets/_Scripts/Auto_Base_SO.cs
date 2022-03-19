@@ -4,8 +4,6 @@ public class Auto_Base_SO : ScriptableObject
 {
     [Header("Profile")]
     public int ID;
-    public string Model;
-    public int Body;
 
     [Header("Location")]
     public Vector3 Position;

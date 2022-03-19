@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925c7111b70f85e408b02154817b9237, type: 3}
+  m_Name: Agent 39
+  m_EditorClassIdentifier: 
+  ID: 0
+  Gender: 
+  FirstName: 
+  LastName: 
+  NickName: 
+  Body: 0
+  Head: 0
+  Weapon: 0
+  Position: {x: 0, y: 0, z: 0}
+  WayPoint: {x: 0, y: 0, z: 0}
+  Destination: {x: 0, y: 0, z: 0}
+  CurrentHitPoints: 109
+  MaxHitPoints: 109
+  Strength: 9
+  Intelligence: 8
+  Speed: 8
+  Stamina: 4
+  Driving: 2
+  Unarmed: 6
+  FireArms: 3
+  Explosives: 3
+  Dodge: 4
+  Stealth: 3
+  Charisma: 6
+  TotalStats: 161
+  CostToHire: 1288
+  PricePerMonth: 128.8
+  TeamName: Agent
+  Rank: 1
+  TeamAbility: 
+  TeamRelations: 0100000003000000050000000700000009000000
+  isLuitenant: 0
+  isSelected: 0
+  isIdle: 0
+  isWalking: 0
+  isRunning: 0
+  isDriving: 0
+  isFleeing: 0
+  isInCover: 0
+  isThrowing: 0
+  isPunching: 0
+  isStabbing: 0
+  isShooting: 0
+  isDealing: 0
+  isBribing: 0
+  isRecruiting: 0
+  isStealing: 0
+  isTraining: 0
+  isTalking: 0
+  isJailed: 0
+  isHurt: 0
+  isHospitalized: 0
+  isDead: 0

@@ -5,12 +5,16 @@ public class Agent_Unit : MonoBehaviour
 {
     public GameData gameData;
     public NavMeshAgent navmeshAgent;
-    public Outline mOutline;
-    public Outline fOutline;
+    public List<Outline> mOutlineBody = new List<Outline>();
+    public List<Outline> fOutlineBody = new List<Outline>();
+    public List<Outline> mOutlineHead = new List<Outline>();
+    public List<Outline> fOutlineHead = new List<Outline>();
     public List<Agent_Unit_SO> AGENT_UNIT_SO_LIST = new List<Agent_Unit_SO>();
     public Agent_Unit_SO unitSO;
     public Animator animator;
     public Avatar[] avatar;
+    public int Body;
+    public int Head;
     public GameObject[] mBodys;
     public GameObject[] mHeads;
     public GameObject[] mWeapons;
@@ -79,14 +83,32 @@ public class Agent_Unit : MonoBehaviour
 
     private void OnMouseOver()
     {
+
+        if (unitSO.Gender == "Male")
+        {
+            mOutlineBody[unitSO.Body].enabled = true;
+            mOutlineHead[unitSO.Head].enabled = true;
+        }
+        else
+        {
+            fOutlineBody[unitSO.Body].enabled = true;
+            fOutlineHead[unitSO.Head].enabled = true;
+        }
         Debug.Log(unitSO.FirstName + " " + unitSO.LastName);
-        mOutline.enabled = true;
-        fOutline.enabled = true;
+
     }
     private void OnMouseExit()
     {
-        mOutline.enabled = false;
-        fOutline.enabled = false;
+        if (unitSO.Gender == "Male")
+        {
+            mOutlineBody[unitSO.Body].enabled = false;
+            mOutlineHead[unitSO.Head].enabled = false;
+        }
+        else
+        {
+            fOutlineBody[unitSO.Body].enabled = false;
+            fOutlineHead[unitSO.Head].enabled = false;
+        }
     }
 
     private void OnMouseUp()

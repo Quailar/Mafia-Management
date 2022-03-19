@@ -5,7 +5,8 @@ public class Auto_Unit : MonoBehaviour
 {
     [Header("Properties:")]
     public NavMeshAgent navmeshAuto;
-    public Outline outline;
+
+    public List<Outline> outline = new List<Outline>();
     public List<Auto_Unit_SO> AUTO_UNIT_SO_LIST = new List<Auto_Unit_SO>();
     public Auto_Unit_SO autoUnitSO;
     public GameObject[] autoBodys;
@@ -21,13 +22,17 @@ public class Auto_Unit : MonoBehaviour
     public Material autoBreakLamps_ON;
     public Material autoBreakLamps_OFF;
 
+    public string Model;
+
+    public int Body;
+
     public void Awake()
     {
         int index = Random.Range(0, AUTO_UNIT_SO_LIST.Count);//Get a random scriptable object for vehicle
         autoUnitSO = AUTO_UNIT_SO_LIST[index];//Select SO for unit
         autoUnitSO.ID = GetInstanceID();//GEt unit unique ID
         GetProfile();
-        //AUTO_UNIT_SO_LIST.Remove(autoUnitSO);//not surrently used
+        AUTO_UNIT_SO_LIST.Remove(autoUnitSO);//not surrently used
     }
     private void FixedUpdate()
     {
@@ -68,19 +73,20 @@ public class Auto_Unit : MonoBehaviour
     public void GetProfile()
     {
         int m = Random.Range(0, GameData.AUTO_MODEL_NAMES.Length);//Get a random name for auto unit
-        autoUnitSO.Model = GameData.AUTO_MODEL_NAMES[m];//Assign name to SO
-        autoUnitSO.Body = Random.Range(0, autoBodys.Length);//Get random body frame
-        autoBodys[autoUnitSO.Body].SetActive(true);//Turn on selected body
+        Model = GameData.AUTO_MODEL_NAMES[m];//Assign name to SO
+        Body = Random.Range(0, autoBodys.Length);//Get random body frame
+        autoBodys[Body].SetActive(true);//Turn on selected body
     }
 
     private void OnMouseOver()//Show model name
     {
-        print(autoUnitSO.Model);//Print name to console
-        outline.enabled = true;
+        print(Model);//Print name to console
+        outline[Body].enabled = true;
+
     }
     private void OnMouseExit()
     {
-        outline.enabled = false;
+        outline[Body].enabled = false;
     }
 
     private void OnMouseUp()//Select  unit = not currently used
