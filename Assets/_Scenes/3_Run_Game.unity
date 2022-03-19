@@ -163,7 +163,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 703233618}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &177553394
 MonoBehaviour:
@@ -269,7 +269,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1743461093}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &446983536
 GameObject:
@@ -308,7 +308,7 @@ RectTransform:
   - {fileID: 2122896201}
   - {fileID: 7020840407819752970}
   m_Father: {fileID: 703233618}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -405,7 +405,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 703233618}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &501006248
 MonoBehaviour:
@@ -450,12 +450,12 @@ Transform:
   - {fileID: 1306378740}
   - {fileID: 797638622}
   - {fileID: 1553597804}
+  - {fileID: 501006247}
   - {fileID: 177553393}
   - {fileID: 929067482}
   - {fileID: 1950608792}
   - {fileID: 1370370563}
   - {fileID: 446983537}
-  - {fileID: 501006247}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -677,7 +677,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 703233618}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &929067483
 MonoBehaviour:
@@ -692,7 +692,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraSpeed: 10
-  shiftSpeed: 1
   mouseSensitivity: 10
   minFov: 15
   maxFov: 85
@@ -701,7 +700,6 @@ MonoBehaviour:
   forwardBounds: 150
   ceilingBounds: 100
   floorBounds: 15
-  viewRange: 360
 --- !u!1001 &1240366098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -870,7 +868,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 703233618}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1388984893
 GameObject:
@@ -1018,8 +1016,8 @@ MonoBehaviour:
   greenTrafficLight_ON: {fileID: 2100000, guid: 01730a42238647d42aaa30539a23dc15, type: 2}
   yellowTrafficLight_ON: {fileID: 2100000, guid: 856c1c73efc8c7a43aae6aad7846b1cb, type: 2}
   trafficLight_OFF: {fileID: 2100000, guid: 909b0ccaf9d342844abbefb43fe4c089, type: 2}
-  trafficSignalNorthSouth: 0
-  trafficSignalEastWest: 0
+  trafficTimerNorthSouth: 0
+  trafficTimerEastWest: 0
   dirSwitch: 0
   GreenLightTimer: 50
   YellowLightTimer: 70
@@ -1031,39 +1029,8 @@ MonoBehaviour:
   YellowLightEastWest_ON: 0
   GreenLightEastWest_ON: 0
   streetLamps: []
-  streetLampBulb: []
   streetLampPointLight: []
   streetLampSpotLight: []
---- !u!1 &1619052109
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1619052110}
-  m_Layer: 0
-  m_Name: NeighborhoodBlocks
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1619052110
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619052109}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1743461093}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1699699771
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,7 +1071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1743461093}
   m_Layer: 0
-  m_Name: Instanciated Objects[Runtime]
+  m_Name: Instanciated Objects[RUNTIME]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1125,7 +1092,6 @@ Transform:
   - {fileID: 2020195887}
   - {fileID: 1699699772}
   - {fileID: 1388984894}
-  - {fileID: 1619052110}
   - {fileID: 1909722818}
   - {fileID: 2090546019}
   - {fileID: 298927231}
@@ -1271,7 +1237,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1743461093}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1950608791
 GameObject:
@@ -1303,7 +1269,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 703233618}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1950608793
 MonoBehaviour:
@@ -1393,7 +1359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1956251842}
   m_Layer: 0
-  m_Name: Neightborhood
+  m_Name: Neightborhoods
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1471,7 +1437,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1743461093}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &2122896201 stripped
 RectTransform:

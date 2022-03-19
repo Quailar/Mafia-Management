@@ -21,7 +21,6 @@ public class MainCamera : MonoBehaviour
         {
             horizontalBounds = 110f;
             forwardBounds = 110f;
-
         }
         if (GameData.MapSize == "Medium")
         {
@@ -64,13 +63,15 @@ public class MainCamera : MonoBehaviour
             anchorPoint = new Vector3(Input.mousePosition.y, -Input.mousePosition.x);
             anchorRot = transform.rotation;
         }
+
         if (Input.GetMouseButton(1))
         {
             Quaternion rot = anchorRot;
             Vector3 dif = anchorPoint - new Vector3(Input.mousePosition.y, -Input.mousePosition.x);
-            rot.eulerAngles += dif * mouseSensitivity * Time.unscaledDeltaTime * Time.timeScale;
+            rot.eulerAngles += dif * mouseSensitivity * Time.unscaledDeltaTime;
             transform.rotation = rot;
         }
+
         if (Input.GetAxis("Mouse ScrollWheel") != 0)
         {
             UpdateZoom();
@@ -86,6 +87,7 @@ public class MainCamera : MonoBehaviour
         {
             Camera.main.fieldOfView = minFov;
         }
+
         else if (Camera.main.fieldOfView > maxFov)
         {
             Camera.main.fieldOfView = maxFov;

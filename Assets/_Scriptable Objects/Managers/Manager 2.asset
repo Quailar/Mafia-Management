@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3b9b132573e654a8fc4707e31356ad, type: 3}
+  m_Name: Manager 2
+  m_EditorClassIdentifier: 
+  ID: 0
+  Gender: 
+  FirstName: 
+  LastName: 
+  NickName: 
+  Body: 0
+  Head: 0
+  Weapon: 0
+  Position: {x: 0, y: 0, z: 0}
+  CurrentHitPoints: 105
+  MaxHitPoints: 105
+  Strength: 9
+  Intelligence: 8
+  Speed: 5
+  Stamina: 1
+  Driving: 9
+  Unarmed: 5
+  FireArms: 3
+  Explosives: 7
+  Dodge: 5
+  Stealth: 6
+  Charisma: 5
+  TotalStats: 167
+  CostToHire: 835
+  PricePerMonth: 83.5
+  TeamName: Manager
+  isLuitenant: 0
+  isSelected: 0
+  isIdle: 0
+  isWalking: 0
+  isRunning: 0
+  isFleeing: 0
+  isInCover: 0
+  isThrowing: 0
+  isPunching: 0
+  isStabbing: 0
+  isShooting: 0
+  isTalking: 0
+  isHurt: 0
+  isDead: 0

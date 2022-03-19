@@ -77,7 +77,7 @@ public class Agent_Unit : MonoBehaviour
 
     private void OnMouseOver()
     {
-        Debug.Log(unitSO.FirstName);
+        Debug.Log(unitSO.FirstName + " " + unitSO.LastName);
     }
 
     private void OnMouseUp()

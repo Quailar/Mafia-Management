@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class MapConfiguration : MonoBehaviour
 {
-
     public GameData gameData;
     public GameObject MapInstanceFolder;
     public GameObject NeighborhoodInstanceFolder;
     public GameObject CenterBlockInstanceFolder;
     public GameObject HQBlockInstanceFolder;
     public GameObject BuildingInstanceFolder;
-
-
 
 
     [Tooltip("Zero is no city block rotation")]//Rotating city blocks increases navigation issues
@@ -27,11 +24,6 @@ public class MapConfiguration : MonoBehaviour
         SetHQBlock();
         SetNeighborhoodBlocks();
         SetBuildings();
-
-    }
-    private void Start()
-    {
-
     }
 
     public void ActivateGameMap(string size)
@@ -55,13 +47,10 @@ public class MapConfiguration : MonoBehaviour
                 GameData.NAV_MAP = gameData.PREFAB_NAV_MAPS[0];
                 break;
         }
-
-
         GameObject spawnMap = Instantiate(GameData.GAME_MAP, Vector3.zero, Quaternion.identity);
         spawnMap.transform.parent = MapInstanceFolder.transform;
         GameObject navMap = Instantiate(GameData.NAV_MAP, Vector3.zero, Quaternion.identity);
         navMap.transform.parent = MapInstanceFolder.transform;
-
     }
 
     private void SetCenterBlock()

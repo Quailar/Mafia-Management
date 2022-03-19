@@ -15,7 +15,6 @@ public class Sun_Light : MonoBehaviour
     void FixedUpdate()
     {
         updateSunLight();
-
     }
 
     private void updateSunLight()
@@ -25,9 +24,7 @@ public class Sun_Light : MonoBehaviour
             GameData.NightLights = false;
             if (GameData.sunLight < maxSunLight)
             {
-
                 GameData.sunLight += transitionSpeed;
-
             }
         }
         else
@@ -35,7 +32,6 @@ public class Sun_Light : MonoBehaviour
             GameData.NightLights = true;
             if (GameData.sunLight > minSunLight)
             {
-
                 GameData.sunLight -= transitionSpeed;
             }
         }
