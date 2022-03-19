@@ -5,6 +5,8 @@ public class Agent_Unit : MonoBehaviour
 {
     public GameData gameData;
     public NavMeshAgent navmeshAgent;
+    public Outline mOutline;
+    public Outline fOutline;
     public List<Agent_Unit_SO> AGENT_UNIT_SO_LIST = new List<Agent_Unit_SO>();
     public Agent_Unit_SO unitSO;
     public Animator animator;
@@ -78,6 +80,13 @@ public class Agent_Unit : MonoBehaviour
     private void OnMouseOver()
     {
         Debug.Log(unitSO.FirstName + " " + unitSO.LastName);
+        mOutline.enabled = true;
+        fOutline.enabled = true;
+    }
+    private void OnMouseExit()
+    {
+        mOutline.enabled = false;
+        fOutline.enabled = false;
     }
 
     private void OnMouseUp()

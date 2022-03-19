@@ -5,6 +5,7 @@ public class Auto_Unit : MonoBehaviour
 {
     [Header("Properties:")]
     public NavMeshAgent navmeshAuto;
+    public Outline outline;
     public List<Auto_Unit_SO> AUTO_UNIT_SO_LIST = new List<Auto_Unit_SO>();
     public Auto_Unit_SO autoUnitSO;
     public GameObject[] autoBodys;
@@ -75,6 +76,11 @@ public class Auto_Unit : MonoBehaviour
     private void OnMouseOver()//Show model name
     {
         print(autoUnitSO.Model);//Print name to console
+        outline.enabled = true;
+    }
+    private void OnMouseExit()
+    {
+        outline.enabled = false;
     }
 
     private void OnMouseUp()//Select  unit = not currently used

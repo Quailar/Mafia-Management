@@ -7569,6 +7569,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4459142162656063632}
+  - component: {fileID: 3965502700391855596}
   m_Layer: 0
   m_Name: Female_Citizens_customizable
   m_TagString: Untagged
@@ -7618,6 +7619,24 @@ Transform:
   m_Father: {fileID: 4828020712526629169}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3965502700391855596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4459142162655964336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 1
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &4459142162655964342
 GameObject:
   m_ObjectHideFlags: 0
@@ -10383,7 +10402,6 @@ GameObject:
   - component: {fileID: 5061536045123331369}
   - component: {fileID: 1180588520520071164}
   - component: {fileID: 48323647576850039}
-  - component: {fileID: 484874913158977815}
   m_Layer: 0
   m_Name: Agent_Unit
   m_TagString: Untagged
@@ -10619,6 +10637,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameData: {fileID: 0}
   navmeshAgent: {fileID: 5224661779768797314}
+  mOutline: {fileID: 4374862938811269173}
+  fOutline: {fileID: 3965502700391855596}
   AGENT_UNIT_SO_LIST:
   - {fileID: 11400000, guid: bbc9fb02eb34b6049ac897f84821289a, type: 2}
   - {fileID: 11400000, guid: 4f091eca57f238b459865b08871fc43a, type: 2}
@@ -10865,24 +10885,6 @@ MonoBehaviour:
   - {fileID: 4459142162655964364}
   - {fileID: 4459142162655964402}
   fItems: []
---- !u!114 &484874913158977815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4828020712526629168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 5
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1 &6672463688970466368
 GameObject:
   m_ObjectHideFlags: 0
@@ -15960,6 +15962,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6672463688970102960}
+  - component: {fileID: 4374862938811269173}
   m_Layer: 0
   m_Name: Male_Citizens_customizable
   m_TagString: Untagged
@@ -16018,6 +16021,24 @@ Transform:
   m_Father: {fileID: 4828020712526629169}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4374862938811269173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6672463688970466512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 1
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &6672463688970466514
 GameObject:
   m_ObjectHideFlags: 0

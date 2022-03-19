@@ -55,7 +55,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,7 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4015804779849286185
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,7 +134,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -161,7 +158,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4130090616808330368
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,9 +167,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1083782359211189907}
-  - component: {fileID: 7468613628043013797}
-  - component: {fileID: -3657366840320974025}
-  - component: {fileID: -7306979103005553651}
   m_Layer: 0
   m_Name: Ambulance
   m_TagString: Untagged
@@ -200,65 +193,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7468613628043013797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4130090616808330368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 451547c6707222d428619392547d60be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  navmeshAuto: {fileID: 0}
-  trafficController: {fileID: 0}
-  Neighbors: []
-  isStopped: 0
-  currentnode: {fileID: 0}
-  nextNode: {fileID: 0}
---- !u!114 &-3657366840320974025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4130090616808330368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9f0b381156e408489b9919742a084d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  navmeshAuto: {fileID: 0}
-  AUTO_UNIT_SO_LIST: []
-  autoUnitSO: {fileID: 0}
-  autoBodys: []
-  autoHeadLamps: []
-  autoHeadLights: []
-  autoHeadLamps_ON: {fileID: 0}
-  autoHeadLamps_OFF: {fileID: 0}
-  autoBreakLamps: []
-  autoBreakLamps_ON: {fileID: 0}
-  autoBreakLamps_OFF: {fileID: 0}
---- !u!114 &-7306979103005553651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4130090616808330368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 5
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1 &4862437494170754503
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,7 +248,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -339,7 +272,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6827865964550923450
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,7 +327,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -420,7 +351,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &9107231752731536152
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,7 +406,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -501,4 +430,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
