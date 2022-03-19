@@ -4,7 +4,7 @@ using UnityEngine.AI;
 public class Auto_Police_Unit : MonoBehaviour
 {
     [Header("Properties:")]
-    public NavMeshAgent navMeshAuto;
+    public NavMeshAgent navmeshAuto;
     public Auto_Unit_SO autoUnitSO;
     public List<Auto_Unit_SO> AUTO_UNIT_SO_LIST = new List<Auto_Unit_SO>();
     public GameObject[] autoBodys;
@@ -41,6 +41,7 @@ public class Auto_Police_Unit : MonoBehaviour
     }
     private void Update()
     {
+        navmeshAuto.speed = 3.5f * GameData.gameSpeed / 2;
         CheckLights();
     }
 
@@ -52,7 +53,7 @@ public class Auto_Police_Unit : MonoBehaviour
             autoHeadLamps[1].GetComponent<Renderer>().material = autoHeadLamps_ON;
             autoHeadLights[0].SetActive(true);
             autoHeadLights[1].SetActive(true);
-            if (navMeshAuto.speed < .5f)
+            if (navmeshAuto.speed < .5f)
             {
                 autoBreakLamps[0].GetComponent<Renderer>().material = autoBreakLamps_ON;
                 autoBreakLamps[1].GetComponent<Renderer>().material = autoBreakLamps_ON;

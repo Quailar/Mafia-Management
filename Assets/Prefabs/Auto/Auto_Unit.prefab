@@ -113,11 +113,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navmeshAuto: {fileID: 1709279314124013554}
   trafficController: {fileID: 0}
-  currentnode: {fileID: 0}
-  nextNode: {fileID: 0}
   Neighbors: []
   isStopped: 0
-  signal: 0
+  currentnode: {fileID: 0}
+  nextNode: {fileID: 0}
 --- !u!114 &5782991635238548486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,10 +129,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9f0b381156e408489b9919742a084d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  navMeshAuto: {fileID: 1709279314124013554}
-  autoUnitSO: {fileID: 0}
+  navmeshAuto: {fileID: 1709279314124013554}
   AUTO_UNIT_SO_LIST:
   - {fileID: 11400000, guid: 51fa3dce29d9da34caeb38e8a2f3328c, type: 2}
+  autoUnitSO: {fileID: 0}
   autoBodys:
   - {fileID: 1334338091521808049}
   - {fileID: 614911884564161514}

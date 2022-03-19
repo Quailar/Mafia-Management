@@ -615,10 +615,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9f0b381156e408489b9919742a084d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  navMeshAuto: {fileID: -5492149019100653909}
-  autoUnitSO: {fileID: 11400000, guid: 51fa3dce29d9da34caeb38e8a2f3328c, type: 2}
+  navmeshAuto: {fileID: -5492149019100653909}
   AUTO_UNIT_SO_LIST:
   - {fileID: 11400000, guid: 51fa3dce29d9da34caeb38e8a2f3328c, type: 2}
+  autoUnitSO: {fileID: 11400000, guid: 51fa3dce29d9da34caeb38e8a2f3328c, type: 2}
   autoBodys:
   - {fileID: 342120589161042556}
   - {fileID: 521790418256392965}
@@ -652,10 +652,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navmeshAuto: {fileID: -5492149019100653909}
   trafficController: {fileID: 0}
-  currentnode: {fileID: 0}
-  nextNode: {fileID: 0}
   Neighbors: []
   isStopped: 0
+  currentnode: {fileID: 0}
+  nextNode: {fileID: 0}
 --- !u!1 &2382653384116067305
 GameObject:
   m_ObjectHideFlags: 0

@@ -20,13 +20,13 @@ public class Auto_NavNode_Controller : MonoBehaviour
 
     private void Start()
     {
-        navmeshAuto.speed = 3.5f * GameData.gameSpeed;
+        // navmeshAuto.speed = 3.5f * GameData.gameSpeed;
         trafficController = GameObject.FindGameObjectWithTag("TrafficLight:Manager").GetComponent<TrafficLightController>();
     }
 
     public void OnTriggerEnter(Collider other)
     {
-        Neighbors.Clear();
+
 
         if (other.tag == "Auto:Despawn")
         {
@@ -61,12 +61,13 @@ public class Auto_NavNode_Controller : MonoBehaviour
 
     private void FindNextNode(Collider other)
     {
-
+        Neighbors.Clear();
         currentnode = other.gameObject;
         Neighbors.AddRange(other.GetComponent<NodeScript>().neighbors);
 
         int _selectDirection = Random.Range(0, Neighbors.Count);
         nextNode = Neighbors[_selectDirection];
+        Drive();
     }
 
     //if auto collides with another auto or agent stop auto movement
@@ -83,16 +84,17 @@ public class Auto_NavNode_Controller : MonoBehaviour
         isStopped = false;
     }
 
-    private void FixedUpdate()
+
+    private void Drive()
     {
         if (!isStopped)
         {
             navmeshAuto.SetDestination(nextNode.transform.position);
+            navmeshAuto.transform.LookAt(nextNode.transform);
         }
         else
         {
             navmeshAuto.velocity.Set(0f, 0f, 0f);
         }
     }
-
 }

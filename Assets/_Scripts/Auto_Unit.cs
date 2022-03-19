@@ -4,7 +4,7 @@ using UnityEngine.AI;
 public class Auto_Unit : MonoBehaviour
 {
     [Header("Properties:")]
-    public NavMeshAgent navMeshAuto;
+    public NavMeshAgent navmeshAuto;
     public List<Auto_Unit_SO> AUTO_UNIT_SO_LIST = new List<Auto_Unit_SO>();
     public Auto_Unit_SO autoUnitSO;
     public GameObject[] autoBodys;
@@ -28,9 +28,11 @@ public class Auto_Unit : MonoBehaviour
         GetProfile();
         //AUTO_UNIT_SO_LIST.Remove(autoUnitSO);//not surrently used
     }
-    private void Update()
+    private void FixedUpdate()
     {
+        navmeshAuto.speed = 3.5f * GameData.gameSpeed / 2;
         CheckLights();
+
     }
 
     public void CheckLights()
@@ -41,7 +43,7 @@ public class Auto_Unit : MonoBehaviour
             autoHeadLamps[1].GetComponent<Renderer>().material = autoHeadLamps_ON;
             autoHeadLights[0].SetActive(true);
             autoHeadLights[1].SetActive(true);
-            if (navMeshAuto.speed < .5f)
+            if (navmeshAuto.speed < .5f)
             {
                 autoBreakLamps[0].GetComponent<Renderer>().material = autoBreakLamps_ON;
                 autoBreakLamps[1].GetComponent<Renderer>().material = autoBreakLamps_ON;
@@ -68,7 +70,6 @@ public class Auto_Unit : MonoBehaviour
         autoUnitSO.Model = GameData.AUTO_MODEL_NAMES[m];//Assign name to SO
         autoUnitSO.Body = Random.Range(0, autoBodys.Length);//Get random body frame
         autoBodys[autoUnitSO.Body].SetActive(true);//Turn on selected body
-        autoUnitSO.Speed = (autoUnitSO.Speed / 10) + 1;//Set unit speed -- not currently used?
     }
 
     private void OnMouseOver()//Show model name

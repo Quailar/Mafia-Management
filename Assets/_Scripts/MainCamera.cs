@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class MainCamera : MonoBehaviour
 {
-    [SerializeField] float mouseSpeed;
-    [SerializeField] float mouseSensitivity;
+    public float cameraSpeed;
+    public float mouseSensitivity;
     public float minFov;
     public float maxFov;
     public float zoomSensitivity;
@@ -14,7 +14,6 @@ public class MainCamera : MonoBehaviour
     public float forwardBounds;
     public float ceilingBounds;
     public float floorBounds;
-    public float viewRange;
 
     private void Start()
     {
@@ -36,9 +35,6 @@ public class MainCamera : MonoBehaviour
         }
     }
 
-
-
-
     void FixedUpdate()
     {
         Vector3 move = Vector3.zero;
@@ -55,8 +51,8 @@ public class MainCamera : MonoBehaviour
         if (Input.GetKey(KeyCode.Q))
             move -= Vector3.up;
 
-        //transform.Translate(move);
-        transform.Translate(move * mouseSpeed * Time.unscaledDeltaTime, Space.Self);
+
+        transform.Translate(move * cameraSpeed * Time.unscaledDeltaTime, Space.Self);
 
         transform.position = new Vector3(
           Mathf.Clamp(transform.position.x, -horizontalBounds, horizontalBounds),
@@ -74,10 +70,6 @@ public class MainCamera : MonoBehaviour
             Vector3 dif = anchorPoint - new Vector3(Input.mousePosition.y, -Input.mousePosition.x);
             rot.eulerAngles += dif * mouseSensitivity * Time.unscaledDeltaTime * Time.timeScale;
             transform.rotation = rot;
-            // Camera.main.transform.localEulerAngles = new Vector3(
-            //     Mathf.Clamp(Camera.main.transform.localEulerAngles.x, -viewRange, viewRange),
-            //     Mathf.Clamp(Camera.main.transform.localEulerAngles.y, -360, 360),
-            //     Mathf.Clamp(Camera.main.transform.localEulerAngles.z, -360, 360));
         }
         if (Input.GetAxis("Mouse ScrollWheel") != 0)
         {
