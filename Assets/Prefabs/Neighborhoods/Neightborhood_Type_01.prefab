@@ -1242,7 +1242,7 @@ GameObject:
   - component: {fileID: 769699626280120716}
   m_Layer: 0
   m_Name: StreetLampPointLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -1393,7 +1393,7 @@ GameObject:
   - component: {fileID: 769699626410820194}
   m_Layer: 0
   m_Name: StreetLampSpotLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -3032,7 +3032,7 @@ GameObject:
   - component: {fileID: 2213672973652794550}
   m_Layer: 0
   m_Name: StreetLampSpotLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -3125,7 +3125,7 @@ GameObject:
   - component: {fileID: 2213672973673410392}
   m_Layer: 0
   m_Name: StreetLampPointLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -3218,7 +3218,7 @@ GameObject:
   - component: {fileID: 2322987271792840069}
   m_Layer: 0
   m_Name: StreetLampSpotLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -3311,7 +3311,7 @@ GameObject:
   - component: {fileID: 2322987271897087595}
   m_Layer: 0
   m_Name: StreetLampPointLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -4234,7 +4234,7 @@ GameObject:
   - component: {fileID: 3218161128947412101}
   m_Layer: 0
   m_Name: StreetLampSpotLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -4327,7 +4327,7 @@ GameObject:
   - component: {fileID: 3218161129054003051}
   m_Layer: 0
   m_Name: StreetLampPointLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -4999,7 +4999,7 @@ GameObject:
   - component: {fileID: 3492569117225960570}
   m_Layer: 0
   m_Name: StreetLampPointLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -5092,7 +5092,7 @@ GameObject:
   - component: {fileID: 3492569117298947988}
   m_Layer: 0
   m_Name: StreetLampSpotLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -7439,7 +7439,7 @@ GameObject:
   - component: {fileID: 5189067061353740747}
   m_Layer: 0
   m_Name: StreetLampSpotLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -7532,7 +7532,7 @@ GameObject:
   - component: {fileID: 5189067061366737445}
   m_Layer: 0
   m_Name: StreetLampPointLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -10490,7 +10490,7 @@ GameObject:
   - component: {fileID: 7425908907191125550}
   m_Layer: 0
   m_Name: StreetLampPointLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -10583,7 +10583,7 @@ GameObject:
   - component: {fileID: 7425908907204408768}
   m_Layer: 0
   m_Name: StreetLampSpotLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -11302,7 +11302,7 @@ GameObject:
   - component: {fileID: 7707576564814170382}
   m_Layer: 0
   m_Name: StreetLampPointLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -11395,7 +11395,7 @@ GameObject:
   - component: {fileID: 7707576564917304032}
   m_Layer: 0
   m_Name: StreetLampSpotLight
-  m_TagString: Untagged
+  m_TagString: StreetLight:PointLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8

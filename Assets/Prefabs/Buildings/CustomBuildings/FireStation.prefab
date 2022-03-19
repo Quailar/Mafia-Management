@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 8480909544061896187}
   - component: {fileID: 7155134587706177069}
   - component: {fileID: -7554879708423113917}
+  - component: {fileID: 6805746758911503236}
+  - component: {fileID: -6841805178427093843}
   m_Layer: 0
-  m_Name: FireDepartment
+  m_Name: FireStation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,6 +88,41 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 2, z: 0}
   m_TimeToStationary: 0.5
+--- !u!114 &6805746758911503236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8480909544061896188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96996fe23d0525498df2a432dcaf049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameData: {fileID: 0}
+  outline: {fileID: -6841805178427093843}
+  FIRE_STATION_SO:
+  - {fileID: 11400000, guid: f4f5108a4ac0add48ba92b71e0962c53, type: 2}
+  fireStation: {fileID: 0}
+--- !u!114 &-6841805178427093843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8480909544061896188}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 0.58459556, b: 0, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &7968582832710196523
 PrefabInstance:
   m_ObjectHideFlags: 0

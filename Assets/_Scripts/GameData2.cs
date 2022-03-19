@@ -2,14 +2,13 @@
 //       VARIABLES
 //==================================
 using UnityEngine;
-using System.Collections.Generic;
 
 public partial class GameData
 {
     public static Vector2 ScreenResolution;
-    public static string MapSize;
     public static GameObject GAME_MAP;
     public static GameObject NAV_MAP;
+    public static string MapSize;
     public static int MaxPlayers;
     public static int MaxCivilians;
     public static int MaxAutos;
@@ -22,7 +21,7 @@ public partial class GameData
     public static bool NavigationDisplayActive;
     public static bool agentDisplayPath;
     public static int gameSpeed;
-    public static float minuteToRealTime = 1f;
+    public static float minuteToRealTime = .5f;
     public static float timer;
     public static int min;
     public static int hour;
@@ -32,8 +31,6 @@ public partial class GameData
     public static int dayOfMonth;
     public static int monthOfYear;
     public static int year;
-
-
 
     public static string[] MALE_FIRST_NAMES = { "Alex", "Bernard", "Charles", "Donald", "Edgar", "Felix", "Greg", "Hector", "Ivan", "Jovan", "Kevin", "Lucas", "Morty", "Norman", "Oscar", "Patrick", "Quincey", "Roger", "Steven", "Thoedore", "Ulysis", "Victor", "Winston", "Xavier", "Yuri", "Zeke", };
     public static string[] FEMALE_FIRST_NAMES = { "Angie", "Brenda", "Crystal", "Dedra", "Elanore", "Fiona", "Gabriella", "Helen", "Isabelle", "Jackie", "Kristen", "Lori", "Mandy", "Nancy", "Olivia", "Paige", "Quinn", "Rosa", "Stacy", "Tiffany", "Ursa", "Victoria", "Winnie", "Xenia", "Yasmine", "Zoe", };

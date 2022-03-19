@@ -1,9 +1,9 @@
 using UnityEngine;
-using UnityEngine.AI;
 using System.Collections.Generic;
 public class Business_Unit : MonoBehaviour
 {
     public GameData gameData;
+    public Outline outline;
     public List<Business_Base_SO> BUSINESS_BASE_SO_LIST = new List<Business_Base_SO>();
     public Business_Base_SO businessSO;
     public List<Manager_Unit_SO> BUSINESS_MANAGERS_LIST = new List<Manager_Unit_SO>();
@@ -13,9 +13,7 @@ public class Business_Unit : MonoBehaviour
     public void Start()
     {
         gameData = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameData>();
-
         GetProfile();
-
     }
 
     public void GetProfile()
@@ -28,7 +26,7 @@ public class Business_Unit : MonoBehaviour
         businessSO.ID = GetInstanceID();
         int bn = Random.Range(0, GameData.LEGAL_BUSINESS_NAMES.Length);
         businessSO.LegalBusinessType = GameData.LEGAL_BUSINESS_NAMES[bn];
-        businessSO.ManagerName = buildingManager.FirstName + " " + buildingManager.LastName;
+        businessSO.ManagerName = buildingManager.FirstName;
         businessSO.MaxHitPoints = Random.Range(80, 120);
         businessSO.CurrentHitPoints = businessSO.MaxHitPoints;
         businessSO.Level = 0;
@@ -38,21 +36,20 @@ public class Business_Unit : MonoBehaviour
         businessSO.Cash = businessSO.Income - businessSO.Expenses;
 
         businessSO.TeamName = "Business";
-
-
     }
 
     private void OnMouseOver()
     {
         print(businessSO.LegalBusinessType);
-        print(businessSO.ManagerName);
+        outline.enabled = true;
+    }
+    private void OnMouseExit()
+    {
+        outline.enabled = false;
     }
 
     private void OnMouseUp()
     {
         businessSO.isSelected = true;
-
     }
-
-
 }

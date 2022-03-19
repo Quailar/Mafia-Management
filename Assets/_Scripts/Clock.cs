@@ -89,7 +89,7 @@ public class Clock : MonoBehaviour
 
     private void updateMeridiem()
     {
-        if (GameData.hour <= 12)
+        if (GameData.hour < 12)
         {
             GameData.ampm = "AM";
         }
@@ -139,7 +139,7 @@ public class Clock : MonoBehaviour
     public void updateTimeDisplay()
     {
         //Update Time Display
-        if (twelveHourClock && GameData.hour >= 12)
+        if (twelveHourClock && GameData.hour > 12)
         {
             timeText.text = $"{(GameData.hour - 12):00}:{GameData.min:00} {GameData.ampm}";
             dateText.text = $"{GameData.DAYS_IN_WEEK[GameData.dayOfWeek]} {GameData.MONTHS_IN_YEAR[GameData.monthOfYear]} {GameData.dayOfMonth}, {GameData.year}";

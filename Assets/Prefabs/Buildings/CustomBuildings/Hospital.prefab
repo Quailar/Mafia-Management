@@ -902,6 +902,8 @@ GameObject:
   - component: {fileID: 5746837593656007797}
   - component: {fileID: 6508252845142439405}
   - component: {fileID: 435682251152852162}
+  - component: {fileID: 2543198317542178522}
+  - component: {fileID: -2177471385599111517}
   m_Layer: 0
   m_Name: Hospital
   m_TagString: Untagged
@@ -1034,6 +1036,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 17.6, y: 12, z: 15}
   m_Center: {x: 1.36, y: 3.82, z: -1.1}
+--- !u!114 &2543198317542178522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353041140280218880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411d571bd8173de4aa860c2a66451343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameData: {fileID: 0}
+  outline: {fileID: 0}
+  HOSPITAL_SO: []
+  hospitalSO: {fileID: 0}
+--- !u!114 &-2177471385599111517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353041140280218880}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 1, b: 0.07837677, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &1369030170077474591
 GameObject:
   m_ObjectHideFlags: 0

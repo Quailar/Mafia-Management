@@ -270,6 +270,7 @@ GameObject:
   - component: {fileID: -7599940495332075145}
   - component: {fileID: -2971715330173700272}
   - component: {fileID: 3713477333598620295}
+  - component: {fileID: 7612447609953249649}
   m_Layer: 0
   m_Name: Auto_Unit4
   m_TagString: Untagged
@@ -507,6 +508,24 @@ MonoBehaviour:
   isStopped: 0
   currentnode: {fileID: 0}
   nextNode: {fileID: 0}
+--- !u!114 &7612447609953249649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029146374904268122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 5
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &2619987664984892076
 GameObject:
   m_ObjectHideFlags: 0
