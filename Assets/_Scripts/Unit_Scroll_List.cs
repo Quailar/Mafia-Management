@@ -12,14 +12,9 @@ public class Unit_Scroll_List : MonoBehaviour
     public GameObject buttonInstanceFolder;
     public static List<GameObject> TotalButtons = new List<GameObject>();
     public int counter = 0;
-    public string SO;
+    public string AgentSO;
 
 
-    //Do this when the Save button is selected.
-    public void Start()
-    {
-
-    }
 
     private void LateUpdate()
     {
@@ -36,18 +31,17 @@ public class Unit_Scroll_List : MonoBehaviour
         {
             if (!TotalButtons.Contains(unit))
             {
-                SO = unit.GetComponent<Agent_Unit>().unitSO.FirstName + " " + unit.GetComponent<Agent_Unit>().unitSO.LastName;
+                AgentSO = unit.GetComponent<Agent_Unit>().unitSO.FirstName + " " + unit.GetComponent<Agent_Unit>().unitSO.LastName;
 
                 Button spawnButton = Instantiate(button, Vector2.zero, Quaternion.identity);
                 spawnButton.transform.parent = buttonInstanceFolder.transform;
 
-                spawnButton.GetComponentInChildren<TextMeshProUGUI>().text = SO;
-                print(SO);
+                spawnButton.GetComponentInChildren<TextMeshProUGUI>().text = AgentSO;
                 TotalButtons.Add(unit);
             }
-            // assigns the content that can be scrolled using the ScrollRect.
-            myScrollRect.content = scrollableContent;
         }
+        // assigns the content that can be scrolled using the ScrollRect.
+        myScrollRect.content = scrollableContent;
     }
 }
 

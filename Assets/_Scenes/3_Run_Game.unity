@@ -738,7 +738,7 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
+  m_projectionMatrixMode: 2
   m_GateFitMode: 2
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
@@ -752,7 +752,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 26.991467
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2008,6 +2008,14 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1501252786474080987, guid: 8245ce7edcd904f4ba3efa5c9a3c240a, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1501252786474080987, guid: 8245ce7edcd904f4ba3efa5c9a3c240a, type: 3}
+      propertyPath: m_FillCenter
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2450791535036179473, guid: 8245ce7edcd904f4ba3efa5c9a3c240a, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2033,8 +2041,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4211474431558695617, guid: 8245ce7edcd904f4ba3efa5c9a3c240a, type: 3}
+      propertyPath: m_Inertia
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4211474431558695617, guid: 8245ce7edcd904f4ba3efa5c9a3c240a, type: 3}
       propertyPath: m_MovementType
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5544898109151187378, guid: 8245ce7edcd904f4ba3efa5c9a3c240a, type: 3}
       propertyPath: m_AnchorMax.x

@@ -32,7 +32,7 @@ public class Sky_Manager : MonoBehaviour
             sky.GetComponent<Skybox>().material = noonSky;
         }
 
-        else if (GameData.hour >= 16)//Evening
+        else if (GameData.hour >= 13)//Evening
         {
             sky.GetComponent<Skybox>().material = sunsetSky;
         }
