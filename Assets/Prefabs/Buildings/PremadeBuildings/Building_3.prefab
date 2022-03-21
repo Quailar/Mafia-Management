@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &8695453935367287873
 Transform:
@@ -100,6 +100,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottom_D3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d352767ac19eabd4caae541d3f50ba5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d352767ac19eabd4caae541d3f50ba5b, type: 3}
 --- !u!4 &4455961662683616708 stripped
@@ -161,6 +165,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: b1a3fcdba39b44d43bcd44ed1fd7e1b2, type: 3}
       propertyPath: m_Name
       value: Window_D06 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b1a3fcdba39b44d43bcd44ed1fd7e1b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1a3fcdba39b44d43bcd44ed1fd7e1b2, type: 3}
@@ -224,6 +232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Awning_A1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6867f048a7415d04e825d56110d1f754, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6867f048a7415d04e825d56110d1f754, type: 3}
 --- !u!4 &4455961663264797242 stripped
@@ -285,6 +297,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 01600b9aa318f764db40fa7773d714bf, type: 3}
       propertyPath: m_Name
       value: Door_D01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 01600b9aa318f764db40fa7773d714bf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01600b9aa318f764db40fa7773d714bf, type: 3}
@@ -356,6 +372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balcony_D1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c3e022a9fb1e07b45a65a162d9146d4e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3e022a9fb1e07b45a65a162d9146d4e, type: 3}
 --- !u!4 &4455961663393826717 stripped
@@ -417,6 +437,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 6867f048a7415d04e825d56110d1f754, type: 3}
       propertyPath: m_Name
       value: Awning_A1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6867f048a7415d04e825d56110d1f754, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6867f048a7415d04e825d56110d1f754, type: 3}
@@ -484,6 +508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottom_D1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9115d20ba8a8eb6488ef9f1649c4ddb4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9115d20ba8a8eb6488ef9f1649c4ddb4, type: 3}
 --- !u!4 &4455961663559336881 stripped
@@ -545,6 +573,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 55ac70d0dc2278f4a894030511c39c39, type: 3}
       propertyPath: m_Name
       value: Bock_F4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 55ac70d0dc2278f4a894030511c39c39, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55ac70d0dc2278f4a894030511c39c39, type: 3}
@@ -615,6 +647,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: c3e022a9fb1e07b45a65a162d9146d4e, type: 3}
       propertyPath: m_Name
       value: Balcony_D1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c3e022a9fb1e07b45a65a162d9146d4e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3e022a9fb1e07b45a65a162d9146d4e, type: 3}
@@ -690,6 +726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window_D07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c6982c4ebb3dc2c44a6e079a50d49272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6982c4ebb3dc2c44a6e079a50d49272, type: 3}
 --- !u!4 &4455961663972419801 stripped
@@ -760,6 +800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AirConditioning_A1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 36f0a5a6b43abeb4493d7bc30a9c9e6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f0a5a6b43abeb4493d7bc30a9c9e6e, type: 3}
 --- !u!4 &4455961664179188678 stripped
@@ -821,6 +865,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: fcc5649d932167248b6be937f43fff49, type: 3}
       propertyPath: m_Name
       value: WaterTank_B2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fcc5649d932167248b6be937f43fff49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcc5649d932167248b6be937f43fff49, type: 3}
@@ -884,6 +932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bock_F3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2bd77dd6cdd308c48aff9591211a3dcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bd77dd6cdd308c48aff9591211a3dcd, type: 3}
 --- !u!4 &4455961664376030310 stripped
@@ -946,6 +998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bock_F5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2bf8c9fa497269d4186d043ad4648fb3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bf8c9fa497269d4186d043ad4648fb3, type: 3}
 --- !u!4 &4455961664396372965 stripped
@@ -1007,6 +1063,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 3acc45046ac6a79458e093ed8cdd3473, type: 3}
       propertyPath: m_Name
       value: RoofTop_D09 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3acc45046ac6a79458e093ed8cdd3473, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3acc45046ac6a79458e093ed8cdd3473, type: 3}

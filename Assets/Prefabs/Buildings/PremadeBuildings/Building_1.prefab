@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &1619727610391688002
 Transform:
@@ -112,6 +112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balcony_F1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 61bfbb736d8a1184d8c8afd96b23690f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61bfbb736d8a1184d8c8afd96b23690f, type: 3}
 --- !u!4 &5981019313652224618 stripped
@@ -173,6 +177,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 8aa086d7b1a80b84782f559fb2658fa8, type: 3}
       propertyPath: m_Name
       value: Balcony_C1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8aa086d7b1a80b84782f559fb2658fa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8aa086d7b1a80b84782f559fb2658fa8, type: 3}
@@ -240,6 +248,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottom_D2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6630ff1220a929a49b13767d6dd69076, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6630ff1220a929a49b13767d6dd69076, type: 3}
 --- !u!4 &5981019313855053116 stripped
@@ -301,6 +313,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: d7c23cc5be136974d8cc66cb7c3e3745, type: 3}
       propertyPath: m_Name
       value: WaterTankBase (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d7c23cc5be136974d8cc66cb7c3e3745, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7c23cc5be136974d8cc66cb7c3e3745, type: 3}
@@ -364,6 +380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaterTank_B2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fcc5649d932167248b6be937f43fff49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcc5649d932167248b6be937f43fff49, type: 3}
 --- !u!4 &5981019314251748949 stripped
@@ -425,6 +445,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f6e82729b04bec946be9eedc4c1c1f4b, type: 3}
       propertyPath: m_Name
       value: RoofTop_D10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f6e82729b04bec946be9eedc4c1c1f4b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6e82729b04bec946be9eedc4c1c1f4b, type: 3}
@@ -496,6 +520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bock_C2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e236233f3c8e9214f9806ab11dec9dfe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e236233f3c8e9214f9806ab11dec9dfe, type: 3}
 --- !u!4 &5981019315014432877 stripped
@@ -557,6 +585,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 36f0a5a6b43abeb4493d7bc30a9c9e6e, type: 3}
       propertyPath: m_Name
       value: AirConditioning_A1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 36f0a5a6b43abeb4493d7bc30a9c9e6e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f0a5a6b43abeb4493d7bc30a9c9e6e, type: 3}
@@ -620,6 +652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bock_C3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6f5892b6f2118bc449cf0268083fa1af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f5892b6f2118bc449cf0268083fa1af, type: 3}
 --- !u!4 &5981019315221906254 stripped
@@ -681,6 +717,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: dddc459e0eadd8541974c71b21e801b1, type: 3}
       propertyPath: m_Name
       value: Door_E04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dddc459e0eadd8541974c71b21e801b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dddc459e0eadd8541974c71b21e801b1, type: 3}
@@ -744,6 +784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottom_D2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6630ff1220a929a49b13767d6dd69076, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6630ff1220a929a49b13767d6dd69076, type: 3}
 --- !u!4 &5981019315345349794 stripped
@@ -806,6 +850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bock_C1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 591af51bf847e6e4c8e08ba7aa79cf38, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 591af51bf847e6e4c8e08ba7aa79cf38, type: 3}
 --- !u!4 &5981019315394299367 stripped
@@ -867,6 +915,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: cde2f29f5c99eb548a4e00fb7cd272ed, type: 3}
       propertyPath: m_Name
       value: Window_F01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: cde2f29f5c99eb548a4e00fb7cd272ed, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde2f29f5c99eb548a4e00fb7cd272ed, type: 3}
@@ -934,6 +986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottom_D2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6630ff1220a929a49b13767d6dd69076, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6630ff1220a929a49b13767d6dd69076, type: 3}
 --- !u!4 &5981019315703611850 stripped
@@ -995,6 +1051,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: adc2b176a92e98a47b45b2b7737294ab, type: 3}
       propertyPath: m_Name
       value: Stairs_B2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: adc2b176a92e98a47b45b2b7737294ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adc2b176a92e98a47b45b2b7737294ab, type: 3}

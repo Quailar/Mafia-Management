@@ -143,11 +143,15 @@ public class Clock : MonoBehaviour
         {
             timeText.text = $"{(GameData.hour - 12):00}:{GameData.min:00} {GameData.ampm}";
             dateText.text = $"{GameData.DAYS_IN_WEEK[GameData.dayOfWeek]} {GameData.MONTHS_IN_YEAR[GameData.monthOfYear]} {GameData.dayOfMonth}, {GameData.year}";
+            GameData.gameTime = timeText.text;
+            GameData.gameDate = dateText.text;
         }
         else
         {
             timeText.text = $"{GameData.hour:00}:{GameData.min:00} {GameData.ampm}";
             dateText.text = $"{GameData.DAYS_IN_WEEK[GameData.dayOfWeek]} {GameData.MONTHS_IN_YEAR[GameData.monthOfYear]} {GameData.dayOfMonth}, {GameData.year}";
+            GameData.gameTime = timeText.text;
+            GameData.gameDate = dateText.text;
         }
     }
 

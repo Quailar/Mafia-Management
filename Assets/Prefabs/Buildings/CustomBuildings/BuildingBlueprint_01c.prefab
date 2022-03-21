@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &748028416041944401
 Transform:
@@ -97,7 +97,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &7373403200599194335
 Transform:
@@ -120,7 +120,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4676849844342989791}
-  m_Mesh: {fileID: -5998725705732226171, guid: c7a408b7ff4b96d48b5e13942aa9e1b6, type: 3}
+  m_Mesh: {fileID: 5632986010371908261, guid: e43033103f784f14d95c5fa37e1d5be3, type: 3}
 --- !u!23 &7630647372415624386
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -178,7 +178,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &1797652953977234790
 Transform:
@@ -201,7 +201,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5253188331609115109}
-  m_Mesh: {fileID: -5998725705732226171, guid: c7a408b7ff4b96d48b5e13942aa9e1b6, type: 3}
+  m_Mesh: {fileID: 9221925489325462945, guid: 217cad9de2bbe39498a80fbd07dc885d, type: 3}
 --- !u!23 &6260231603807197358
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -261,7 +261,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &6913430159197015375
 Transform:
@@ -324,8 +324,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 1, g: 0.9856311, b: 0, a: 1}
-  outlineWidth: 5
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
   precomputeOutline: 1
   bakeKeys:
   - {fileID: -5998725705732226171, guid: c7a408b7ff4b96d48b5e13942aa9e1b6, type: 3}
@@ -805,7 +805,7 @@ GameObject:
   m_TagString: Building:Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &6994923177273800696
 Transform:
@@ -937,6 +937,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 1521d8caf40e6594ab6f14646d8de518, type: 3}
       propertyPath: m_Name
       value: RoofTop_A04
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1521d8caf40e6594ab6f14646d8de518, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1521d8caf40e6594ab6f14646d8de518, type: 3}

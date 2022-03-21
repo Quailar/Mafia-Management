@@ -21,7 +21,8 @@ public class Spawn_Manager : MonoBehaviour
         int prefabIndex = Random.Range(0, gameData.PREFAB_AGENTS.Count);//get a random agent from array
         GameObject spawnNewAgent = Instantiate(gameData.PREFAB_AGENTS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new agent at spawn point
         spawnNewAgent.transform.parent = CivilianInstanceFolder.transform;//Save clone under folder
-        GameData.TotalCivilians++;
+        GameData.LIST_ALL_AGENTS.Add(spawnNewAgent);
+        GameData.LIST_ALL_CIVILIANS.Add(spawnNewAgent);
     }
 
     public void spawnAuto()
@@ -33,6 +34,6 @@ public class Spawn_Manager : MonoBehaviour
         int prefabIndex = Random.Range(0, gameData.PREFAB_AUTOS.Count);//get a random auto from array
         GameObject spawnNewAuto = Instantiate(gameData.PREFAB_AUTOS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new auto at spawn point
         spawnNewAuto.transform.parent = AutoInstanceFolder.transform;//Save clone under folder
-        GameData.TotalAutos++;
+        GameData.LIST_ALL_AUTOS.Add(spawnNewAuto);
     }
 }

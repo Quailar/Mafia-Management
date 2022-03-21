@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Building:Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &2023107888856474177
 Transform:
@@ -113,7 +113,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &2517512670847998198
 Transform:
@@ -175,8 +175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 1, g: 0.9856311, b: 0, a: 1}
-  outlineWidth: 5
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
   precomputeOutline: 1
   bakeKeys:
   - {fileID: 8969716463649753293, guid: fdfc0c5f80e83684c94329bcbcce564c, type: 3}
@@ -655,7 +655,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &7346492081955090655
 Transform:
@@ -678,7 +678,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3883900039790091356}
-  m_Mesh: {fileID: 8969716463649753293, guid: fdfc0c5f80e83684c94329bcbcce564c, type: 3}
+  m_Mesh: {fileID: -8991626764657920865, guid: 71b1513a88f44f74f9cbb0c6fee01fbd, type: 3}
 --- !u!23 &3162018488319708439
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -736,7 +736,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &8602147519562879208
 Transform:
@@ -855,6 +855,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 1521d8caf40e6594ab6f14646d8de518, type: 3}
       propertyPath: m_Name
       value: RoofTop_A04
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1521d8caf40e6594ab6f14646d8de518, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1521d8caf40e6594ab6f14646d8de518, type: 3}

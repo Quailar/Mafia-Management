@@ -32,7 +32,7 @@ public class Auto_NavNode_Controller : MonoBehaviour
         {
             if (GameData.DecreaseAutos)
             {
-                if (GameData.TotalAutos > GameData.MaxAutos)
+                if (GameData.LIST_ALL_AUTOS.Count > GameData.MaxAutos)
                 {
                     Destroy(this.gameObject);
                 }

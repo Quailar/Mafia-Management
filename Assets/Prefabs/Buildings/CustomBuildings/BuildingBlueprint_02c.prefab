@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &3676478375903187867
 Transform:
@@ -39,7 +39,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563149946814433947}
-  m_Mesh: {fileID: 8969716463649753293, guid: fdfc0c5f80e83684c94329bcbcce564c, type: 3}
+  m_Mesh: {fileID: -7057010812842240980, guid: 38877648e330a5d4cac19896543aba15, type: 3}
 --- !u!23 &4373962690540195206
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -97,7 +97,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &5594708142745357346
 Transform:
@@ -106,13 +106,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139768700296093857}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 767756699087217675}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &7077031249376858503
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -120,7 +120,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139768700296093857}
-  m_Mesh: {fileID: 8969716463649753293, guid: fdfc0c5f80e83684c94329bcbcce564c, type: 3}
+  m_Mesh: {fileID: -7057010812842240980, guid: 38877648e330a5d4cac19896543aba15, type: 3}
 --- !u!23 &267438362262385130
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -179,7 +179,7 @@ GameObject:
   m_TagString: Building:Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &3766165073138097852
 Transform:
@@ -275,7 +275,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &767756699087217675
 Transform:
@@ -338,8 +338,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 1, g: 0.9856311, b: 0, a: 1}
-  outlineWidth: 5
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
   precomputeOutline: 1
   bakeKeys:
   - {fileID: 8969716463649753293, guid: fdfc0c5f80e83684c94329bcbcce564c, type: 3}
@@ -818,7 +818,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &6861068410532932629
 Transform:
@@ -937,6 +937,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 1521d8caf40e6594ab6f14646d8de518, type: 3}
       propertyPath: m_Name
       value: RoofTop_A04
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1521d8caf40e6594ab6f14646d8de518, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1521d8caf40e6594ab6f14646d8de518, type: 3}

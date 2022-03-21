@@ -12,8 +12,8 @@ public class Agent_Counter : MonoBehaviour
 
     private void FixedUpdate()
     {
-        civCount.text = GameData.TotalCivilians.ToString();
-        autoCount.text = GameData.TotalAutos.ToString();
+        civCount.text = GameData.LIST_ALL_CIVILIANS.Count.ToString();
+        autoCount.text = GameData.LIST_ALL_AUTOS.Count.ToString();
     }
 
 

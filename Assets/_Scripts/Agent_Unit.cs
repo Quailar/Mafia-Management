@@ -13,6 +13,9 @@ public class Agent_Unit : MonoBehaviour
     public Agent_Unit_SO unitSO;
     public Animator animator;
     public Avatar[] avatar;
+    public GameObject textName;
+    public GameObject healthBarRed;
+    public GameObject healthBarGreen;
     public int Body;
     public int Head;
     public GameObject[] mBodys;
@@ -28,7 +31,6 @@ public class Agent_Unit : MonoBehaviour
     public void Start()
     {
         gameData = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameData>();
-
         GetProfile();
 
     }
@@ -77,7 +79,7 @@ public class Agent_Unit : MonoBehaviour
 
         int ln = Random.Range(0, GameData.LAST_NAMES.Length);
         unitSO.LastName = GameData.LAST_NAMES[ln];
-
+        textName.GetComponent<TextMesh>().text = unitSO.FirstName + " " + unitSO.LastName;
         unitSO.Speed = (unitSO.Speed / 10) + 1;
     }
 
@@ -95,6 +97,14 @@ public class Agent_Unit : MonoBehaviour
             fOutlineHead[unitSO.Head].enabled = true;
         }
         Debug.Log(unitSO.FirstName + " " + unitSO.LastName);
+        textName.transform.LookAt(Camera.main.transform);
+        healthBarRed.transform.LookAt(Camera.main.transform);
+        healthBarGreen.transform.LookAt(Camera.main.transform);
+        healthBarRed.SetActive(true);
+        healthBarGreen.SetActive(true);
+        textName.SetActive(true);
+
+
 
     }
     private void OnMouseExit()
@@ -109,6 +119,9 @@ public class Agent_Unit : MonoBehaviour
             fOutlineBody[unitSO.Body].enabled = false;
             fOutlineHead[unitSO.Head].enabled = false;
         }
+        healthBarRed.SetActive(false);
+        healthBarGreen.SetActive(false);
+        textName.SetActive(false);
     }
 
     private void OnMouseUp()
