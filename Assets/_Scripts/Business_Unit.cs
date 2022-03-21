@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using TMPro;
 public class Business_Unit : MonoBehaviour
 {
     public GameData gameData;
@@ -8,6 +9,7 @@ public class Business_Unit : MonoBehaviour
     public Business_Base_SO businessSO;
     public List<Manager_Unit_SO> BUSINESS_MANAGERS_LIST = new List<Manager_Unit_SO>();
     public Manager_Unit_SO buildingManager;
+    public TextMeshProUGUI BusinessNameHud;
 
 
     public void Start()
@@ -42,10 +44,12 @@ public class Business_Unit : MonoBehaviour
     {
         print(businessSO.LegalBusinessType);
         outline.enabled = true;
+
     }
     private void OnMouseExit()
     {
         outline.enabled = false;
+
     }
 
     private void OnMouseUp()

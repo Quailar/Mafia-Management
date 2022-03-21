@@ -802,6 +802,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3b182bb39fd90244c8bed7beb19a1d0b, type: 2}
   - {fileID: 11400000, guid: 4026e5cb5d19f30418a27a30f64d1e6c, type: 2}
   buildingManager: {fileID: 0}
+  textName: {fileID: 0}
+  healthBarRed: {fileID: 0}
+  healthBarGreen: {fileID: 0}
 --- !u!1 &8315837596694999234
 GameObject:
   m_ObjectHideFlags: 0

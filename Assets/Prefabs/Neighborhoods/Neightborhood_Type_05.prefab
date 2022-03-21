@@ -1408,6 +1408,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 769699626176842703}
+  - component: {fileID: -4311550476104117976}
   m_Layer: 0
   m_Name: Neightborhood_Type_05
   m_TagString: Untagged
@@ -1449,6 +1450,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4311550476104117976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769699626176842688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd381bebdf349eb479016c673380456a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &769699626345144656
 GameObject:
   m_ObjectHideFlags: 0
