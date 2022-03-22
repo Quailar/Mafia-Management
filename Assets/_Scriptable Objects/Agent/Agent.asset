@@ -23,22 +23,22 @@ MonoBehaviour:
   Position: {x: 0, y: 0, z: 0}
   WayPoint: {x: 0, y: 0, z: 0}
   Destination: {x: 0, y: 0, z: 0}
-  CurrentHitPoints: 101
-  MaxHitPoints: 101
+  CurrentHitPoints: 109
+  MaxHitPoints: 109
   Strength: 9
   Intelligence: 8
-  Speed: 4
-  Stamina: 3
-  Driving: 8
-  Unarmed: 9
-  FireArms: 1
-  Explosives: 5
-  Dodge: 6
-  Stealth: 4
+  Speed: 8
+  Stamina: 4
+  Driving: 2
+  Unarmed: 6
+  FireArms: 3
+  Explosives: 3
+  Dodge: 4
+  Stealth: 3
   Charisma: 6
   TotalStats: 161
-  CostToHire: 644
-  PricePerMonth: 64.4
+  CostToHire: 1288
+  PricePerMonth: 128.8
   TeamName: Agent
   Rank: 1
   TeamAbility: 

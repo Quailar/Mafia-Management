@@ -15,48 +15,25 @@ public class Spawn_Manager : MonoBehaviour
 
     public void spawnAgent()
     {
-        if (AGENT_SPAWN_POINT.Count != 0)//If spawn points array is empty load spawn points
-        {
-            int spawnNode = Random.Range(0, AGENT_SPAWN_POINT.Count);//Pick a random spawn point
-            Vector3 spawnLoc = new Vector3(AGENT_SPAWN_POINT[spawnNode].transform.position.x, 0, AGENT_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
-            int prefabIndex = Random.Range(0, gameData.PREFAB_AGENTS.Count);//get a random agent from array
-            GameObject spawnNewAgent = Instantiate(gameData.PREFAB_AGENTS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new agent at spawn point
-            spawnNewAgent.transform.parent = CivilianInstanceFolder.transform;//Save clone under parent of this script
-            GameData.TotalCivilians++;
-        }
-        else
-        {
-            AGENT_SPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Agent_Spawn"));//load agent spawn points
-            int spawnNode = Random.Range(0, AGENT_SPAWN_POINT.Count);//Pick a random spawn point
-            Vector3 spawnLoc = new Vector3(AGENT_SPAWN_POINT[spawnNode].transform.position.x, 0, AGENT_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
-            int prefabIndex = Random.Range(0, gameData.PREFAB_AGENTS.Count);//get a random agent from array
-            GameObject spawnNewAgent = Instantiate(gameData.PREFAB_AGENTS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new agent at spawn point
-            spawnNewAgent.transform.parent = CivilianInstanceFolder.transform;//Save clone under parent of this script
-            GameData.TotalCivilians++;
-        }
+        AGENT_SPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Agent:Spawn"));//load agent spawn points
+        int spawnNode = Random.Range(0, AGENT_SPAWN_POINT.Count);//Pick a random spawn point
+        Vector3 spawnLoc = new Vector3(AGENT_SPAWN_POINT[spawnNode].transform.position.x, 0, AGENT_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
+        int prefabIndex = Random.Range(0, gameData.PREFAB_AGENTS.Count);//get a random agent from array
+        GameObject spawnNewAgent = Instantiate(gameData.PREFAB_AGENTS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new agent at spawn point
+        spawnNewAgent.transform.parent = CivilianInstanceFolder.transform;//Save clone under folder
+        GameData.LIST_ALL_AGENTS.Add(spawnNewAgent);
+        GameData.LIST_ALL_CIVILIANS.Add(spawnNewAgent);
     }
+
     public void spawnAuto()
     {
-        if (AUTO_SPAWN_POINT.Count != 0)//If spawn points array is empty load spawn points
-        {
-            int spawnNode = Random.Range(0, AUTO_SPAWN_POINT.Count);//Pick a random spawn point
-            Vector3 spawnLoc = new Vector3(AUTO_SPAWN_POINT[spawnNode].transform.position.x, 0f, AUTO_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
-            int prefabIndex = Random.Range(0, gameData.PREFAB_AUTOS.Count);//get a random auto from array
-            GameObject spawnNewAuto = Instantiate(gameData.PREFAB_AUTOS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new auto at spawn point
-            spawnNewAuto.transform.parent = AutoInstanceFolder.transform;//Save clone under parent of this script
-            GameData.TotalAutos++;
-
-        }
-        else
-        {
-            AUTO_SPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Auto_Spawn"));//load auto spawn points
-            AUTO_DESPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Auto_Despawn"));//load Auto despawn points
-            int spawnNode = Random.Range(0, AUTO_SPAWN_POINT.Count);//Pick a random spawn point
-            Vector3 spawnLoc = new Vector3(AUTO_SPAWN_POINT[spawnNode].transform.position.x, 0f, AUTO_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
-            int prefabIndex = Random.Range(0, gameData.PREFAB_AUTOS.Count);//get a random auto from array
-            GameObject spawnNewAuto = Instantiate(gameData.PREFAB_AUTOS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new auto at spawn point
-            spawnNewAuto.transform.parent = AutoInstanceFolder.transform;//Save clone under parent of this script
-            GameData.TotalAutos++;
-        }
+        AUTO_SPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Auto:Spawn"));//load auto spawn points
+        AUTO_DESPAWN_POINT.AddRange(GameObject.FindGameObjectsWithTag("Auto:Despawn"));//load Auto despawn points
+        int spawnNode = Random.Range(0, AUTO_SPAWN_POINT.Count);//Pick a random spawn point
+        Vector3 spawnLoc = new Vector3(AUTO_SPAWN_POINT[spawnNode].transform.position.x, 0f, AUTO_SPAWN_POINT[spawnNode].transform.position.z);//Get location of spawn point
+        int prefabIndex = Random.Range(0, gameData.PREFAB_AUTOS.Count);//get a random auto from array
+        GameObject spawnNewAuto = Instantiate(gameData.PREFAB_AUTOS[prefabIndex], spawnLoc, Quaternion.identity);//Spawn new auto at spawn point
+        spawnNewAuto.transform.parent = AutoInstanceFolder.transform;//Save clone under folder
+        GameData.LIST_ALL_AUTOS.Add(spawnNewAuto);
     }
 }

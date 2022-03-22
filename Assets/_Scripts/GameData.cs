@@ -13,15 +13,16 @@ public partial class GameData : MonoBehaviour
 
 
     [Header("Neighborhood Coordinates")]
-    public List<GameObject> CENTER_BLOCK_COORDINATES = new List<GameObject>();
+    public List<GameObject> NEIGHBORHOOD_CENTER_COORDINATES = new List<GameObject>();
 
-    public List<GameObject> HQ_BLOCK_COORDINATES = new List<GameObject>();
-    public List<GameObject> NEIGHBORHOOD_BLOCK_COORDINATES = new List<GameObject>();
-    public List<GameObject> NEIGHBORHOOD_BUILDING_COORDINATES = new List<GameObject>();
+    public List<GameObject> HQ_COORDINATES = new List<GameObject>();
+    public List<GameObject> NEIGHBORHOOD_COORDINATES = new List<GameObject>();
+    public List<GameObject> BUILDING_COORDINATES = new List<GameObject>();
 
 
     [Header("Prefab Objects")]
     public List<GameObject> PREFAB_GAME_MAPS = new List<GameObject>();
+    public List<GameObject> PREFAB_NAV_MAPS = new List<GameObject>();
     public List<GameObject> PREFAB_CENTER_BLOCKS = new List<GameObject>();
     public List<GameObject> PREFAB_HQ_BLOCKS = new List<GameObject>();
     public List<GameObject> PREFAB_NEIGHBORHOOD_BLOCKS = new List<GameObject>();
@@ -31,17 +32,17 @@ public partial class GameData : MonoBehaviour
 
 
     [Header("Lists of Objects")]
-    public List<GameObject> LIST_TOTAL_AUTOS = new List<GameObject>();
-    public List<GameObject> LIST_TOTAL_AGENTS = new List<GameObject>();
-    public List<GameObject> LIST_TOTAL_CIVILIANS = new List<GameObject>();
-    public List<GameObject> LIST_TOTAL_POLICE = new List<GameObject>();
-    public List<GameObject> LIST_TOTAL_JUDGES = new List<GameObject>();
-    public List<GameObject> LIST_TOTAL_PLAYER1 = new List<GameObject>();
-    public List<GameObject> LIST_TOTAL_PLAYER2 = new List<GameObject>();
-    public List<GameObject> LIST_TOTAL_PLAYER3 = new List<GameObject>();
-    public List<GameObject> LIST_TOTAL_PLAYER4 = new List<GameObject>();
-    public List<GameObject> LIST_TOTAL_PLAYER5 = new List<GameObject>();
-    public List<GameObject> LIST_TOTAL_PLAYER6 = new List<GameObject>();
+    public static List<GameObject> LIST_ALL_AUTOS = new List<GameObject>();
+    public static List<GameObject> LIST_ALL_AGENTS = new List<GameObject>();
+    public static List<GameObject> LIST_ALL_CIVILIANS = new List<GameObject>();
+    public List<GameObject> LIST_ALL_POLICE = new List<GameObject>();
+    public List<GameObject> LIST_ALL_JUDGES = new List<GameObject>();
+    public List<GameObject> LIST_ALL_PLAYER1 = new List<GameObject>();
+    public List<GameObject> LIST_ALL_PLAYER2 = new List<GameObject>();
+    public List<GameObject> LIST_ALL_PLAYER3 = new List<GameObject>();
+    public List<GameObject> LIST_ALL_PLAYER4 = new List<GameObject>();
+    public List<GameObject> LIST_ALL_PLAYER5 = new List<GameObject>();
+    public List<GameObject> LIST_ALL_PLAYER6 = new List<GameObject>();
     public List<GameObject> STREET_LIGHTS = new List<GameObject>();
     public List<GameObject> NEIGHBORHOOD_LIGHTS = new List<GameObject>();
 
@@ -49,6 +50,5 @@ public partial class GameData : MonoBehaviour
     {
         NAVMESH_AUTO.BuildNavMesh();
         NAVMESH_AGENT.BuildNavMesh();
-        print("NavMesh Building..");
     }
 }

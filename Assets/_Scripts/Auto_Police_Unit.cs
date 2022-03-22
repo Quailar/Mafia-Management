@@ -4,7 +4,7 @@ using UnityEngine.AI;
 public class Auto_Police_Unit : MonoBehaviour
 {
     [Header("Properties:")]
-    public NavMeshAgent navMeshAuto;
+    public NavMeshAgent navmeshAuto;
     public Auto_Unit_SO autoUnitSO;
     public List<Auto_Unit_SO> AUTO_UNIT_SO_LIST = new List<Auto_Unit_SO>();
     public GameObject[] autoBodys;
@@ -30,7 +30,9 @@ public class Auto_Police_Unit : MonoBehaviour
     public Material policeAlarmBlueLamp_ON;
     public Material policeAlarmRedLamp_ON;
     public Material policeAlarmLamp_OFF;
+    public string Model;
 
+    public int Body;
     public void Awake()
     {
         int index = Random.Range(0, AUTO_UNIT_SO_LIST.Count);//Get a random scriptable object for vehicle
@@ -41,6 +43,7 @@ public class Auto_Police_Unit : MonoBehaviour
     }
     private void Update()
     {
+        navmeshAuto.speed = 3.5f * GameData.gameSpeed / 2;
         CheckLights();
     }
 
@@ -52,7 +55,7 @@ public class Auto_Police_Unit : MonoBehaviour
             autoHeadLamps[1].GetComponent<Renderer>().material = autoHeadLamps_ON;
             autoHeadLights[0].SetActive(true);
             autoHeadLights[1].SetActive(true);
-            if (navMeshAuto.speed < .5f)
+            if (navmeshAuto.speed < .5f)
             {
                 autoBreakLamps[0].GetComponent<Renderer>().material = autoBreakLamps_ON;
                 autoBreakLamps[1].GetComponent<Renderer>().material = autoBreakLamps_ON;
@@ -96,15 +99,14 @@ public class Auto_Police_Unit : MonoBehaviour
     public void GetProfile()
     {
         int m = Random.Range(0, GameData.AUTO_MODEL_NAMES.Length);//Get a random name for auto unit
-        autoUnitSO.Model = GameData.AUTO_MODEL_NAMES[m];//Assign name to SO
-        autoUnitSO.Body = Random.Range(0, autoBodys.Length);//Get random body frame
-        autoBodys[autoUnitSO.Body].SetActive(true);//Turn on selected body
-        autoUnitSO.Speed = (autoUnitSO.Speed / 10) + 1;//Set unit speed -- not currently used?
+        Model = "Patrol Car";//Assign name to SO
+        Body = 0;
+        autoBodys[Body].SetActive(true);//Turn on selected body
     }
 
     private void OnMouseOver()//Show model name
     {
-        print(autoUnitSO.Model);//Print name to console
+        print(Model);//Print name to console
     }
 
     private void OnMouseUp()//Select  unit = not currently used

@@ -1,12 +1,23 @@
 using UnityEngine;
+using UnityEngine.AI;
 using System.Collections.Generic;
 public class Agent_Unit : MonoBehaviour
 {
     public GameData gameData;
+    public NavMeshAgent navmeshAgent;
+    public List<Outline> mOutlineBody = new List<Outline>();
+    public List<Outline> fOutlineBody = new List<Outline>();
+    public List<Outline> mOutlineHead = new List<Outline>();
+    public List<Outline> fOutlineHead = new List<Outline>();
     public List<Agent_Unit_SO> AGENT_UNIT_SO_LIST = new List<Agent_Unit_SO>();
     public Agent_Unit_SO unitSO;
     public Animator animator;
     public Avatar[] avatar;
+    public GameObject textName;
+    public GameObject healthBarRed;
+    public GameObject healthBarGreen;
+    public int Body;
+    public int Head;
     public GameObject[] mBodys;
     public GameObject[] mHeads;
     public GameObject[] mWeapons;
@@ -20,13 +31,12 @@ public class Agent_Unit : MonoBehaviour
     public void Start()
     {
         gameData = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameData>();
-
         GetProfile();
 
     }
     private void FixedUpdate()
     {
-        //CheckLights();
+        navmeshAgent.speed = 1 * GameData.gameSpeed;
     }
 
 
@@ -69,13 +79,49 @@ public class Agent_Unit : MonoBehaviour
 
         int ln = Random.Range(0, GameData.LAST_NAMES.Length);
         unitSO.LastName = GameData.LAST_NAMES[ln];
-
+        textName.GetComponent<TextMesh>().text = unitSO.FirstName + " " + unitSO.LastName;
         unitSO.Speed = (unitSO.Speed / 10) + 1;
     }
 
     private void OnMouseOver()
     {
-        Debug.Log(unitSO.FirstName);
+
+        if (unitSO.Gender == "Male")
+        {
+            mOutlineBody[unitSO.Body].enabled = true;
+            mOutlineHead[unitSO.Head].enabled = true;
+        }
+        else
+        {
+            fOutlineBody[unitSO.Body].enabled = true;
+            fOutlineHead[unitSO.Head].enabled = true;
+        }
+        Debug.Log(unitSO.FirstName + " " + unitSO.LastName);
+        textName.transform.LookAt(Camera.main.transform);
+        healthBarRed.transform.LookAt(Camera.main.transform);
+        healthBarGreen.transform.LookAt(Camera.main.transform);
+        healthBarRed.SetActive(true);
+        healthBarGreen.SetActive(true);
+        textName.SetActive(true);
+
+
+
+    }
+    private void OnMouseExit()
+    {
+        if (unitSO.Gender == "Male")
+        {
+            mOutlineBody[unitSO.Body].enabled = false;
+            mOutlineHead[unitSO.Head].enabled = false;
+        }
+        else
+        {
+            fOutlineBody[unitSO.Body].enabled = false;
+            fOutlineHead[unitSO.Head].enabled = false;
+        }
+        healthBarRed.SetActive(false);
+        healthBarGreen.SetActive(false);
+        textName.SetActive(false);
     }
 
     private void OnMouseUp()
@@ -83,21 +129,6 @@ public class Agent_Unit : MonoBehaviour
         unitSO.isSelected = true;
         Debug.Log(unitSO.isSelected);
     }
-    public void CheckLights()
-    {
-        if (GameData.NightLights && unitSO.Gender == "Female")
-        {
-            fItems[0].SetActive(true);
-        }
-        else if (GameData.NightLights && unitSO.Gender == "Male")
-        {
-            mItems[0].SetActive(true);
-        }
-        else
-        {
-            mItems[0].SetActive(false);
-            fItems[0].SetActive(false);
-        }
-    }
+
 
 }

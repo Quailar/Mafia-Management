@@ -5,74 +5,55 @@ using UnityEngine.AI;
 public class Auto_NavNode_Controller : MonoBehaviour
 {
     //Navmesh used for movement
+    [Header("Assign:")]
     public NavMeshAgent navmeshAuto;
     public TrafficLightController trafficController;
 
-    public GameObject currentnode;
 
-    public GameObject nextNode;
-
+    [Header("Assign neighbor nodes:")]
     public List<GameObject> Neighbors;
 
     public bool isStopped;
 
-    public bool signal;
-
+    [SerializeField] private GameObject currentnode;
+    [SerializeField] private GameObject nextNode;
 
     private void Start()
     {
-        trafficController = GameObject.FindGameObjectWithTag("TrafficLightManager").GetComponent<TrafficLightController>();
+        // navmeshAuto.speed = 3.5f * GameData.gameSpeed;
+        trafficController = GameObject.FindGameObjectWithTag("TrafficLight:Manager").GetComponent<TrafficLightController>();
     }
 
     public void OnTriggerEnter(Collider other)
     {
 
 
-
-        // if (other.tag == "TrafficLightNorthSouth")
-        // {
-        //     if (trafficController.RedLightNorthSouth_ON)
-        //     {
-        //         print(other.tag);
-        //     }
-        // }
-
-
-        // if (other.tag == "TrafficLightEastWest")
-        // {
-        //     if (trafficController.RedLightEastWest_ON)
-        //     {
-        //         print(other.tag);
-        //     }
-
-        // }
-
-        if (other.tag == "Auto_Node_Red" || other.tag == "Auto_Node_Blue")
+        if (other.tag == "Auto:Despawn")
         {
-            FindNextNode(other);
-        }
-
-        if (other.tag == "Auto_Spawn")
-        {
-            FindNextNode(other);
-        }
-
-        if (other.tag == "Auto_Despawn")
-        {
-            if (GameData.DecreaseAutos)//Despawn node
+            if (GameData.DecreaseAutos)
             {
-                if (GameData.TotalAutos > GameData.MaxAutos)
+                if (GameData.LIST_ALL_AUTOS.Count > GameData.MaxAutos)
                 {
-                    Destroy(this);
+                    Destroy(this.gameObject);
                 }
             }
-            else
-            {
-                FindNextNode(other);
-            }
+            FindNextNode(other);
         }
 
-        if (other.tag == "Auto_Junction")
+
+        if (other.tag == "Auto:NodeRed" || other.tag == "Auto:NodeBlue")
+        {
+            FindNextNode(other);
+        }
+
+
+        if (other.tag == "Auto:Spawn")
+        {
+            FindNextNode(other);
+        }
+
+
+        if (other.tag == "Auto:Junction")
         {
             FindNextNode(other);
         }
@@ -83,19 +64,19 @@ public class Auto_NavNode_Controller : MonoBehaviour
         Neighbors.Clear();
         currentnode = other.gameObject;
         Neighbors.AddRange(other.GetComponent<NodeScript>().neighbors);
+
         int _selectDirection = Random.Range(0, Neighbors.Count);
         nextNode = Neighbors[_selectDirection];
+        Drive();
     }
 
     //if auto collides with another auto or agent stop auto movement
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "Agent" || other.gameObject.tag == "Auto")
+        if (other.gameObject.tag == "Agent:Unit" || other.gameObject.tag == "Auto:Unit")
         {
             isStopped = true;
         }
-
-
     }
 
     private void OnCollisionExit(Collision other)
@@ -103,19 +84,13 @@ public class Auto_NavNode_Controller : MonoBehaviour
         isStopped = false;
     }
 
-    private void FixedUpdate()
-    {
-        if (nextNode != null)
-        {
-            Drive();
-        }
-    }
 
     private void Drive()
     {
         if (!isStopped)
         {
             navmeshAuto.SetDestination(nextNode.transform.position);
+            navmeshAuto.transform.LookAt(nextNode.transform);
         }
         else
         {

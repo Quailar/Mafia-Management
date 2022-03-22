@@ -4,24 +4,27 @@ using UnityEngine.AI;
 public class Auto_Unit : MonoBehaviour
 {
     [Header("Properties:")]
-    public NavMeshAgent navMeshAuto;
-    public Auto_Unit_SO autoUnitSO;
+    public NavMeshAgent navmeshAuto;
+
+    public List<Outline> outline = new List<Outline>();
     public List<Auto_Unit_SO> AUTO_UNIT_SO_LIST = new List<Auto_Unit_SO>();
+    public Auto_Unit_SO autoUnitSO;
     public GameObject[] autoBodys;
 
-    [Tooltip("Headlights: Light, Lamps: Objects, Materials: Color On/Off")]
     [Header("Headlights:")]
-
     public GameObject[] autoHeadLamps;
     public GameObject[] autoHeadLights;
     public Material autoHeadLamps_ON;
     public Material autoHeadLamps_OFF;
 
-    [Tooltip("Lamps: Objects, Materials: Color On/Off")]
     [Header("Breaklights:")]
     public GameObject[] autoBreakLamps;
     public Material autoBreakLamps_ON;
     public Material autoBreakLamps_OFF;
+
+    public string Model;
+
+    public int Body;
 
     public void Awake()
     {
@@ -29,11 +32,13 @@ public class Auto_Unit : MonoBehaviour
         autoUnitSO = AUTO_UNIT_SO_LIST[index];//Select SO for unit
         autoUnitSO.ID = GetInstanceID();//GEt unit unique ID
         GetProfile();
-        //AUTO_UNIT_SO_LIST.Remove(autoUnitSO);//not surrently used
+        AUTO_UNIT_SO_LIST.Remove(autoUnitSO);//not surrently used
     }
-    private void Update()
+    private void FixedUpdate()
     {
+        navmeshAuto.speed = 3.5f * GameData.gameSpeed / 2;
         CheckLights();
+
     }
 
     public void CheckLights()
@@ -44,7 +49,7 @@ public class Auto_Unit : MonoBehaviour
             autoHeadLamps[1].GetComponent<Renderer>().material = autoHeadLamps_ON;
             autoHeadLights[0].SetActive(true);
             autoHeadLights[1].SetActive(true);
-            if (navMeshAuto.speed < .5f)
+            if (navmeshAuto.speed < .5f)
             {
                 autoBreakLamps[0].GetComponent<Renderer>().material = autoBreakLamps_ON;
                 autoBreakLamps[1].GetComponent<Renderer>().material = autoBreakLamps_ON;
@@ -68,15 +73,20 @@ public class Auto_Unit : MonoBehaviour
     public void GetProfile()
     {
         int m = Random.Range(0, GameData.AUTO_MODEL_NAMES.Length);//Get a random name for auto unit
-        autoUnitSO.Model = GameData.AUTO_MODEL_NAMES[m];//Assign name to SO
-        autoUnitSO.Body = Random.Range(0, autoBodys.Length);//Get random body frame
-        autoBodys[autoUnitSO.Body].SetActive(true);//Turn on selected body
-        autoUnitSO.Speed = (autoUnitSO.Speed / 10) + 1;//Set unit speed -- not currently used?
+        Model = GameData.AUTO_MODEL_NAMES[m];//Assign name to SO
+        Body = Random.Range(0, autoBodys.Length);//Get random body frame
+        autoBodys[Body].SetActive(true);//Turn on selected body
     }
 
     private void OnMouseOver()//Show model name
     {
-        print(autoUnitSO.Model);//Print name to console
+        print(Model);//Print name to console
+        outline[Body].enabled = true;
+
+    }
+    private void OnMouseExit()
+    {
+        outline[Body].enabled = false;
     }
 
     private void OnMouseUp()//Select  unit = not currently used

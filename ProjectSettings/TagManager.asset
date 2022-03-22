@@ -4,76 +4,67 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Undefined
-  - TAG:IntersectionCenter
-  - TAG:Intersection
-  - TAG:IntersectionCrossing
-  - TAG:RoadSection
-  - TAG:Sidewalk
-  - TAG:SidewalkCorner
-  - TAG:TrafficLight
-  - TAG:StreetSign
-  - TAG:RedLightLamp
-  - TAG:YellowLightLamp
-  - TAG:GreenLightLamp
-  - TAG:StreetLampPole
-  - TAG:Tree
-  - TAG:Hydrant
-  - TAG:StreetLamp
-  - TAG:StreetLampSpotLight
-  - TAG:StreetLampPointLight
-  - TAG:Road
-  - TAG:StreetLightLamp
-  - TAG:Door
-  - TAG:Roof
-  - TAG:BuildingLamp
-  - TAG:BuildingLampPointLight
-  - TAG:BuildingLampSpotLight
-  - TAG:BuildingBlueprints
-  - TAG:HQ_Building
-  - TAG:BlockCenterStreet
-  - TAG:SmallMap
-  - TAG:MediumMap
-  - TAG:LargeMap
-  - TAG:Neighborhood_Coor
-  - TAG:BuildingPrefab
-  - TAG:BuildingFoundation
-  - TAG:NavNorthRoad
-  - TAG:NavSouthRoad
-  - TAG:NavEastRoad
-  - TAG:NavWestRoad
-  - TAG:AgentSpawnPoint
-  - TAG:AutoSpawnPoint
-  - TAG:RedLightLampNorthSouth
-  - TAG:YellowLightLampNorthSouth
-  - TAG:GreenLightLampNorthSouth
-  - TAG:RedLightLampEastWest
-  - TAG:YellowLightLampEastWest
-  - TAG:GreenLightLampEastWest
-  - Auto_Spawn
-  - Auto_Despawn
-  - Auto_Junction
-  - Auto_Node_Red
-  - Auto_Node_Blue
-  - Auto_Node
-  - Node
-  - NavMeshAuto_Surface
-  - Auto
-  - Agent_Spawn
-  - DOOR_NAV_POINT
-  - Center_Block_Coor
-  - Neighborhood_Block_Coor
-  - HQ_Block_Coor
-  - LineRenderer
-  - TrafficLightNorthSouth
-  - TrafficLightEastWest
-  - TrafficLightManager
-  - Building_Coor
+  - Agent:Despawn
+  - Agent:NavCenterStreet
+  - Agent:NavmeshSurface
+  - Agent:Spawn
+  - Agent:Unit
+  - Auto:Despawn
+  - Auto:Junction
+  - Auto:NavmeshSurface
+  - Auto:Node
+  - Auto:NodeBlue
+  - Auto:NodeRed
+  - Auto:Spawn
+  - Auto:Unit
+  - Building:Blueprint
+  - Building:Courthouse
+  - Building:Door
+  - Building:FireDepartment
+  - Building:HeadQuarters
+  - Building:Hospital
+  - Building:Lamp
+  - Building:PointLight
+  - Building:PoliceStation
+  - Building:Prefab
+  - Building:PrefabLong
+  - Building:PrefabCorner
+  - Building:SpotLight
+  - Map:GrassPlane
+  - Map:IntersectionCenter
+  - Map:IntersectionCrossing
+  - Map:Large
+  - Map:Manager
+  - Map:Medium
+  - Map:RoadSection
+  - Map:Sidewalk
+  - Map:SidewalkCorner
+  - Map:Small
+  - Neighborhood:CenterCoordinates
+  - Neighborhood:Coordinates
+  - Neighborhood:HQCoordinates
+  - StreetLight:Lamp
+  - StreetLight:PointLight
+  - StreetLight:Pole
+  - StreetLight:SpotLight
+  - Time:GameClock
+  - TrafficLight:EastWest
+  - TrafficLight:GreenLampEastWest
+  - TrafficLight:GreenLampNorthSouth
+  - TrafficLight:Manager
+  - TrafficLight:NorthSouth
+  - TrafficLight:RedLampEastWest
+  - TrafficLight:RedLampNorthSouth
+  - TrafficLight:YellowLampEastWest
+  - TrafficLight:YellowLampNorthSouth
+  - Util:LineRenderer
+  - Map:Road
+  - Map:Intersection
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Camera
+  - 
   - Water
   - UI
   - 
@@ -81,13 +72,13 @@ TagManager:
   - 
   - 
   - 
-  - Agent_Nav_Sidewalk
-  - Agent_Nav_Street
   - 
-  - Dual_Nav_Crosswalk
-  - Auto_Nav_Layer
-  - Auto_Node_Blueline
-  - Auto_Node_Redline
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
