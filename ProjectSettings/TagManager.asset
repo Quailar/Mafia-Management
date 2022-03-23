@@ -60,6 +60,11 @@ TagManager:
   - Util:LineRenderer
   - Map:Road
   - Map:Intersection
+  - 'RoadSection '
+  - 'Map:IntersectionCenter '
+  - 'Map:IntersectionCrossing '
+  - Neighborhood:Block
+  - Neighborhood:CityData
   layers:
   - Default
   - TransparentFX

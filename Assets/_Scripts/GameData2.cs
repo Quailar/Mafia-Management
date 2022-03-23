@@ -3,7 +3,7 @@
 //==================================
 using UnityEngine;
 
-public partial class GameData
+public partial class GameData : MonoBehaviour
 {
     public static Vector2 ScreenResolution;
     public static GameObject GAME_MAP;
@@ -44,7 +44,7 @@ public partial class GameData
     public static string[] DAYS_IN_WEEK = { "Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat" };
     public static string[] MONTHS_IN_YEAR = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
     public static int[] DAYS_IN_MONTH = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
-    public static string[] NEIGHBORHOOD_FIRST_NAME = { "Langly", "Dragon", "Lilly", "Pelican", "Sparrow", "Eagle", "Strawberry", "Peach", "Citrus", "Candy", "Ether", "Freedom", "Acme", "Corporate", "Government", "Lavendar", "Donkey", "Slummers", "Chaos", "Rose", "Canary", "Inner", "Outter", "Private", "French", };
+    public static string[] NEIGHBORHOOD_FIRST_NAME = { "Langly", "Dragon", "Lilly", "Pelican", "Sparrow", "Eagle", "Strawberry", "Peach", "Citrus", "Candy", "Ether", "Freedom", "Acme", "Corporate", "Government", "Lavendar", "Donkey", "Slummers", "Chaos", "Rose", "Canary", "Inner", "Outter", "Private", "French", "Rose Mary", "Fish Head", "Dolphin" };
     public static string[] NEIGHBORHOOD_LAST_NAME = { "Heights", "Bay", "Lakes", "Valley", "Hills", "Flats", "Peaks", "View", "Cove", "Bend", "Gardens", "Shores", "Point", "Square", "Circle", "Harbor", "Docks", "Ridge", "Park", "Groves", "Meadows", "Shire", "Palms" };
 }
 

@@ -7,6 +7,9 @@ using System.Collections.Generic;
 
 public partial class GameData : MonoBehaviour
 {
+    public Vector2 MouseScreenPosition;
+    public Vector3 MouseWorldPosition;
+
     [Header("Navmesh Bakes")]
     public NavMeshSurface NAVMESH_AGENT;
     public NavMeshSurface NAVMESH_AUTO;
@@ -14,7 +17,6 @@ public partial class GameData : MonoBehaviour
 
     [Header("Neighborhood Coordinates")]
     public List<GameObject> NEIGHBORHOOD_CENTER_COORDINATES = new List<GameObject>();
-
     public List<GameObject> HQ_COORDINATES = new List<GameObject>();
     public List<GameObject> NEIGHBORHOOD_COORDINATES = new List<GameObject>();
     public List<GameObject> BUILDING_COORDINATES = new List<GameObject>();

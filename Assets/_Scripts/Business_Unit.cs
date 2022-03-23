@@ -9,11 +9,15 @@ public class Business_Unit : MonoBehaviour
     public Business_Base_SO businessSO;
     public List<Manager_Unit_SO> BUSINESS_MANAGERS_LIST = new List<Manager_Unit_SO>();
     public Manager_Unit_SO buildingManager;
-    public TextMeshProUGUI BusinessNameHud;
+
+    public CityData cityData;
+    public NeighborhoodManager neighborhood;
 
 
     public void Start()
     {
+        neighborhood = GetComponentInParent<NeighborhoodManager>();
+        cityData = GameObject.FindGameObjectWithTag("Neighborhood:CityData").GetComponent<CityData>();
         gameData = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameData>();
         GetProfile();
     }
@@ -43,6 +47,7 @@ public class Business_Unit : MonoBehaviour
     private void OnMouseOver()
     {
         print(businessSO.LegalBusinessType);
+        cityData.nName.text = neighborhood.neighborhoodName;
         outline.enabled = true;
 
     }

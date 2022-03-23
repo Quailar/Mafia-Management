@@ -1151,7 +1151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 769699626176842703}
-  - component: {fileID: -6918139454295883979}
+  - component: {fileID: -8686118311946911488}
   m_Layer: 0
   m_Name: Neightborhood_Type_01
   m_TagString: Untagged
@@ -1193,7 +1193,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-6918139454295883979
+--- !u!114 &-8686118311946911488
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameData: {fileID: 797638623}
+  neighborhoodList: []
   MapInstanceFolder: {fileID: 2020195886}
   NeighborhoodInstanceFolder: {fileID: 1956251841}
   CenterBlockInstanceFolder: {fileID: 2090546018}
@@ -597,6 +598,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a062fda3b4d1b5e429d8c7c42ba5152a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MouseScreenPosition: {x: 0, y: 0}
+  MouseWorldPosition: {x: 0, y: 0, z: 0}
   NAVMESH_AGENT: {fileID: 1240366099}
   NAVMESH_AUTO: {fileID: 99836023}
   NEIGHBORHOOD_CENTER_COORDINATES: []
@@ -654,6 +657,17 @@ MonoBehaviour:
   LIST_ALL_PLAYER6: []
   STREET_LIGHTS: []
   NEIGHBORHOOD_LIGHTS: []
+--- !u!114 &892717198 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3521781525853466918, guid: aef219139d87f5846bca36d17ce8eb23, type: 3}
+  m_PrefabInstance: {fileID: 3815295888053053334}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &904845750 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4168063098075938025, guid: e9a2e70b5243f2b43ba68dfa71e16901, type: 3}
@@ -823,6 +837,28 @@ MonoBehaviour:
   forwardBounds: 150
   ceilingBounds: 100
   floorBounds: 10
+--- !u!114 &1043857606 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3521781523953597459, guid: aef219139d87f5846bca36d17ce8eb23, type: 3}
+  m_PrefabInstance: {fileID: 3815295888053053334}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1044266532 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4958862484541987885, guid: aef219139d87f5846bca36d17ce8eb23, type: 3}
+  m_PrefabInstance: {fileID: 3815295888053053334}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1240366098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1709,7 +1745,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3521781524130468544, guid: aef219139d87f5846bca36d17ce8eb23, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3521781524130468544, guid: aef219139d87f5846bca36d17ce8eb23, type: 3}
+      propertyPath: m_TagString
+      value: Neighborhood:CityData
       objectReference: {fileID: 0}
     - target: {fileID: 3521781524130468545, guid: aef219139d87f5846bca36d17ce8eb23, type: 3}
       propertyPath: m_Pivot.x
@@ -1815,6 +1855,18 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6500127154355839849, guid: aef219139d87f5846bca36d17ce8eb23, type: 3}
+      propertyPath: aName
+      value: 
+      objectReference: {fileID: 1044266532}
+    - target: {fileID: 6500127154355839849, guid: aef219139d87f5846bca36d17ce8eb23, type: 3}
+      propertyPath: bName
+      value: 
+      objectReference: {fileID: 892717198}
+    - target: {fileID: 6500127154355839849, guid: aef219139d87f5846bca36d17ce8eb23, type: 3}
+      propertyPath: nName
+      value: 
+      objectReference: {fileID: 1043857606}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aef219139d87f5846bca36d17ce8eb23, type: 3}
 --- !u!224 &3827384737288248908 stripped
